@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--jQuery References--> 
+<script src="http://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js" type="text/javascript"></script>
+
+
+<!--Theme-->
+<link href="http://cdn.wijmo.com/themes/aristo/jquery-wijmo.css" rel="stylesheet" type="text/css" />
+
+<!--Wijmo Widgets CSS-->
+<link href="http://cdn.wijmo.com/jquery.wijmo-pro.all.3.20161.90.min.css" rel="stylesheet" type="text/css" />
+
+<!--Wijmo Widgets JavaScript-->
+<script src="http://cdn.wijmo.com/jquery.wijmo-open.all.3.20161.90.min.js" type="text/javascript"></script>
+<script src="http://cdn.wijmo.com/jquery.wijmo-pro.all.3.20161.90.min.js" type="text/javascript"></script>
+<script src="http://cdn.wijmo.com/interop/wijmo.data.ajax.3.20161.90.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function () {
+    $("#textbox1").wijinputdate(
+        {
+            showTrigger: true
+    });
+
+    $("#textbox2").wijinputdate(
+        {
+            showTrigger: true
+    });
+
+    $("#textbox3").wijinputdate(
+        {
+            showTrigger: true
+    });
+
+    $("#textbox4").wijinputdate(
+        {
+            showTrigger: true
+    });
+
+    $("#textbox5").wijinputdate(
+        {
+            showTrigger: true
+    });
+
+
+function fnOpenNormalDialog() {
+    $("#dialog-confirm").html("Do you have any expenses for this date?");
+
+    // Define the Dialog and its properties.
+    $("#dialog-confirm").dialog({
+        resizable: false,
+        modal: true,
+        title: "Expense Reports",
+        height: 250,
+        width: 400,
+        buttons: {
+              "Yes": function () {
+                $(this).dialog('close');
+                callback(true);
+            },
+                "No": function () {
+                $(this).dialog('close');
+                callback(false);
+            }
+        }
+    });
+}
+
+
+$('#btnOpenDialog').click(fnOpenNormalDialog);
+
+function callback(value) {
+	var url = $("").html();
+    if (value == true) {
+        //alert("Yes");
+	//window.location = "";
+	start_expense();
+    }
+    else {
+        //alert("No");
+    }
+}
+
+//fnOpenNormalDialog();
+
+
+});
+
+
+function calcHeight()
+{
+//find the height of the internal page
+var the_height=document.getElementById('expense_frame').contentWindow.document.body.scrollHeight;
+
+//change the height of the iframe
+document.getElementById('expense_frame').height=the_height;
+}
+
+</script>
+
+
+
+<style>
+
+
+body{
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+    padding: 0;
+    font-family: 'Geometr415 Lt BT', sans-serif;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+.btn { display: inline-block; *display: inline; *zoom: 1; padding: 4px 10px 4px; margin-bottom: 0; font-size: 13px; line-height: 18px; color: #333333; text-align: center;text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75); vertical-align: middle; background-color: #f5f5f5; background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6); background-image: -ms-linear-gradient(top, #ffffff, #e6e6e6); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6)); background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6); background-image: -o-linear-gradient(top, #ffffff, #e6e6e6); background-image: linear-gradient(top, #ffffff, #e6e6e6); background-repeat: repeat-x; filter: progid:dximagetransform.microsoft.gradient(startColorstr=#ffffff, endColorstr=#e6e6e6, GradientType=0); border-color: #e6e6e6 #e6e6e6 #e6e6e6; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); border: 1px solid #e6e6e6; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); cursor: pointer; *margin-left: .3em; }
+.btn:hover, .btn:active, .btn.active, .btn.disabled, .btn[disabled] { background-color: #e6e6e6; }
+.btn-large { padding: 9px 14px; font-size: 15px; line-height: normal; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+.btn:hover { color: #333333; text-decoration: none; background-color: #e6e6e6; background-position: 0 -15px; -webkit-transition: background-position 0.1s linear; -moz-transition: background-position 0.1s linear; -ms-transition: background-position 0.1s linear; -o-transition: background-position 0.1s linear; transition: background-position 0.1s linear; }
+.btn-primary, .btn-primary:hover { text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); color: #ffffff; }
+.btn-primary.active { color: rgba(255, 255, 255, 0.75); }
+.btn-primary { background-color: #4a77d4; background-image: -moz-linear-gradient(top, #6eb6de, #4a77d4); background-image: -ms-linear-gradient(top, #6eb6de, #4a77d4); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#6eb6de), to(#4a77d4)); background-image: -webkit-linear-gradient(top, #6eb6de, #4a77d4); background-image: -o-linear-gradient(top, #6eb6de, #4a77d4); background-image: linear-gradient(top, #6eb6de, #4a77d4); background-repeat: repeat-x; filter: progid:dximagetransform.microsoft.gradient(startColorstr=#6eb6de, endColorstr=#4a77d4, GradientType=0);  border: 1px solid #3762bc; text-shadow: 1px 1px 1px rgba(0,0,0,0.4); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.5); }
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] { filter: none; background-color: #4a77d4; }
+.btn-block { width: 100%; display:block; }
+
+/*
+input { 
+	width: 100%; 
+	margin-bottom: 10px; 
+	background: rgba(0,0,0,0.3);
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 4px;
+	box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+	-webkit-transition: box-shadow .5s ease;
+	-moz-transition: box-shadow .5s ease;
+	-o-transition: box-shadow .5s ease;
+	-ms-transition: box-shadow .5s ease;
+	transition: box-shadow .5s ease;
+}
+input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
+*/
+
+input, select{
+    font-size:12px;
+    -ms-box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    box-sizing:content-box;
+    -webkit-box-sizing:content-box;
+    height:15px;
+	//border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 1px;
+	//box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2); 
+}
+
+.box {
+ -moz-border-radius: 15px;
+ border-radius: 15px;
+ } 
+
+.box_hollow{
+
+	border-style: solid;
+	border-color: #ebebeb #ebebeb;
+}
+
+hr{
+    width:80%;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ebebeb;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.loading{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index:100;
+}
+
+
+
+
+</style>
+
+
+
+</head>
+
+<body onload="init();">
+
+<input type="button" id="btnOpenDialog" value="Open Confirm Dialog" style="display:none"/>
+<div id="dialog-confirm"></div>
+
+<div class="loading" id="loading" style="display:none"><img src="../icons/loading.gif" /></div>
+
+
+<div id="top_menu" style="z-index:10;height:65px;position: fixed;top: 0;left: 0;right: 0;overflow: visible;color:#FFFFFF;background: #092756;margin: 0 auto;padding: 5px;top:0"><table border="0" style="width:100%;margin-left:15px;padding-left:15px;margin-right:30px;padding-right:30px"><tr><td align="left"><h2>ORA</h2></td><td align="right" style="width:30px"><span><div style="cursor: pointer; cursor: hand;" onclick="Logout();">logout</div></span></td></tr></table></div>
+<br><br>
+
+<!--START main table--> 
+<table border="0" style="padding-top:65px;width:100%" ><tr><td class="box box_hollow" style="width:55%;vertical-align:top;max-height:550px">
+<br>
+<div style="white-space: nowrap">
+<input type="text" style="text-align:left;padding-left:20px;border:none;width:100px;display:none" name="employee_title" value="Employee" readonly>
+<select onchange="setUserAdmin(this)" class="btn" type="text" id="employee" name="employee" style="width:200px;padding-left:20px;margin-left:73px">
+	<option value="Employee">Employee</option>
+</select><br><br>
+<div class='message' width="100%" style="margin-left:73px" >
+<div id="message" style="display:none;color:red" width="100%">Please enter your hours for <span class="message_date"></span></div>
+</div>
+<br>
+
+<div id="state_1" style="display:block">
+<table><tr><td>
+<h1 id="title" style="margin-left:73px"><span id="welcome"></span>, choose a date to log your time</h1>
+</td><td>
+<table onclick="change_state(2)" class="" id="back_button" style="margin-left:55px;padding:3px;cursor:pointer;cursor:hand;display:none"><tr><td><img style="height:40px" src="../icons/arrow-back.png" /></td><td>BACK</td></tr></table>
+</td></tr></table>
+<input type="text" style="text-align:left;padding-left:20px;border:none;width:50px" name="week_title" value="" readonly>
+<div id="textbox1_holder" style="margin-left:73px"><input type="text" id="textbox1" onchange="changeDate()" /><span style="padding-left:10px">Do you have any <b>Expense Reports</b> for this date? <a href="#" onclick="start_expense()">Click here</a></span></div><br><br>
+<div id="next_btn" style="margin-left:250px" ><button type="button" onclick="change_state(2)" class="btn">Next >></button></div>
+<div>
+</div>
+
+<div id="main" class="form" style="white-space: nowrap;overflow-x: scroll; min-height:325px;display:none" >
+	<form method='post' name='user_record' action='submit.php' target="formTarget" > 
+		<div class="multi-field-wrapper"><br>
+			<button type="button" id="add_button" class="add-field btn" style="display:none">Add an entry</button></br>
+
+        			<div style="padding-top:5px;padding-bottom:5px;padding-left:0px">
+					<button type="button" class="remove-field btn" style="visibility:hidden">Remove</button>
+					<input type="text" style="display:none" id="year" name="year" value="">
+					<input type="text" style="display:none" id="byweek" name="byweek" value="">
+					<input type="text" style="display:none" id="user" name="user" value="">
+					<input type="text" style="display:none" id="user_email" name="user_email" value="">
+					<input type="text" style="display:none" id="week" name="week" value="">
+					<input type="text" style="display:none" id="date2" name="date2" value="">
+					<input type="text" style="display:none" id="ID" name="ID" value="0">
+					<input type="text" style="display:none" id="Director" name="Director" value="0">
+					<input type="text" style="display:none" id="vacation" name="vacation" value="0">
+					<input type="text" style="display:none" id="vacation_used" name="vacation_used" value="0">
+					<input type="text" style="display:none" id="personal_time" name="personal_time" value="0">
+					<input type="text" style="display:none" id="last_login" name="last_login" value="0">
+					<input type="text" style="text-align:center;padding:8px;border:none;width:175px" name="study_title" value="Study" readonly>
+					<input type="text" style="text-align:center;padding:10px;border:none;width:150px" name="activity1_title" value="Activity 1" readonly>
+					<input type="text" style="text-align:center;padding:10px;border:none;width:250px" name="activity2_title" value="Activity 2" readonly>
+					<input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day1" value="Mon 08/22" size="10" readonly>
+					<input type='text' style="text-align:center;padding:10px;border:none" value="Hours" size="10" readonly>
+					<input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day2" value="Mon 08/22" size="10" readonly>
+					<input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day3" value="Mon 08/22" size="10" readonly>
+					<input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day4" value="Mon 08/22" size="10" readonly>
+					<input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day5" value="Mon 08/22" size="10" readonly>
+					<input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day6" value="Mon 08/22" size="10" readonly>
+					<input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day7" value="Mon 08/22" size="10" readonly>
+					<input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day8" value="Mon 08/22" size="10" readonly>
+					<input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day9" value="Mon 08/22" size="10" readonly>
+					<input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day10" value="Mon 08/22" size="10" readonly>
+					<input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day11" value="Mon 08/22" size="10" readonly>
+					<input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day12" value="Mon 08/22" size="10" readonly>
+					<input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day13" value="Mon 08/22" size="10" readonly>
+					<input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day14" value="Mon 08/22" size="10" readonly>
+					<input type='text' style="text-align:center;padding:2px;border:none" name="notes_title" value="Notes" size="30" readonly>
+				</div>
+
+			<div class="multi-fields">
+        			<div class="multi-field" multi-field style="padding-top:2px;padding-bottom:2px">
+					<button type="button" class="remove-field btn" style="visibility:hidden">Remove</button>
+					<select onchange="setActivity1(this)" class="btn" type="text" id="study" name="study[]" style="width:175px">
+						<option selected value>select</option>
+						<option selected value>select</option>
+					</select>
+					<select onchange="setActivity2(this)" class="btn" type="text" id="activity1" name="activity1[]" style="width:150px;">
+					</select>
+					<select class="btn" type="text" id="activity2" name="activity2[]" style="width:250px;">
+					</select>
+					<input type='text' style="text-align:right;direction: rtl;" name="day_1[]" id="entry"  placeholder='0' maxlength="5" size="10" autocomplete="off" >
+					<!--<input type='text' style="text-align:right;direction: rtl;" name="day_2[]" placeholder='0' maxlength="5" size="10" >
+					<input type='text' style="text-align:right;direction: rtl;" name="day_3[]"  placeholder='0' maxlength="5" size="10" >
+					<input type='text' style="text-align:right;direction: rtl;" name="day_4[]"  placeholder='0' maxlength="5" size="10" >
+					<input type='text' style="text-align:right;direction: rtl;" name="day_5[]"  placeholder='0' maxlength="5" size="10" >
+					<input type='text' style="text-align:right;direction: rtl;" name="day_6[]"  placeholder='0' maxlength="5" size="10" >
+					<input type='text' style="text-align:right;direction: rtl;" name="day_7[]"  placeholder='0' maxlength="5" size="10" >
+					<input type='text' style="text-align:right;direction: rtl;" name="day_8[]"  placeholder='0' maxlength="5" size="10" >
+					<input type='text' style="text-align:right;direction: rtl;" name="day_9[]"  placeholder='0' maxlength="5" size="10" >
+					<input type='text' style="text-align:right;direction: rtl;" name="day_10[]"  placeholder='0' maxlength="5" size="10" >
+					<input type='text' style="text-align:right;direction: rtl;" name="day_11[]"  placeholder='0' maxlength="5" size="10" >
+					<input type='text' style="text-align:right;direction: rtl;" name="day_12[]"  placeholder='0' maxlength="5" size="10" >
+					<input type='text' style="text-align:right;direction: rtl;" name="day_13[]"  placeholder='0' maxlength="5" size="10" >
+					<input type='text' style="text-align:right;direction: rtl;" name="day_14[]"  placeholder='0' maxlength="5" size="10" >-->
+					<input type='text' style="text-align:left;direction: ltr;" id="save_notes" name="notes[]" size="30" autocomplete="off" >
+
+					<span style="padding-left:3px;padding-right:3px;display:none"><input type="checkbox" name="checkbox1[]">checkbox1</span><span style="padding-left:3px;padding-right:3px;display:none"><input type="checkbox" name="checkbox2[]">checkbox2</span>
+
+				</div>
+      			</div>
+			</br>
+			<textarea name="" style="display:none" class="input-text text-area" cols="0" rows="0" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">Note</textarea>
+			<button class="btn" type="submit" id="save_submit" name="save_submit" style="padding:8px;margin-left:73px"><b>Submit</b></button>			
+			<!--<input type="submit" id="save_submit" name="save_submit" value="Save">-->  
+  		</div>
+	</form>
+   
+</div>
+
+
+<div id="request_div" class="form" style="white-space: nowrap;overflow-x: scroll; min-height:260px;display:none" >
+	<form method='post' name='request_form' action='request_submit.php' target="formTarget" > 
+		<div class="multi-field-wrapper"><br>
+
+        			<div style="padding-top:5px;padding-bottom:5px;padding-left:0px">
+					<button type="button" class="remove-field btn" style="visibility:hidden">Remove</button>
+					<input type="text" style="display:none" id="user_request" name="user_request" value="">
+					<input type="text" style="display:none" id="ID_request" name="ID_request" value="0">
+					<input type="text" style="display:none" id="cancel" name="cancel" value="0">
+					<input type="text" style="text-align:center;padding:8px;border:none;width:175px" name="request" value="Request Type" readonly>
+					<input type="text" style="text-align:center;padding:10px;border:none;width:150px" name="start_date" id="start_date" value="Start Date" readonly>
+					<input type="text" style="text-align:center;padding:10px;border:none;width:100px" name="end_date" id="end_date" value="End Date" readonly>
+					<input type='text' style="text-align:center;padding:10px;border:none;display:none" id="hours_request_title" value="Hours" size="10" readonly>
+					<input type='text' style="text-align:center;padding:2px;border:none" name="notes_title" value="Notes" size="30" readonly>
+				</div>
+
+			<div class="multi-fields">
+        			<div class="multi-field" multi-field style="padding-top:2px;padding-bottom:2px">
+					<button type="button" class="remove-field btn" style="visibility:hidden">Remove</button>
+					<select onchange="setRequest(this)" class="btn" type="text" id="activity_request" name="activity_request" style="width:175px">
+						<option selected value>select a request</option>
+						<option value="Vacation">Vacation</option>
+						<option value="Personal">Personal</option>
+						<option value="Unpaid">Unpaid</option>
+					</select>
+					<input type="text" id="textbox2" name="textbox2" onchange="" />
+					<input type="text" id="textbox3" name="textbox3" onchange="" />
+					<input type='text' style="text-align:right;direction: rtl;display:none" name="hours_request" id="hours_request"  placeholder='0' maxlength="5" size="10" autocomplete="off" >
+					<input type='text' style="text-align:left;direction: ltr;" name="note_request" size="30" autocomplete="off" >
+
+				</div>
+      			</div>
+			</br>
+			<textarea name="" style="display:none" class="input-text text-area" cols="0" rows="0" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">Note</textarea>
+			<button class="btn" type="submit" id="request_submit" name="request_submit" style="padding:8px;margin-left:73px"><b>Send Request</b></button>
+			<button class="btn" type="button" onclick="cancel_request()" id="request_cancel" style="padding:8px;margin-left:20px;color:red"><b>Cancel Request</b></button>			 
+  		</div>
+	</form>
+   
+</div>
+
+
+</td>
+<td style="width:45%;vertical-align:top">
+<div class="box" style="background-color:#ebebeb;min-width:250px;white-space:nowrap;overflow-x: scroll; min-height:500px;max-height:550px">
+
+<div style="margin-left:30px;padding-top:20px">
+	<table width="100%">
+	<tr><td><i><span>Last login </span><span id="last_login_span"></span></i></td></tr>
+	<tr><td></td></tr>
+	<tr><td><span>You have used </span><span id="vacation_used_span" style="font-weight: bold;"></span><span> vacation days</span></td></tr>
+	<tr><td><span>You have </span><span id="vacation_span" style="font-weight: bold;"></span><span> vacation days remaining</span></td>
+	<td><button onclick="start_request('Vacation')" class="btn" style="padding:8px;margin-left:10px;width:150px">Request Vacation</button></td></tr>
+	<tr><td><span>You have </span><span id="personal_time_span" style="font-weight: bold;"></span><span> hours of personal time remaining</span></td>
+	<td><button onclick="start_request('Personal')" class="btn" style="padding:8px;margin-left:10px;width:150px">Request Personal</button></td></tr>
+	<tr><td><span>Unpaid Day Request</span></td><td><button onclick="start_request('Unpaid')" class="btn" style="padding:8px;margin-left:10px;width:150px">Request Unpaid Day</button></td></tr>
+	<tr><td></td></tr>
+	<tr><td></td></tr>
+	<tr><td></td></tr>
+	<tr><td><b>REQUESTS</b></td></tr>
+	<tr><td></td></tr>
+	<tr><td width="100%" colspan="2">
+		<div class='requests_history' width="100%" >
+		<div id="requests_history" style="display:none" width="100%"><span style="margin-left:10px;padding-left:10px" class="type"></span><span class="start_date"></span><span class="end_date"></span><span class="hours"></span><span class="note"></span><span class="status"></span><button class="btn edit_request_button" onclick="editRequest(this)">Edit</button><button type="button" class="btn" style="display:none">Delete</button></div>
+		</div>
+	</td></tr>
+	</table>
+</div>
+
+
+</div>
+</td>
+</tr>
+</table>
+
+
+<div align="left" style="margin-left:73px" ><h3><span name="user_firstname" id="user_firstname" style="display:none">Employee</span><span></span> HISTORY</h3></div><br>
+<div class='history box box_hollow' width="100%" style="margin-left:73px;max-height: 500px;overflow-y: scroll" >
+<div id="history" style="display:none" width="100%"><span class="date"></span><span class="study"></span><span class="activity1"></span><span class="activity2"></span><span class="hours"></span><span style="margin-right:7px">hours</span><input type="button" class="btn edit_history_button" onclick="editEntry(this)" value="Edit" ><button type="button" class="btn" style="display:none">Delete</button></div>
+</div>
+<div id="nohistory" style="display:none"><i>No history</i></div>
+<!--<button onclick="addHistory('test','test2','test3','test4','test5')">add history</button>-->
+<br>
+<hr>
+
+
+
+<div id="addUsers" class="" style="display:none" align="center">
+<div align="center"><h4>ADD NEW USER <font color="red">(ADMIN)</font></h4></div><br>
+<form action="addUsers.php" method="post" name="add_users" id="add_users"" target="frameTarget">
+<input class="input-text" style="height:30px" type="text" name="add_users_user_login" id="add_users_user_login" value="" placeholder="username"><br>
+<input class="input-text" style="height:30px" type="password" name="add_users_user_pass" id="add_users_user_pass" value="" placeholder="password"><br>
+<input class="input-text" style="height:30px" type="text" name="add_users_firstname" id="add_users_firstname" value="" placeholder="First Name"><br>
+<input class="input-text" style="height:30px" type="text" name="add_users_lastname" id="add_users_lastname" value="" placeholder="Last Name"><br><br>
+<input class="btn" type="submit" name="add_users_submit" id="add_users_submit" value="Add New User"><br><br><br>
+</form>
+</div>
+
+<div id="requests" class="" style="display:none" align="center">
+<hr>
+
+<div align="center"><h4>REQUESTS AND REPORTS <font color="red">(ADMIN)</font></h4></div><br>
+<form action="approve_requests.php" method="post" name="approve_requests_form" id="approve_requests_form"" target="frameTarget">
+
+<table width="90%" style="margin-left:73px"><tr>
+<td style="border-right: 1px solid #ebebeb;width:40%">
+<h3>Select Users</h3>
+</td>
+<td style="width:60%">
+<h3>Select Dates</h3>
+</td>
+</tr>
+
+
+<tr>
+<td style="border-right: 1px solid #ebebeb;vertical-align: top">
+
+<div class='approve_requests' width="100%" style="margin-left:73px" >
+<input type='text' style="visibility:hidden" >
+<label><input type="checkbox"  id="select_all"/> Select All</label>
+<br><br>
+<table id='approve_requests_table' style="display:none"><tr>
+<td><input type='text' style="text-align:right;direction: rtl;" name="requests_name[]" ></td>
+<td class="requests_id" style="display:none"><input type='text' name="requests_id[]" ></td>
+<td style="display:none"><input type='text' name="requests_set[]" value='0' ></td>
+<td><input onchange="setChecked(this)" type="checkbox" class="checkbox" name="requests_box[]" /></td>
+</tr>
+</table>
+</div>
+
+</td>
+
+<td style="vertical-align:top">
+
+		<div class="multi-field-wrapper"><br>
+
+        			<div style="padding-top:5px;padding-bottom:5px;padding-left:0px">
+					<button type="button" class="remove-field btn" style="visibility:hidden">Remove</button>
+					<input type="text" style="display:none" id="action_request" name="action_request" value="0">
+					<input type="text" style="display:none" id="user_request_reports" name="user_request_reports" value="">
+					<input type="text" style="display:none" id="ID_request_reports" name="ID_request_reports" value="0">
+					<input type="text" style="text-align:center;padding:10px;border:none;" name="start_date_request_reports" value="Start Date" readonly>
+					<input type="text" style="text-align:center;padding:10px;border:none;" name="end_date_request_reports" value="End Date" readonly>
+				</div>
+
+			<div class="multi-fields">
+        			<div class="multi-field" multi-field style="padding-top:2px;padding-bottom:2px">
+					<button type="button" class="remove-field btn" style="visibility:hidden">Remove</button>
+					<input type="text" id="textbox4" name="textbox4" onchange="" />
+					<input type="text" id="textbox5" name="textbox5" onchange="" />
+
+				</div>
+      			</div>
+			</br>
+			<textarea name="" style="visibility:hidden" class="input-text text-area" cols="0" rows="0" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">Note</textarea>
+			<button class="btn" type="submit" id="approve_requests_submit" name="approve_requests_submit" style="padding:8px;margin-left:73px;display:none"><b>Send Request</b></button>
+			<button type="button" onclick="send_request(1)" class="btn"  style="padding:8px"><b>Download Report</b></button>
+			<button type="button" onclick="send_request(2)" class="btn"  style="padding:8px"><b>Approve Hours</b></button>
+			<button type="button" onclick="send_request(3)" class="btn"  style="padding:8px;color:red"><b>Revert Approval</b></button>			 
+  		</div>
+		<label for="approve_requests_submit" style="display:none">Submit</label>
+
+		<br><br><br><br>
+		<table width="100%">
+		<tr><td><b>Requests</b><br><br></td></tr>
+		<tr><td width="100%" colspan="2">
+			<div class='admin_requests_history box box_hollow' width="100%" style="padding-left:100px;max-height: 600px;overflow-y: scroll" >
+				<div id="admin_requests_history" style="display:none;padding:4px" width="100%"><span class="username" style="padding-right:15px"></span><button type="button" class="btn" onclick="approveRequest(this)">Approve</button><button type="button" style="color:red;margin-left:5px" class="btn" onclick="rejectRequest(this)">Reject</button><span style="margin-left:10px;padding-left:10px" class="type"></span><span class="start_date"></span><span class="end_date"></span><span class="hours"></span><span class="note"></span><span class="status"></span><button type="button" class="btn" style="display:none">Delete</button></div>
+			</div>
+		</td></tr>
+		</table>
+
+
+</td>
+</tr>
+</table>
+
+
+</form>
+<hr>
+</div>
+<br><br>
+
+
+<div class="" id="userProfile" style="display:block" align="center">
+<div align="center"><h4>USER PROFILE</h4></div><br>
+<form action="edit_profile.php" method="post" name="edit_profile" id="edit_profile"" target="frameTarget">
+<input type="text" style="display:none" id="edit_profile_user" name="edit_profile_user" value="">
+<table><tr><td>User :</td>
+<td><input class="input-text" style="height:30px;width:200px" type="text" name="edit_profile_name" id="edit_profile_name" value="" placeholder="" readonly></td></tr>
+<td>Enter New Password :</td>
+<td><input class="input-text" style="height:30px;width:200px" type="password" name="edit_profile_pass" id="edit_profile_pass" value="" placeholder=""></td></tr>
+<td>Confirm New Password :</td>
+<td><input class="input-text" style="height:30px;width:200px" type="password" name="edit_profile_confirm" id="edit_profile_confirm" value="" placeholder=""></td></tr>
+<td id="edit_profile_vacation_title" style="display:none">(Admin) Edit Vacation Days :</td>
+<td><input class="input-text" style="height:30px;width:200px;display:none" type="text" name="edit_profile_vacation" id="edit_profile_vacation" value="" placeholder=""></td></tr>
+<td id="edit_profile_vacation_used_title" style="display:none">(Admin) Edit Used Vacation :</td>
+<td><input class="input-text" style="height:30px;width:200px;display:none" type="text" name="edit_profile_vacation_used" id="edit_profile_vacation_used" value="" placeholder=""></td></tr>
+<td id="edit_profile_personal_title" style="display:none">(Admin) Edit Personal Hours :</td>
+<td><input class="input-text" style="height:30px;width:200px;display:none" type="text" name="edit_profile_personal" id="edit_profile_personal" value="" placeholder=""></td></tr>
+</table>
+<input class="btn" type="submit" name="edit_profile_submit" id="edit_profile_submit" value="Submit Changes"><br><br><br>
+</form>
+</div>
+
+
+<form action="states.php" method="post" name="states_form" style="display:none" target="frameTarget">
+<input type="text" name="state_username" id="state_username" value="">
+<input type="text" name="state_id" id="state_id" value="">
+<input type="text" name="date1" id="date1" value="">
+<input type="submit" name="state_submit" id="state_submit" value="Submit">
+</form>
+<label for="state_submit" style="display:none">Submit</label>
+
+<form action="set_activity1.php" method="post" name="set_activity1_form" style="display:none" target="frameTarget">
+<input type="text" name="set_activity1_director" id="set_activity1_director" value="">
+<input type="text" name="set_activity1_study" id="set_activity1_study" value="">
+<input type="submit" name="set_activity1_submit" id="set_activity1_submit" value="Submit">
+</form>
+<label for="set_activity1_submit" style="display:none">Submit</label>
+
+<form action="set_activity2.php" method="post" name="set_activity2_form" style="display:none" target="frameTarget">
+<input type="text" name="set_activity2_study" id="set_activity2_study" value="">
+<input type="text" name="set_activity2_activity1" id="set_activity2_activity1" value="">
+<input type="submit" name="set_activity2_submit" id="set_activity2_submit" value="Submit">
+</form>
+<label for="set_activity2_submit" style="display:none">Submit</label>
+
+<form action="set_history.php" method="post" name="set_history_form" style="display:none" target="frameTarget">
+<input type="text" name="history_username" id="history_username" value="">
+<input type="submit" name="history_submit" id="history_submit" value="Submit">
+</form>
+<label for="history_submit" style="display:none">Submit</label>
+
+<form action="set_entry.php" method="post" name="set_entry_form" style="display:none" target="frameTarget">
+<input type="text" name="set_entry_id" id="set_entry_id" value="">
+<input type="submit" name="set_entry_submit" id="set_entry_submit" value="Submit">
+</form>
+<label for="set_entry_submit" style="display:none">Submit</label>
+
+<form action="approve_timeoff.php" method="post" name="approve_timeoff_form" style="display:none" target="frameTarget">
+<input type="text" name="approve_timeoff_user" id="approve_timeoff_user" value="">
+<input type="text" name="approve_timeoff_id" id="approve_timeoff_id" value="">
+<input type="submit" name="approve_timeoff_submit" id="approve_timeoff_submit" value="Submit">
+</form>
+<label for="approve_timeoff_submit" style="display:none">Submit</label>
+
+<form action="reject_timeoff.php" method="post" name="reject_timeoff_form" style="display:none" target="frameTarget">
+<input type="text" name="reject_timeoff_user" id="reject_timeoff_user" value="">
+<input type="text" name="reject_timeoff_id" id="reject_timeoff_id" value="">
+<input type="submit" name="reject_timeoff_submit" id="reject_timeoff_submit" value="Submit">
+</form>
+<label for="reject_timeoff_submit" style="display:none">Submit</label>
+
+
+<form action="set_request.php" method="post" name="set_request_form" style="display:none" target="frameTarget">
+<input type="text" name="set_request_id" id="set_request_id" value="">
+<input type="submit" name="set_request_submit" id="set_request_submit" value="Submit">
+</form>
+<label for="set_request_submit" style="display:none">Submit</label>
+
+<form action="check_login.php" method="post" name="check_login_form" style="display:none" target="frameTarget">
+<input type="text" name="check_login_username" id="check_login_username" value="">
+<input type="submit" name="check_login_submit" id="check_login_submit" value="Submit">
+</form>
+<label for="check_login_submit" style="display:none">Submit</label>
+
+<form action="logout.php" method="post" name="logout_form" style="display:none" target="frameTarget">
+<input type="text" name="logout_username" id="logout_username" value="">
+<input type="submit" name="logout_submit" id="logout_submit" value="Submit">
+</form>
+<label for="logout_submit" style="display:none">Submit</label>
+
+<form action="http://10.35.0.235/rhino/auto-login.php" method="post" name="start_expense_form" style="display:none" target="frameTarget">
+<input type="text" name="date_expense" id="date_expense" value="">
+<input type="text" name="user_login_expense" id="user_login_expense" value="">
+<input type="text" name="user_email_expense" id="user_email_expense" value="">
+<input type="submit" name="expense_submit" id="expense_submit" value="Submit">
+</form>
+<label for="expense_submit" style="display:none">Submit</label>
+
+<form action="admin_user.php" method="post" name="set_admin_form" style="display:none">
+<input type="text" name="set_admin_user" id="set_admin_user" value="">
+<input type="submit" name="set_admin_submit" id="set_admin_submit" value="Submit">
+</form>
+<label for="set_admin_submit" style="display:none">Submit</label>
+
+
+<iframe id="frameTarget" name="frameTarget" frameBorder="0" style="display:none"></iframe>
+<iframe id="formTarget" name="formTarget" frameBorder="0" style="display:none"></iframe>
+
+
+<script>
+
+var state = 1;
+
+$('.multi-field-wrapper').each(function() {
+    var $wrapper = $('.multi-fields', this);
+    $(".add-field", $(this)).click(function(e) {
+	$('.multi-field:first-child', $wrapper).clone(true).appendTo($wrapper).find('[type=text]').val('');;
+	//$('.multi-field:first-child', $wrapper).clone(true).appendTo($wrapper).find('select').val('').focus();
+
+    });
+    $('.multi-field .remove-field', $wrapper).click(function() {
+        if ($('.multi-field', $wrapper).length > 1)
+            $(this).parent('.multi-field').remove();
+    });
+});
+
+function setNumberDecimal(event) {
+    this.value = parseFloat(this.value).toFixed(2);
+}
+
+function setEmployeeList(name, value)
+{
+    	var x = document.getElementById("employee");
+    	var option = document.createElement("option");
+    	option.value = value;
+    	option.text = name;
+    	x.add(option);
+}
+
+function setStudyList(name, value)
+{
+    	var x = document.getElementById("study");
+    	var option = document.createElement("option");
+    	option.value = value;
+    	option.text = name;
+    	x.add(option);
+}
+
+function setActivity1List(name, value)
+{
+    	var x = document.getElementById("activity1");
+    	var option = document.createElement("option");
+    	option.value = value;
+    	option.text = name;
+    	x.add(option);
+}
+
+function setActivity2List(name, value)
+{
+    	var x = document.getElementById("activity2");
+    	var option = document.createElement("option");
+    	option.value = value;
+    	option.text = name;
+    	x.add(option);
+}
+
+function resetEmployeeList()
+{
+	$('#employee')
+    	.find('option')
+    	.remove()
+    	.end();
+    	//.append('<option disabled selected value> -- select an employee -- </option>');
+}
+
+function resetStudyList()
+{
+	$('#study')
+    	.find('option')
+    	.remove()
+    	.end()
+    	.append('<option disabled selected value> -- select an Action-- </option>');
+}
+
+function resetActivity1List()
+{
+	$('#activity1')
+    	.find('option')
+    	.remove()
+    	.end()
+    	.append('<option disabled selected value> -- select an Activity -- </option>');
+}
+
+function resetActivity2List()
+{
+	$('#activity2')
+    	.find('option')
+    	.remove()
+    	.end()
+    	.append('<option disabled selected value> -- select an Activity -- </option>');
+}
+
+function resetHistory()
+{
+	$(".history").html('<div id="history" style="display:none" width="100%"><span class="date"></span><span class="study"></span><span class="activity1"></span><span class="activity2"></span><span class="hours"></span><span style="margin-right:7px">hours</span><input type="button" class="btn edit_history_button" onclick="editEntry(this)" value="Edit"><button type="button" class="btn" style="display:none">Delete</button></div>');
+	$(".requests_history").html('<div id="requests_history" style="display:none" width="100%"><span style="margin-left:10px;padding-left:10px" class="type"></span><span class="start_date"></span><span class="end_date"></span><span class="hours"></span><span class="note"></span><span class="status"></span><button class="btn edit_request_button" onclick="editRequest(this)">Edit</button><button type="button" class="btn" style="display:none">Delete</button></div>');
+	$(".admin_requests_history").html('<div id="admin_requests_history" style="display:none;padding:4px" width="100%"><span class="username" style="padding-right:15px"></span><button type="button" class="btn" onclick="approveRequest(this)">Approve</button><button type="button" style="color:red;margin-left:5px" class="btn" onclick="rejectRequest(this)">Reject</button><span style="margin-left:10px;padding-left:10px" class="type"></span><span class="start_date"></span><span class="end_date"></span><span class="hours"></span><span class="note"></span><span class="status"></span><button type="button" class="btn" style="display:none">Delete</button></div>');
+}
+
+function resetMessage()
+{
+	$(".message").html('<div id="message" style="display:none;color:red" width="100%">Please enter your hours for <span class="message_date"></span></div>');
+}
+
+
+function reset()
+{
+	//$("input[name=day_1]").val("");
+}
+
+function hideNoHistory()
+{
+	$( "#nohistory" ).hide();
+}
+
+function changeDate()
+{
+	change_state(2);
+	//var userid = document.getElementById("user");
+	//alert(userid.value);
+}
+
+function check_state()
+{
+	return state;
+}
+
+function state2()
+{
+	resetRequest();
+	$("#back_button").hide();
+	$("#textbox1_holder").show();
+	$("#textbox1_holder").css("visibility","visible");
+	$(".form").show();
+	$("#main").show();
+	$("#request_div").hide();
+	$("#next_btn").hide();
+	$("#title").html("Add entries to your log");	
+}
+
+
+function state3()
+{
+	$("#back_button").show();
+	$("#textbox1_holder").hide();
+	$("#textbox1_holder").css("visibility","hidden");
+	$("#request_div").show();
+	$("#next_btn").hide();
+	$("#main").hide();
+	$("#title").html("Request Time Off");	
+}
+
+
+
+function reset_date(now)
+{
+	document.getElementById("textbox1").value = now;
+}
+
+function reset_entry()
+{
+	document.getElementById("entry").value = "";
+	document.getElementById("ID").value = "0";
+	document.getElementById("save_notes").value = "";
+}
+
+function start_expense()
+{
+	document.getElementById("date_expense").value = document.getElementById("date2").value;
+	document.getElementById("user_email_expense").value = document.getElementById("user_email").value;
+	document.getElementById("user_login_expense").value = document.getElementById("user").value;
+	document.getElementById("expense_submit").click();	
+}
+
+function set_expense_url(url)
+{
+	window.open(url,'_blank');	
+}
+
+function click_expense(){
+	$('#btnOpenDialog').click();
+}
+
+
+
+function change_state(val)
+{
+	state = val;
+	document.getElementById("state_id").value = check_state();
+	document.getElementById("date1").value = document.getElementById("textbox1").value;
+	document.getElementById("date2").value = document.getElementById("textbox1").value;
+	document.getElementById("state_username").value	= document.getElementById("user").value;
+	document.getElementById("state_submit").click();	
+}
+
+
+function start_request(type){
+	document.getElementById("activity_request").value = type;
+	if(type=='Vacation'){
+		$("#textbox2").show("slow");
+		$("#textbox3").show("slow");
+		$("#hours_request").hide("slow");
+		$("#hours_request_title").hide("slow");
+		$("#start_date").val("Start Date");
+		$("#end_date").val("End Date");
+	}
+	else if(type=='Personal'){
+		$("#textbox2").show("slow");
+		$("#hours_request").show("slow");
+		$("#hours_request_title").show("slow");
+		$("#textbox3").hide("slow");
+		$("#start_date").val("Day");
+		$("#end_date").val("");
+	}	
+	else{
+		$("#textbox2").show("slow");
+		$("#textbox3").hide("slow");
+		$("#hours_request").show("slow");
+		$("#hours_request_title").show("slow");
+		$("#start_date").val("Day");
+		$("#end_date").val("");
+	}	
+	change_state(3);
+}
+
+
+function set_history()
+{
+	//alert(document.getElementById("user").value);
+	document.getElementById("history_username").value = document.getElementById("user").value;
+	document.getElementById("history_submit").click();	
+}
+
+
+function set_message(date){
+	$("#message").clone().insertAfter($( "#message" )).each(function() { 
+								$(this).children('.message_date').html(date);
+								$(this).show();
+						     });
+}
+
+function set_users(id,name){
+	$("#approve_requests_table").clone().prop('id', '' ).insertAfter($( "#approve_requests_table" )).each(function() { 
+								$('tr', this).find("td:first").children('input').val(name);
+								$('tr', this).find("td:nth-child(2)").children('input').val(id);
+								$(this).show();
+						     });
+}
+
+
+function set_profile(dir,last_login,vacation,vacation_used,personal_time){
+	document.getElementById("edit_profile_user").value = document.getElementById("user").value;
+	document.getElementById("user_request").value = document.getElementById("user").value;
+	document.getElementById("Director").value = dir;
+	document.getElementById("last_login").value = last_login;
+	document.getElementById("vacation").value = vacation;
+	document.getElementById("vacation_used").value = vacation_used;
+	document.getElementById("personal_time").value = personal_time;
+	$("#vacation_used_span").html(vacation_used);
+	$("#vacation_span").html(vacation);
+	$("#personal_time_span").html(personal_time);
+	
+}
+
+function resetVacation(vacation,vacation_used,personal_time){
+	if(vacation!='none')
+	{
+		document.getElementById("vacation").value = vacation;
+		document.getElementById("vacation_used").value = vacation_used;
+		$("#vacation_used_span").html(vacation_used);
+		$("#vacation_span").html(vacation);
+	}
+	if(personal_time!='none')
+	{
+		document.getElementById("personal_time").value = personal_time;
+		$("#personal_time_span").html(personal_time);
+	}
+}
+
+
+function setActivity1(el)
+{
+	var stud = $(el).val();
+	document.getElementById("set_activity1_study").value = stud;
+	document.getElementById("set_activity1_director").value = document.getElementById("Director").value;
+	document.getElementById("set_activity1_submit").click();
+
+		
+}
+
+
+function setActivity2(el)
+{
+	var activity1 = $(el).val();
+	document.getElementById("set_activity2_activity1").value = activity1;
+	document.getElementById("set_activity2_study").value = document.getElementById("set_activity1_study").value;
+	document.getElementById("set_activity2_submit").click();	
+}
+
+function setUserAdmin(el)
+{
+	var user = $(el).val();
+	document.getElementById("set_admin_user").value = user;
+	document.getElementById("set_admin_submit").click();
+		
+}
+
+
+function send_request(num)
+{
+	if(num!=1){
+	loading_show();
+	}
+	document.getElementById("action_request").value = num;
+	document.getElementById("approve_requests_submit").click();
+}
+
+function loading_show()
+{
+	$('#loading').show();	
+}
+
+function loading_hide()
+{
+	$('#loading').hide();	
+}
+
+function cancel_request()
+{
+	document.getElementById("cancel").value = '1';
+	document.getElementById("request_submit").click();
+	resetRequest();
+}
+
+function setRequest(el)
+{
+	var request = $(el).val();
+	if(request=='Vacation'){
+		$("#textbox2").show("slow");
+		$("#textbox3").show("slow");
+		$("#hours_request").hide("slow");
+		$("#hours_request_title").hide("slow");
+		$("#start_date").val("Start Date");
+		$("#end_date").val("End Date");
+	}
+	else if(request=='Personal'){
+		$("#textbox2").show("slow");
+		$("#hours_request").show("slow");
+		$("#hours_request_title").show("slow");
+		$("#textbox3").hide("slow");
+		$("#start_date").val("Day");
+		$("#end_date").val("");
+	}	
+	else{
+		$("#textbox2").show("slow");
+		$("#textbox3").hide("slow");
+		$("#hours_request").show("slow");
+		$("#hours_request_title").show("slow");
+		$("#start_date").val("Day");
+		$("#end_date").val("");
+	}	
+}
+
+
+function showEmployeeTable(){
+
+	document.getElementById("addUsers").style.visibility = "visible";
+	document.getElementById("addUsers").style.display = "block";
+
+
+}
+
+function showRequestsTable(){
+
+	document.getElementById("requests").style.visibility = "visible";
+	document.getElementById("requests").style.display = "block";
+
+}
+
+
+function addHistory(date,study,activity1,activity2,hours,id,approved){
+	$("#history").clone().prop('id', id ).insertAfter($( "#history" )).each(function() { 
+								$(this).children('.date').html(date);
+								$(this).children('.study').html(' - '+study);
+								$(this).children('.activity1').html(' - '+activity1);
+								if(activity2 != ""){
+									$(this).children('.activity2').html(' - '+activity2);
+								}
+								$(this).children('.hours').html(' - '+hours+' ');
+								if(approved == '1'){
+									$(this).children('.edit_history_button').hide();
+								}
+								else{
+									$(this).show();
+								}
+						     });
+}
+
+
+function addRequestHistory(type,start_date,end_date,hours,status,id,note){
+	$("#requests_history").clone().prop('id', id ).insertAfter($( "#requests_history" )).each(function() { 
+								$(this).children('.type').html(type);
+								$(this).children('.start_date').html(' - '+start_date);
+								if(end_date != "0000-00-00"){
+									$(this).children('.end_date').html(' to '+end_date);
+								}
+								if(hours != "0"){
+									$(this).children('.hours').html(' - ' + hours + ' hours');
+								}
+								var slim_note = note.slice(0, 15);
+								if(slim_note != ""){
+									if(slim_note.length == 15){
+										$(this).children('.note').html(' note: ' + slim_note + '...');
+									}
+									else{ $(this).children('.note').html(' note: ' + slim_note); }
+								}
+								$(this).children('.status').html(' - '+status);
+								if(status == '<font color="green"><b>APPROVED</b></font>')
+								{
+									$(this).children('.edit_request_button').hide();
+								}
+								else{
+									$(this).show();
+								}
+						     });
+}
+
+
+function addRequestHistory_Admin(type,start_date,end_date,hours,status,id,note,username){
+	$("#admin_requests_history").clone().prop('id', id ).insertAfter($( "#admin_requests_history" )).each(function() { 
+								$(this).children('.type').html(type);
+								$(this).children('.start_date').html(' - '+start_date);
+								if(end_date != "0000-00-00"){
+									$(this).children('.end_date').html(' to '+end_date);
+								}
+								if(hours != "0"){
+									$(this).children('.hours').html(' - ' + hours + ' hours');
+								}
+								//var slim_note = note.slice(0, 15);
+								if(note != ""){
+									$(this).children('.note').html(' note: ' + note);
+								}
+								$(this).children('.status').html(' - '+status);
+								$(this).children('.username').html(username);
+								//$(this).show();
+
+								if(status=='<font color="green"><b>APPROVED</b></font>' || status=='<font color="red"><b>REJECTED</b></font>')
+								{
+									$(this).hide();
+								}
+								else{
+									$(this).show();
+								}
+
+						     });
+}
+
+
+function setChecked(el){
+
+	var ID = $(el).parent().prev().children('input').val();
+	if(ID=='0'){
+		$(el).parent().prev().children('input').val('1');
+	}
+	else{
+		$(el).parent().prev().children('input').val('0');
+	}
+	//alert($(el).parent().prev().children('input').val());
+
+}
+
+function selectall(el){
+	$(el).parent().prev().children('input').val('1');
+}
+
+function selectnone(el){
+	$(el).parent().prev().children('input').val('0');
+}
+
+function approveRequest(el){
+	loading_show();
+	var ID = $(el).parent().attr("id");
+	document.getElementById("approve_timeoff_user").value = document.getElementById("user").value;
+	document.getElementById("approve_timeoff_id").value = ID;
+	document.getElementById("approve_timeoff_submit").click();
+	//alert(ID);
+}
+
+function rejectRequest(el){
+	loading_show();
+	var ID = $(el).parent().attr("id");
+	document.getElementById("reject_timeoff_user").value = document.getElementById("user").value;
+	document.getElementById("reject_timeoff_id").value = ID;
+	document.getElementById("reject_timeoff_submit").click();
+	//alert(ID);
+}
+
+function editEntry(el){
+	scrollToMain();
+	//change_state(2);
+	state2();
+	resetRequest();
+	var ID = $(el).parent().attr("id");
+	document.getElementById("set_entry_id").value = ID;
+	document.getElementById("set_entry_submit").click();
+	//alert(ID);
+}
+
+function editRequest(el){
+	state3();
+	var ID = $(el).parent().attr("id");
+	document.getElementById("set_request_id").value = ID;
+	document.getElementById("set_request_submit").click();
+	//alert(ID);
+}
+
+
+function setEntry(date,byweek,year,id,study,activity1,activity2,hours){
+	document.getElementById("textbox1").value = date;
+	document.getElementById("date2").value = date;
+	document.getElementById("byweek").value = byweek;
+	document.getElementById("year").value = year;
+	document.getElementById("ID").value = id;
+	document.getElementById("study").value = study;
+	document.getElementById("activity1").value = activity1;
+	document.getElementById("activity2").value = activity2;
+	document.getElementById("entry").value = hours;
+
+}
+
+function setRequestEntry(ID,type,start_date,end_date,hours){
+	document.getElementById("textbox2").value = start_date;
+	document.getElementById("textbox3").value = end_date;
+	document.getElementById("ID_request").value = ID;
+	document.getElementById("hours_request").value = hours;
+	document.getElementById("activity_request").value = type;
+	start_request(type);
+
+}
+
+function resetRequest(){
+	document.getElementById("textbox2").value = "";
+	document.getElementById("textbox3").value = "";
+	document.getElementById("ID_request").value = "0";
+	document.getElementById("hours_request").value = 0;
+	document.getElementById("cancel").value = '0';
+	document.getElementById("activity_request").value = "select a request";
+
+}
+
+function checkLogin(){
+	document.getElementById("check_login_username").value = document.getElementById("user").value;
+	document.getElementById("check_login_submit").click();
+}
+
+function Logout(){
+	document.getElementById("logout_username").value = document.getElementById("user").value;
+	document.getElementById("logout_submit").click();
+}
+
+function scrollToMain(){
+	$("html, body").delay(250).animate({scrollTop: "20px" }, 250);
+}
+
+
+var select_all = document.getElementById("select_all"); //select all checkbox
+var checkboxes = document.getElementsByClassName("checkbox"); //checkbox items
+
+//select all checkboxes
+select_all.addEventListener("change", function(e){
+    for (i = 0; i < checkboxes.length; i++) { 
+        checkboxes[i].checked = select_all.checked;
+	if(select_all.checked){
+		selectall(checkboxes[i]);
+	}
+	else{
+		selectnone(checkboxes[i]);
+	}
+    }
+});
+
+
+for (var i = 0; i < checkboxes.length; i++) {
+    checkboxes[i].addEventListener('change', function(e){ //".checkbox" change 
+        //uncheck "select all", if one of the listed checkbox item is unchecked
+        if(this.checked == false){
+            select_all.checked = false;
+        }
+        //check "select all" if all checkbox items are checked
+        if(document.querySelectorAll('.checkbox:checked').length == checkboxes.length){
+            select_all.checked = true;
+        }
+    });
+}
+
+
+function init() {
+
+
