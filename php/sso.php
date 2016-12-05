@@ -33,7 +33,7 @@ if(isset($_GET['key']) && !empty($_GET['key'])){
             wp_set_auth_cookie( $user_id); //login the previously exist user
  
             //wp_redirect(site_url()); // put the url where you want to redirect user after logged in
-	    wp_redirect('http://10.35.0.235/rhino/?form=expenses&date='.$date); // put the url where you want to redirect user after logged in
+	    wp_redirect('http://YOUR_SITE/'.$date); // put the url where you want to redirect user after logged in
 
 	   echo "success";
  

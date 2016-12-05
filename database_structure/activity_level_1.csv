@@ -1,0 +1,28 @@
+ID,type,activity_1,Director
+1,non-study,Training,0
+2,non-study,Audit,0
+6,non-study,"Statutory Holiday",0
+7,study,Training,0
+8,study,Audit,0
+9,study,"Study Start-up",0
+10,study,"Study Maintenance",0
+11,study,"Study Closure",0
+12,study,"Data Management",0
+13,study,Biostatistics,0
+14,study,"Medical Writing",0
+15,study,"Clinical Trial Materials",0
+16,study,"On-Site Monitoring",0
+17,Veritas,"Project Management",0
+18,Veritas,"Staff Meeting",0
+19,Veritas,"IRB Meeting Preparation",0
+20,Veritas,HRPP/QA,0
+21,Veritas,Sales,0
+22,Veritas,Marketing/Communications,0
+23,Veritas,QC,0
+25,non-study,"Office Management",0
+26,corporate,Accounting,1
+27,corporate,Legal,1
+28,corporate,"Corporate Meeting",1
+29,corporate,"Human Resources",1
+30,non-study,Lunch,0
+31,Veritas,Accounting,0

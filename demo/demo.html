@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--jQuery References--> 
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <!--<link rel="stylesheet" type="text/css" href="../css/default.css" />
+  <link rel="stylesheet" type="text/css" href="../css/multilevelmenu.css" />
+  <link rel="stylesheet" type="text/css" href="../css/component.css" />
+  <link rel="stylesheet" type="text/css" href="../css/animations.css" />-->
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <!--Theme-->
+  <link href="http://cdn.wijmo.com/themes/aristo/jquery-wijmo.css" rel="stylesheet" type="text/css" />
+  <!--Wijmo Widgets CSS-->
+  <link href="http://cdn.wijmo.com/jquery.wijmo-pro.all.3.20161.90.min.css" rel="stylesheet" type="text/css" />
+  <link href="../css/ora.css" rel="stylesheet" type="text/css" />
+</head>
+<body onload="init();">
+
+  <input data-enhance="false" type="button" id="btnOpenDialog" value="Open Confirm Dialog" style="display:none"/>
+  <div data-enhance="false" id="dialog-confirm"></div>
+
+  <div data-enhance="false" id="loading_div" style="display:none"><img id="loading_gif" src="../icons/loading.gif" /></div>
+
+  <div data-enhance="false" id="top_menu" style="position:relative;width:100%;min-width:300px;height:65px;color:#FFFFFF;background: #092756;z-index:10">
+    <table border="0" style="width:100%;padding-left:15px;padding-right:45px;padding-top:10px">
+      <tr><td align="left"><h2>LOGO</h2></td>
+      <td align="right" >
+        <select onchange="setUserAdmin(this)" class="btn" type="text" id="employee" name="employee" style="width:125px;padding-left:20px;margin-right:10px;margin-left:73px">
+          <option value="Employee">Employee</option>
+        </select>
+      </td>
+      <td align="right" style="width:30px">
+      <span><div style="cursor: pointer; cursor: hand;" onclick="Logout();">logout</div></span>
+      </td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="tab_menu" class="tab_menu_class" data-enhance="false" style="">
+    <ul class="tab_menu" >
+      <li  class="active"><a href="#p1" data-transition="fade"><span>User</span></a></li>
+      <li  id="label_tab2"><a href="#p2" data-transition="fade"><span>Add New User</span></a></li>
+      <li  id="label_tab3"><a href="#p3" data-transition="fade" style="position: relative;"><span>Reports</span></a></li>
+      <li id="label_tab4">
+        <a href="#p4" data-transition="fade" class="inline">
+          <div id="request_alert_div" style="display:none;color:white;background-color:red;border-radius:50%;width:18px;height:18px;padding:0;position: absolute;right: 10px">
+            <div id="request_alert" style="font-size:12px;vertical-align:middle">0</div>
+          </div>
+          <span>Requests</span>
+        </a>
+      </li>
+      <li id="label_tab5" class="last"><a href="#p5" data-transition="fade" class="inline"><span>Profile</span></a>
+      </li>
+    </ul>
+  </div>
+
+  <div data-role="page" id="p1"  style="position:relative;width:100%;min-width:300px;z-index: 9;text-align: center;padding-bottom: 200px">
+
+    <br>
+
+    <!--START main table--> 
+    <div data-enhance="false" style="padding-top:0px;width:100%" >
+      <div class="box box_hollow inline" style="width:80%;vertical-align:top;text-align: center">
+        <input type="text" style="text-align:left;padding-left:20px;border:none;width:100px;display:none" name="employee_title" value="Employee" readonly>
+        <br><br>
+        <div class='message' width="100%" style="margin-left:5px;text-align: center;" >
+          <div id="message" style="display:none;color:red" width="100%">
+            Please enter your hours for <span class="message_date"></span>
+          </div>
+        </div>
+        <br>
+
+        <div id="state_1" class="inline" style="display:block;text-align:center;vertical-align:bottom;">
+        <table onclick="change_state(2)" class="" id="back_button" style="margin-left:55px;padding:3px;cursor:pointer;cursor:hand;display:none"><tr><td><img style="height:55px" src="../icons/arrow-back.png" /></td><td>BACK</td></tr></table>
+          <h1 id="title" style="margin-left:5px"><span id="welcome"></span>, choose a date to log your time</h1>
+          <input type="text" style="text-align:left;padding-left:20px;padding-top:20px;border:none;width:50px;display: none" name="week_title" value="" readonly>
+          <div id="textbox1_holder" class="inline" style="">
+                  <input type="text" id="textbox1" name="textbox1" onchange="" /><span class="inline" style="padding-left:10px"><a href="#" onclick="start_expense()">Take me to the <b>Expense Module</b></a></span>
+          </div>
+          <br>
+          <div id="next_btn" class="inline" style="margin-left:5px" >
+            <table onclick="change_state(2)" class="" id="next_button" style="margin-left:5px;padding:3px;cursor:pointer;cursor:hand;display:block"><tr><td><img style="height:55px" src="../icons/arrow-next.png" /></td><td>NEXT
+            </td></tr></table>
+          </div>
+          <br><br><br>
+        </div>
+
+
+        <div id="main" class="form inline" style="min-height:325px;display:none;width:100%;vertical-align: text-top;;text-align: center" >
+          <form method='post' name='user_record' action='submit.php' target="formTarget" style="vertical-align: text-top;" > 
+            <div class="multi-field-wrapper"><br>
+              <button type="button" id="add_button" class="add-field btn" style="display:none">Add an entry</button></br>
+
+                      <div style="padding-top:5px;padding-bottom:5px;padding-left:0px;vertical-align:top;">
+                  <button type="button" class="remove-field btn" style="display:none">Remove</button>
+                  <input type="text" style="display:none" id="company" name="company" value="">
+                  <input type="text" style="display:none" id="year" name="year" value="">
+                  <input type="text" style="display:none" id="byweek" name="byweek" value="">
+                  <input type="text" style="display:none" id="user" name="user" value="">
+                  <input type="text" style="display:none" id="administrator" name="administrator" value="">
+                  <input type="text" style="display:none" id="user_email" name="user_email" value="">
+                  <input type="text" style="display:none" id="week" name="week" value="">
+                  <input type="text" style="display:none" id="date2" name="date2" value="">
+                  <input type="text" style="display:none" id="ID" name="ID" value="0">
+                  <input type="text" style="display:none" id="Director" name="Director" value="0">
+                  <input type="text" style="display:none" id="vacation" name="vacation" value="0">
+                  <input type="text" style="display:none" id="vacation_used" name="vacation_used" value="0">
+                  <input type="text" style="display:none" id="personal_time" name="personal_time" value="0">
+                  <input type="text" style="display:none" id="last_login" name="last_login" value="0">
+
+                  <input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day1" value="Mon 08/22" size="10" readonly>
+                  <input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day2" value="Mon 08/22" size="10" readonly>
+                  <input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day3" value="Mon 08/22" size="10" readonly>
+                  <input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day4" value="Mon 08/22" size="10" readonly>
+                  <input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day5" value="Mon 08/22" size="10" readonly>
+                  <input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day6" value="Mon 08/22" size="10" readonly>
+                  <input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day7" value="Mon 08/22" size="10" readonly>
+                  <input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day8" value="Mon 08/22" size="10" readonly>
+                  <input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day9" value="Mon 08/22" size="10" readonly>
+                  <input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day10" value="Mon 08/22" size="10" readonly>
+                  <input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day11" value="Mon 08/22" size="10" readonly>
+                  <input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day12" value="Mon 08/22" size="10" readonly>
+                  <input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day13" value="Mon 08/22" size="10" readonly>
+                  <input type='text' style="text-align:center;padding:2px;border:none;display:none" name="day14" value="Mon 08/22" size="10" readonly>
+                </div>
+
+              <div class="multi-fields">
+                      <div class="multi-field" multi-field style="padding-top:2px;padding-bottom:2px;" style="margin-left:5px;padding-left:5px">
+                  <button type="button" class="remove-field btn" style="visibility:hidden;display:none">Remove</button>
+                  <div class="inline">
+                  <input type="text" style="text-align:center;padding:8px;border:none;width:175px" name="study_title" value="Study" readonly><br>
+                  <select onchange="setActivity1(this)" class="btn" type="text" id="study" name="study[]" style="width:175px">
+                    <option selected value>select</option>
+                    <option selected value>select</option>
+                  </select>
+                  </div>
+                  <div class="inline">
+                  <input type="text" style="text-align:center;padding:10px;border:none;width:150px" name="activity1_title" value="Activity 1" readonly><br>
+                  <select onchange="setActivity2(this)" class="btn" type="text" id="activity1" name="activity1[]" style="width:150px;">
+                  </select>
+                  </div>
+                  <div class="inline">
+                  <input type="text" style="text-align:center;padding:10px;border:none;width:250px" name="activity2_title" value="Activity 2" readonly><br>
+                  <select class="btn" type="text" id="activity2" name="activity2[]" style="width:250px;">
+                  </select>
+                  </div>
+                  <div class="inline">
+                  <input type='text' style="text-align:center;padding:10px;border:none" value="Hours" size="10" readonly><br>
+                  <input type='text' style="text-align:right;direction: rtl;" name="day_1[]" id="entry"  placeholder='0' maxlength="5" size="10" autocomplete="off" >
+                  </div>
+                  <!--<input type='text' style="text-align:right;direction: rtl;" name="day_2[]" placeholder='0' maxlength="5" size="10" >
+                  <input type='text' style="text-align:right;direction: rtl;" name="day_3[]"  placeholder='0' maxlength="5" size="10" >
+                  <input type='text' style="text-align:right;direction: rtl;" name="day_4[]"  placeholder='0' maxlength="5" size="10" >
+                  <input type='text' style="text-align:right;direction: rtl;" name="day_5[]"  placeholder='0' maxlength="5" size="10" >
+                  <input type='text' style="text-align:right;direction: rtl;" name="day_6[]"  placeholder='0' maxlength="5" size="10" >
+                  <input type='text' style="text-align:right;direction: rtl;" name="day_7[]"  placeholder='0' maxlength="5" size="10" >
+                  <input type='text' style="text-align:right;direction: rtl;" name="day_8[]"  placeholder='0' maxlength="5" size="10" >
+                  <input type='text' style="text-align:right;direction: rtl;" name="day_9[]"  placeholder='0' maxlength="5" size="10" >
+                  <input type='text' style="text-align:right;direction: rtl;" name="day_10[]"  placeholder='0' maxlength="5" size="10" >
+                  <input type='text' style="text-align:right;direction: rtl;" name="day_11[]"  placeholder='0' maxlength="5" size="10" >
+                  <input type='text' style="text-align:right;direction: rtl;" name="day_12[]"  placeholder='0' maxlength="5" size="10" >
+                  <input type='text' style="text-align:right;direction: rtl;" name="day_13[]"  placeholder='0' maxlength="5" size="10" >
+                  <input type='text' style="text-align:right;direction: rtl;" name="day_14[]"  placeholder='0' maxlength="5" size="10" >-->
+                  <div class="inline">
+                  <input data-role="none" type='text' style="text-align:center;padding-bottom:10px;border:none" name="notes_title" value="Notes" size="30" readonly><br>
+                  <input type='text' style="text-align:left;direction: ltr;" id="save_notes" name="notes[]" size="30" autocomplete="on" >
+                  </div>
+
+                  <span style="padding-left:3px;padding-right:3px;display:none"><input type="checkbox" name="checkbox1[]">checkbox1</span><span style="padding-left:3px;padding-right:3px;display:none"><input type="checkbox" name="checkbox2[]">checkbox2</span>
+
+                </div>
+                    </div>
+              </br>
+              <textarea name="" style="display:none" class="input-text text-area" cols="0" rows="0" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">Note</textarea>
+              <table class="inline" style=""><tr><td>
+              <div class="inline">
+              <button onclick="loading_show();submit()" onmouseover="set_time()" class="btn" type="button" id="save_submit" name="save_submit" style="padding:8px;margin-left:5px"><b>Submit</b></button></td><td>
+              </div>
+              <div class="inline">
+              <button class="btn" type="button" onclick="cancel_update()" id="save_cancel" style="padding:8px;margin-left:20px;color:red;display:none"><b>Cancel Update</b></button>
+              </div>      
+              </td></tr></table>        
+              <!--<input type="submit" id="save_submit" name="save_submit" value="Save">-->  
+              </div>
+          </form>
+          <label for="save_submit" style="display:none">Submit</label>
+           
+        </div>
+
+        <div id="request_div" class="form inline" style="min-height:260px;display:none" >
+          <form method='post' name='request_form' action='request_submit.php' target="formTarget" > 
+            <div class="multi-field-wrapper"><br>
+
+                      <div style="padding-top:5px;padding-bottom:5px;padding-left:0px">
+                  <button type="button" class="remove-field btn" style="visibility:hidden">Remove</button>
+                  <input type="text" style="display:none" id="user_request" name="user_request" value="">
+                  <input type="text" style="display:none" id="ID_request" name="ID_request" value="0">
+                  <input type="text" style="display:none" id="cancel" name="cancel" value="0">
+                </div>
+
+              <div class="multi-fields">
+                      <div class="multi-field" multi-field style="padding-top:2px;padding-bottom:2px">
+                  <button type="button" class="remove-field btn" style="display:none">Remove</button>
+                <div class="inline">
+                  <input type="text" style="text-align:center;padding:8px;border:none;width:175px" name="request" value="Request Type" readonly><br>
+                  <select onchange="setRequest(this)" class="btn" type="text" id="activity_request" name="activity_request" style="width:175px">
+                    <option selected value>select a request</option>
+                    <option value="Vacation">Vacation</option>
+                    <option value="Personal">Personal</option>
+                    <option value="Unpaid">Unpaid</option>
+                  </select>
+                </div>
+                <div class="inline">
+                  <input type="text" style="text-align:center;padding:10px;border:none;width:150px" name="start_date" id="start_date" value="Start Date" readonly><br>
+                  <input type="text" id="textbox2" name="textbox2" onchange="" />
+                </div>
+                <div class="inline">
+                  <input type="text" style="text-align:center;padding:10px;border:none;width:100px" name="end_date" id="end_date" value="End Date" readonly><br>
+                  <input type="text" id="textbox3" name="textbox3" onchange="" />
+                </div>
+                <div class="inline">
+                  <input type='text' style="text-align:center;padding:10px;border:none;display:none" id="hours_request_title" value="Hours" size="10" readonly><br>
+                  <input type='text' style="text-align:right;direction: rtl;display:none" name="hours_request" id="hours_request"  placeholder='0' maxlength="5" size="10" autocomplete="off" >
+                </div>
+                <div class="inline">
+                  <input type='text' style="text-align:center;padding-bottom:10px;border:none" name="notes_title" value="Notes" size="30" readonly><br>
+                  <input type='text' style="text-align:left;direction: ltr;padding-top:2px;" name="note_request" size="30" autocomplete="off" >
+                </div>
+
+                </div>
+                    </div>
+              </br>
+              <textarea name="" style="display:none" class="input-text text-area" cols="0" rows="0" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">Note</textarea>
+              
+              <button class="btn inline" type="submit" id="request_submit" name="request_submit" style="padding:8px;"><b>Send Request</b></button>
+              <button class="btn inline" type="button" onclick="cancel_request()" id="request_cancel" style="padding:8px;margin-left:20px;color:red"><b>Cancel Request</b></button> 
+             
+              </div>
+          </form> 
+        </div>
+      </div>
+    </div>
+
+
+    <div data-enhance="false" class="box inline" style="vertical-align:top;background-color:#ebebeb;min-width:250px;min-height:250px;width:80%;margin-top:20px;padding-bottom:25px">
+      <div style="margin-left:30px;padding-top:20px">
+        <table width="100%">
+        <tr><td><i><span>Last login </span><span id="last_login_span"></span></i></td></tr>
+        <tr><td></td></tr>
+        <tr><td><span>You have used </span><span id="vacation_used_span" style="font-weight: bold;"></span><span> vacation days</span></td></tr>
+        <tr><td><span>You have </span><span id="vacation_span" style="font-weight: bold;"></span><span> vacation days remaining</span>
+      <button onclick="start_request('Vacation')" class="btn inline" style="padding:8px;margin-left:10px;width:150px">Request Vacation</button>
+      </td><td></td></tr>
+        <tr><td><span>You have </span><span id="personal_time_span" style="font-weight: bold;"></span><span> hours of personal time remaining</span>
+      <button onclick="start_request('Personal')" class="btn inline" style="padding:8px;margin-left:10px;width:150px">Request Personal</button>
+      </td>
+        <td></td></tr>
+        <tr><td><span>Unpaid Day Request</span>
+      <button onclick="start_request('Unpaid')" class="btn inline" style="padding:8px;margin-left:10px;width:150px">Request Unpaid Day</button>
+      </td><td></td></tr>
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+        <tr><td><b>REQUESTS</b> from <div class="inline"><input type="text" id="textbox6" name="textbox6" onchange="set_history('1')" /> to <input type="text" id="textbox7" name="textbox7" onchange="set_history('1')" /></div></td></tr>
+        <tr><td></td></tr>
+        <tr><td width="100%" colspan="2">
+          <div class='requests_history' width="100%" >
+          <div id="requests_history" style="display:none" width="100%"><span style="margin-left:10px;padding-left:10px" class="type"></span><span class="start_date"></span><span class="end_date"></span><span class="hours"></span><span class="note"></span><span class="status"></span><button class="btn edit_request_button" onclick="editRequest(this)">Edit</button><button type="button" class="btn" style="display:none">Delete</button></div>
+          </div>
+        </td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div data-enhance="false" class="inline" style="padding-top:20px;margin-left:5px;width: 80%;text-align:center" >
+      <table><tr><td><h3><span name="user_firstname" id="user_firstname" style="display:none">Employee</span><span></span> HISTORY</h3></td><td><div style="padding-left:15px">from <input  type="text" id="textbox8" name="textbox8" onchange="set_history('2')" /> to <input  type="text" id="textbox9" name="textbox9" onchange="set_history('2')" /></td></tr>
+      </table>
+    </div>
+
+    <div data-enhance="false" class='history box box_hollow inline' style="width:80%;margin-left:5px;max-height: 500px;overflow-y: scroll;text-align: left;" >
+      <div id="history" style="display:none" width="100%">
+        <span class="date"></span>
+        <span class="study"></span>
+        <span class="activity1"></span>
+        <span class="activity2"><span class="history_notes"></span>
+        </span><span class="hours"></span>
+        <span style="margin-right:7px">hours</span><input type="button" class="btn edit_history_button" onclick="editEntry(this)" value="Edit" >
+        <button type="button" class="btn" style="display:none">Delete</button>
+      </div>
+    </div>
+    <div id="nohistory" style="display:none"><i>No history</i></div>
+    <!--<button onclick="addHistory('test','test2','test3','test4','test5')">add history</button>-->
+  </div>
+
+  <div data-role="page" id="p2" style="position:relative;width:100%;min-width:300px;z-index: 9;text-align: center;padding-bottom: 200px">
+    <div id="addUsers" data-enhance="false" class="" style="display:none;" align="center">
+      <div align="center"><h4>ADD NEW USER <font color="red">(ADMIN)</font></h4></div><br>
+      <form action="addUsers.php" method="post" name="add_users" id="add_users"" target="frameTarget">
+        <table align="center">
+          <tr><td>Username : </td>
+          <td><input class="input-text" style="height:30px" type="text" name="add_users_user_login" id="add_users_user_login" value="" placeholder="username"></td></tr>
+          <tr><td><span >Password : </span></td>
+          <td><input class="input-text" style="height:30px" type="password" name="add_users_user_pass" id="add_users_user_pass" value="" placeholder="password"></td></tr>
+          <tr><td><span>First name : </span></td>
+          <td><input class="input-text" style="height:30px" type="text" name="add_users_firstname" id="add_users_firstname" value="" placeholder="First Name"></td></tr>
+          <tr><td><span>Last name : </span></td>
+          <td><input class="input-text" style="height:30px" type="text" name="add_users_lastname" id="add_users_lastname" value="" placeholder="Last Name"></td></tr>
+        </table>
+        <br>
+        <input class="btn" type="submit" name="add_users_submit" id="add_users_submit" value="Add New User"><br>
+      </form>
+    </div>
+  </div>
+
+  <div data-role="page" id="p3" style="position:relative;width:100%;min-width:300px;z-index: 9;text-align: center;padding-bottom: 200px;overflow-x: auto">
+    <div id="requests" class="" style="display:none" align="center">
+    <hr>
+    <div align="center"><h4>REPORTS <font color="red">(ADMIN)</font></h4></div><br>
+      <form data-enhance="false" action="approve_requests.php" method="post" name="approve_requests_form" id="approve_requests_form" target="frameTarget">
+        <table width="90%" style="margin-left:73px">
+          <tr>
+            <td style="border-right: 1px solid #ebebeb;width:40%">
+            <h3>Select Dates</h3>
+            </td>
+            <td style="width:60%">
+            <h3>Reports</h3>
+            </td>
+          </tr>
+          <tr>
+            <td style="border-right: 1px solid #ebebeb;vertical-align: top;display: none">
+              <div class='approve_requests' width="100%" style="margin-left:73px" >
+                <input type='text' style="visibility:hidden" >
+                <label><input type="checkbox"  id="select_all"/> Select All</label>
+                <br><br>
+                <table id='approve_requests_table' style="display:none">
+                  <tr>
+                  <td><input type='text' style="text-align:right;direction: rtl;" name="requests_name[]" ></td>
+                  <td class="requests_id" style="display:none"><input type='text' name="requests_id[]" ></td>
+                  <td style="display:none"><input type='text' name="requests_set[]" value='0' ></td>
+                  <td><input onchange="setChecked(this)" type="checkbox" class="checkbox" name="requests_box[]" /></td>
+                  </tr>
+                </table>
+              </div>
+            </td>
+            <td style="vertical-align:top">
+
+                <div class="multi-field-wrapper" style="padding-left:25px"><br>
+                  <div style="padding-top:5px;padding-bottom:5px;padding-left:0px">
+                    <button type="button" class="remove-field btn" style="display: none">Remove</button>
+                    <input type="text" style="display:none" id="action_request" name="action_request" value="0">
+                    <input type="text" style="display:none" id="user_request_reports" name="user_request_reports" value="">
+                    <input type="text" style="display:none" id="ID_request_reports" name="ID_request_reports" value="0">
+                  </div>
+                  <div class="multi-fields">
+                    <div class="multi-field" multi-field style="padding-top:2px;padding-bottom:2px">
+                      <button type="button" class="remove-field btn" style="display: none">Remove</button>
+                      <div class="inline">
+                        <input type="text" style="text-align:center;border:none;" name="start_date_request_reports" value="Start Date" readonly><br>
+                        <input type="text" id="textbox4" name="textbox4" onchange="" />
+                      </div>
+                      <div class="inline">
+                        <input type="text" style="text-align:center;border:none;" name="end_date_request_reports" value="End Date" readonly><br>
+                        <input type="text" id="textbox5" name="textbox5" onchange="" />
+                      </div>
+                    </div>
+                  </div>
+                  </br>
+                  <textarea name="" style="visibility:hidden;display: none" class="input-text text-area" cols="0" rows="0" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">Note</textarea>
+                  <button class="btn" type="submit" id="approve_requests_submit" name="approve_requests_submit" style="padding:8px;margin-left:25px;display:none"><b>Send Request</b></button>
+                  <button type="button" onclick="send_request(2)" class="btn" id="approval_btn" style="padding:8px"><b>Approve Hours</b></button>
+                  <button type="button" onclick="send_request(3)" class="btn" id="revert_btn" style="padding:8px;color:red"><b>Revert Approval</b></button>       
+                </div>
+                <label for="approve_requests_submit" style="display:none">Submit</label>
+                <br><br><br><br>
+            </td>
+            <td style="border-left: 1px solid #ebebeb;vertical-align: top;">
+                <table id='' style="display:block">
+                  <tr>
+                    <td>
+                      <select onchange="" class="btn" type="text" id="" name="report_type" style="max-width:100%">
+                        <option disabled selected value> -- select a report -- </option>
+                        <option>Full User report</option>
+                        <option>User Study Activity Report</option>
+                        <option>Study L1 Activity report</option>
+                        <option>Study L2 Activity report</option>
+                      </select>
+                    </td>
+                  </tr>
+                </table>
+                <hr>
+                <table>
+                  <tr>
+                    <td><input type='text' style="text-align:left;direction: rtl;border: 0px;max-width: 160px" name="" value="Filter by Company" readonly></td>
+                    <td>
+                      <select onchange="" class="btn" type="text" id="" name="company_type" style="max-width:100%">
+                        <option>All</option>
+                        <option>Veritas IRB Inc.</option>
+                        <option>ethica CRO Inc.</option>
+                        <option>ethica Clinical Research Inc.</option>
+                      </select>
+                    <td>
+                  </tr>
+                </table>
+                <hr>
+                <table>
+                  <tr>
+                    <td><input type='text' style="text-align:left;direction: rtl;border: 0px;max-width: 160px" name="userReport_name[]" value="Filter by Users" readonly></td>
+                    <td class="requests_id" style="display:none"><input type='text' name="userReport_id[]" ></td>
+                    <td style="display:none"><input type='text' name="userReport_set[]" value='0' ></td>
+                    <td><input onchange="setChecked_UserReport(this)" type="checkbox" class="checkbox" name="userReport_box[]" /></td>
+                  </tr>
+                </table>
+                <table class="tbl_filter" id="tbl_UserReport" style="display: none">
+                  <tr>
+                    <td style="valign:top">
+                      <div style="display: inline-block;">
+                        <select class="select_filter" id="user_leftList" name="user_leftList[]" multiple="multiple" >
+                            <option value="1">Left List Option 1</option>
+                            <option value="2">Left List Option 2</option>
+                        </select>
+                        </div>
+                        <div style="display: inline-block;">
+                        <button type="button" onclick="user_moveRight()" class="btn btn-default" style="border-radius: 0;width:200px">Add >></button><br>
+                        <button type="button" onclick="user_moveLeft()" class="btn btn-default" style="border-radius: 0;width:200px"><< Remove</button><br>
+                        <button onclick="" class="btn btn-default" style="border-radius: 0;width:200px;display: none">Move Up</button><br>
+                        <button onclick="" class="btn btn-default" style="border-radius: 0;width:200px;display: none">Move Down</button><br>
+                        </div>
+                        <div style="display: inline-block;">
+                        <select class="select_filter" id="user_rightList" name="user_rightList[]" multiple="multiple" >
+                            <option value="1">Right List Option 1</option>
+                            <option value="2">Right List Option 2</option>
+                        </select>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+                <hr>
+                <table>
+                  <tr>
+                    <td><input type='text' style="text-align:left;direction: rtl;border: 0px;max-width:160px" name="studyReport_name[]" value="Filter by Study" readonly></td>
+                    <td class="requests_id" style="display:none"><input type='text' name="studyReport_id[]" ></td>
+                    <td style="display:none"><input type='text' name="studyReport_set[]" value='0' ></td>
+                    <td><input onchange="setChecked_StudyReport(this)" type="checkbox" class="checkbox" name="studyReport_box[]" /></td>
+                  </tr>
+                </table>
+                <table class="tbl_filter" id="tbl_StudyReport" style="display: none">
+                  <tr>
+                    <td>
+                      <div style="display: inline-block;">
+                        <select class="select_filter" id="study_leftList" name="study_leftList[]" multiple="multiple" 
+                            <option value="1">Left List Option 1</option>
+                            <option value="2">Left List Option 2</option>
+                        </select>
+                        </div>
+                        <div style="display: inline-block;">
+                        <button type="button" onclick="study_moveRight()" class="btn btn-default" style="border-radius: 0;width:200px">Add >></button><br>
+                        <button type="button" onclick="study_moveLeft()" class="btn btn-default" style="border-radius: 0;width:200px"><< Remove</button><br>
+                        <button onclick="" class="btn btn-default" style="border-radius: 0;width:200px;display: none">Move Up</button><br>
+                        <button onclick="" class="btn btn-default" style="border-radius: 0;width:200px;display: none">Move Down</button><br>
+                        </div>
+                        <div style="display: inline-block;">
+                        <select class="select_filter" id="study_rightList" name="study_rightList[]" multiple="multiple" >
+                            <option value="1">Right List Option 1</option>
+                            <option value="2">Right List Option 2</option>
+                        </select>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+                <hr>
+                <table>
+                  <tr>
+                    <td><input type='text' style="text-align:left;direction: rtl;border: 0px;max-width: 160px" name="activity1Report_name[]" value="Filter by Activity 1" readonly></td>
+                    <td class="requests_id" style="display:none"><input type='text' name="activity1Report_id[]" ></td>
+                    <td style="display:none"><input type='text' name="activity1Report_set[]" value='0' ></td>
+                    <td><input onchange="setChecked_Activity1Report(this)" type="checkbox" class="checkbox" name="activity1Report_box[]" /></td>
+                  </tr>
+                </table>
+                <table class="tbl_filter" id="tbl_Activity1Report" style="display: none">
+                  <tr>
+                    <td>
+                      <div style="display: inline-block;">
+                        <select class="select_filter" id="activity1_leftList" name="activity1_leftList[]" multiple="multiple" >
+                            <option value="1">Left List Option 1</option>
+                            <option value="2">Left List Option 2</option>
+                        </select>
+                        </div>
+                        <div style="display: inline-block;">
+                        <button type="button" onclick="activity1_moveRight()" class="btn btn-default" style="border-radius: 0;width:200px">Add >></button><br>
+                        <button type="button" onclick="activity1_moveLeft()" class="btn btn-default" style="border-radius: 0;width:200px"><< Remove</button><br>
+                        <button onclick="" class="btn btn-default" style="border-radius: 0;width:200px;display: none">Move Up</button><br>
+                        <button onclick="" class="btn btn-default" style="border-radius: 0;width:200px;display: none">Move Down</button><br>
+                        </div>
+                        <div style="display: inline-block;">
+                        <select class="select_filter" id="activity1_rightList" name="activity1_rightList[]" multiple="multiple" >
+                            <option value="1">Right List Option 1</option>
+                            <option value="2">Right List Option 2</option>
+                        </select>
+                        </div>
+                    </td>
+                  </tr>
+                </table>
+                <hr>
+                <table>
+                  <tr>
+                    <td><input type='text' style="text-align:left;direction: rtl;border: 0px;max-width: 160px" name="activity2Report_name[]" value="Filter by Activity 2" readonly></td>
+                    <td class="requests_id" style="display:none"><input type='text' name="activity2Report_id[]" ></td>
+                    <td style="display:none"><input type='text' name="activity2Report_set[]" value='0' ></td>
+                    <td><input onchange="setChecked_Activity2Report(this)" type="checkbox" class="checkbox" name="activity2Report_box[]" /></td>
+                  </tr>
+                </table>
+                <table class="tbl_filter" id="tbl_Activity2Report" style="display: none">
+                  <tr>
+                    <td>
+                      <div style="display: inline-block;">
+                        <select class="select_filter" id="activity2_leftList" name="activity2_leftList[]" multiple="multiple" style="max-width:180px;overflow-x: scroll;">
+                            <option value="1">Left List Option 1</option>
+                            <option value="2">Left List Option 2</option>
+                        </select>
+                        </div>
+                        <div style="display: inline-block;">
+                        <button type="button" onclick="activity2_moveRight()" class="btn btn-default" style="border-radius: 0;width:200px">Add >></button><br>
+                        <button type="button" onclick="activity2_moveLeft()" class="btn btn-default" style="border-radius: 0;width:200px"><< Remove</button><br>
+                        <button onclick="" class="btn btn-default" style="border-radius: 0;width:200px;display: none">Move Up</button><br>
+                        <button onclick="" class="btn btn-default" style="border-radius: 0;width:200px;display: none">Move Down</button><br>
+                        </div>
+                        <div style="display: inline-block;">
+                        <select class="select_filter" id="activity2_rightList" name="activity2_rightList[]" multiple="multiple" style="max-width:180px;overflow-x: scroll;">
+                            <option value="1">Right List Option 1</option>
+                            <option value="2">Right List Option 2</option>
+                        </select>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+                <hr>
+                <table>
+                  <tr><td>
+                  <button type="button" onclick="send_request(1)" class="btn"  style="padding:8px"><b>Download Report</b></button>
+                  </td></tr>
+                </table>
+            </td>
+          </tr>
+        </table>
+      </form>
+      <hr>
+    </div>
+    <br><br>
+  </div>
+
+  <div data-role="page" id="p4" data-enhance="false" style="position:relative;width:100%;min-width:300px;z-index: 9;text-align: center;padding-bottom: 200px">
+    <div class='admin_requests_history box box_hollow' width="100%" style="padding-left:100px;max-height: 600px;overflow-y: scroll" >
+      <div id="admin_requests_history" style="display:none;padding:4px" width="100%"><span class="username" style="padding-right:15px"></span><button type="button" class="btn" onclick="approveRequest(this)">Approve</button><button type="button" style="color:red;margin-left:5px" class="btn" onclick="rejectRequest(this)">Reject</button><span style="margin-left:10px;padding-left:10px" class="type"></span><span class="start_date"></span><span class="end_date"></span><span class="hours"></span><span class="note"></span><span class="status"></span><button type="button" class="btn" style="display:none">Delete</button></div>
+    </div>
+  </div>
+
+  <div data-role="page" id="p5" style="position:relative;width:100%;min-width:300px;z-index: 9;text-align: center;padding-bottom: 200px">
+    <div data-enhance="false" class="" id="userProfile" style="display:block" align="center">
+      <div align="center"><h4>USER PROFILE</h4></div><br>
+      <form action="edit_profile.php" method="post" name="edit_profile" id="edit_profile"" target="frameTarget">
+      <input type="text" style="display:none" id="edit_profile_user" name="edit_profile_user" value="">
+      <table><tr><td>User :</td>
+      <td><input class="input-text" style="height:30px;width:200px" type="text" name="edit_profile_name" id="edit_profile_name" value="" placeholder="" readonly></td></tr>
+      <td>Enter New Password :</td>
+      <td><input class="input-text" style="height:30px;width:200px" type="password" name="edit_profile_pass" id="edit_profile_pass" value="" placeholder=""></td></tr>
+      <td>Confirm New Password :</td>
+      <td><input class="input-text" style="height:30px;width:200px" type="password" name="edit_profile_confirm" id="edit_profile_confirm" value="" placeholder=""></td></tr>
+      <td id="edit_profile_vacation_title" style="display:none">(Admin) Edit Vacation Days :</td>
+      <td><input class="input-text" style="height:30px;width:200px;display:none" type="text" name="edit_profile_vacation" id="edit_profile_vacation" value="" placeholder=""></td></tr>
+      <td id="edit_profile_vacation_used_title" style="display:none">(Admin) Edit Used Vacation :</td>
+      <td><input class="input-text" style="height:30px;width:200px;display:none" type="text" name="edit_profile_vacation_used" id="edit_profile_vacation_used" value="" placeholder=""></td></tr>
+      <td id="edit_profile_personal_title" style="display:none">(Admin) Edit Personal Hours :</td>
+      <td><input class="input-text" style="height:30px;width:200px;display:none" type="text" name="edit_profile_personal" id="edit_profile_personal" value="" placeholder=""></td></tr>
+      </table>
+      <input class="btn" type="submit" name="edit_profile_submit" id="edit_profile_submit" value="Submit Changes"><br><br><br>
+      </form>
+    </div>
+  </div>
+
+  <!-- PHP form triggers --> 
+  <div data-enhance="false" id="form_triggers" >
+
+    <form action="states.php" method="post" name="states_form" style="display:none" target="frameTarget">
+    <input type="text" name="state_username" id="state_username" value="">
+    <input type="text" name="state_id" id="state_id" value="">
+    <input type="text" name="date1" id="date1" value="">
+    <input type="submit" name="state_submit" id="state_submit" value="Submit">
+    </form>
+    <label for="state_submit" style="display:none">Submit</label>
+
+    <form action="set_activity1.php" method="post" name="set_activity1_form" style="display:none" target="frameTarget">
+    <input type="text" name="set_activity1_director" id="set_activity1_director" value="">
+    <input type="text" name="set_activity1_study" id="set_activity1_study" value="">
+    <input type="submit" name="set_activity1_submit" id="set_activity1_submit" value="Submit">
+    </form>
+    <label for="set_activity1_submit" style="display:none">Submit</label>
+
+    <form action="set_activity2.php" method="post" name="set_activity2_form" style="display:none" target="frameTarget">
+    <input type="text" name="set_activity2_study" id="set_activity2_study" value="">
+    <input type="text" name="set_activity2_activity1" id="set_activity2_activity1" value="">
+    <input type="submit" name="set_activity2_submit" id="set_activity2_submit" value="Submit">
+    </form>
+    <label for="set_activity2_submit" style="display:none">Submit</label>
+
+    <form action="set_history.php" method="post" name="set_history_form" style="display:none" target="frameTarget">
+    <input type="text" name="history_start" id="history_start" value="">
+    <input type="text" name="history_end" id="history_end" value="">
+    <input type="text" name="history_flag" id="history_flag" value="0">
+    <input type="text" name="history_username" id="history_username" value="">
+    <input type="submit" name="history_submit" id="history_submit" value="Submit">
+    </form>
+    <label for="history_submit" style="display:none">Submit</label>
+
+    <form action="set_entry.php" method="post" name="set_entry_form" style="display:none" target="frameTarget">
+    <input type="text" name="set_entry_id" id="set_entry_id" value="">
+    <input type="submit" name="set_entry_submit" id="set_entry_submit" value="Submit">
+    </form>
+    <label for="set_entry_submit" style="display:none">Submit</label>
+
+    <form action="approve_timeoff.php" method="post" name="approve_timeoff_form" style="display:none" target="frameTarget">
+    <input type="text" name="approve_timeoff_user" id="approve_timeoff_user" value="">
+    <input type="text" name="approve_timeoff_id" id="approve_timeoff_id" value="">
+    <input type="text" name="approve_timeoff_admin" id="approve_timeoff_admin" value="">
+    <input type="submit" name="approve_timeoff_submit" id="approve_timeoff_submit" value="Submit">
+    </form>
+    <label for="approve_timeoff_submit" style="display:none">Submit</label>
+
+    <form action="reject_timeoff.php" method="post" name="reject_timeoff_form" style="display:none" target="frameTarget">
+    <input type="text" name="reject_timeoff_user" id="reject_timeoff_user" value="">
+    <input type="text" name="reject_timeoff_id" id="reject_timeoff_id" value="">
+    <input type="submit" name="reject_timeoff_submit" id="reject_timeoff_submit" value="Submit">
+    </form>
+    <label for="reject_timeoff_submit" style="display:none">Submit</label>
+
+
+    <form action="set_request.php" method="post" name="set_request_form" style="display:none" target="frameTarget">
+    <input type="text" name="set_request_id" id="set_request_id" value="">
+    <input type="submit" name="set_request_submit" id="set_request_submit" value="Submit">
+    </form>
+    <label for="set_request_submit" style="display:none">Submit</label>
+
+    <form action="check_login.php" method="post" name="check_login_form" style="display:none" target="frameTarget">
+    <input type="text" name="check_login_username" id="check_login_username" value="">
+    <input type="submit" name="check_login_submit" id="check_login_submit" value="Submit">
+    </form>
+    <label for="check_login_submit" style="display:none">Submit</label>
+
+    <form action="logout.php" method="post" name="logout_form" style="display:none" target="frameTarget">
+    <input type="text" name="logout_username" id="logout_username" value="">
+    <input type="submit" name="logout_submit" id="logout_submit" value="Submit">
+    </form>
+    <label for="logout_submit" style="display:none">Submit</label>
+
+    <form action="http://10.35.0.235/rhino/auto-login.php" method="post" name="start_expense_form" style="display:none" target="frameTarget">
+    <input type="text" name="date_expense" id="date_expense" value="">
+    <input type="text" name="user_login_expense" id="user_login_expense" value="">
+    <input type="text" name="user_email_expense" id="user_email_expense" value="">
+    <input type="submit" name="expense_submit" id="expense_submit" value="Submit">
+    </form>
+    <label for="expense_submit" style="display:none">Submit</label>
+
+    <form action="admin_user.php" method="post" name="set_admin_form" id="set_admin_form" style="display:none">
+    <input type="text" name="setAdminUser" id="setAdminUser" value="">
+    <input type="submit" name="set_admin_submit" id="set_admin_submit" value="Submit">
+    </form>
+    <label for="set_admin_submit" style="display:none">Submit</label>
+
+    <iframe id="frameTarget" name="frameTarget" frameBorder="0" style="display:none"></iframe>
+    <iframe id="formTarget" name="formTarget" frameBorder="0" style="display:none"></iframe>
+  </div>
+
+
+  <!--jQuery References--> 
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript"></script>
+  <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js" type="text/javascript"></script>
+  <script>
+      $(document).on('mobileinit', function () {
+          $.mobile.ignoreContentEnabled = true;
+      });
+  </script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <!--Wijmo Widgets JavaScript-->
+  <script src="http://cdn.wijmo.com/jquery.wijmo-open.all.3.20161.90.min.js" type="text/javascript"></script>
+  <script src="http://cdn.wijmo.com/jquery.wijmo-pro.all.3.20161.90.min.js" type="text/javascript"></script>
+  <script src="http://cdn.wijmo.com/interop/wijmo.data.ajax.3.20161.90.js" type="text/javascript"></script>
+  <script src="../js/ora.js" type="text/javascript"></script>
+
+  <script type="text/javascript">
+
+    function init() {
+
+    }
+
+    $(document).ready(function() {
+
+      //$.mobile.loading().hide();
+      //$.mobile.loadingMessage = false;
+
+      $(".tab_menu li a").click(function(e){
+        //e.preventDefault();
+      });
+
+      $(".tab_menu li").click(function(e){
+        $(".tab_menu li").removeClass("active");
+        $(this).addClass("active");
+      });    
+    });
+  </script>
+</body>
+</html>
+

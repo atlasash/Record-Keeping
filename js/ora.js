@@ -846,7 +846,7 @@ function setUserAdmin(el)
 {
   var user = $(el).val();
   document.getElementById("setAdminUser").value = user;
-  window.location.href='http://10.35.0.235/ora/php/admin_user.php?admin=' + user;
+  window.location.href='http://YOUR_SITE/php/admin_user.php?admin=' + user;
   //document.getElementById("set_admin_submit").click();
     
 }

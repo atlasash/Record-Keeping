@@ -190,25 +190,44 @@ if($action == "1"){
     if($report_type == "Study L1 Activity report"){
 
 
-        $activity2_filters = join("','",$activity2_items);
+        $activity1_filters = join("','",$activity1_items);
 
-        fputcsv($output, array('Study Activity','From ' . $start_date,'Ending ' . $end_date));
+        fputcsv($output, array('Study L1 Activity report','From ' . $start_date,'Ending ' . $end_date));
         fputcsv($output, array(''));
-        $temp_arr = $activity1_items;
-        array_unshift($temp_arr, 'Study', 'User');
-        array_push($temp_arr,"TOTAL");
-        fputcsv($output, $temp_arr);
+
         $totals_arr = array();
+        $activity1_filtered_arr = array();
 
         mysql_connect($host, $username, $password) or
             die("Could not connect: " . mysql_error());
         mysql_select_db($dbname);
 
+        /* START ACTIVITY 2 FILTER */
+        if($_POST['activity2Report_set'][0] != "0"){
+            $activity2_filters = join("','",$activity2_items);
+            for ($z = 0; $z < $activity1_count; $z++) {
+                $result = mysql_query("SELECT DISTINCT activity_1 FROM activity_level_2 WHERE activity_1='$activity1_items[$z]' AND activity_2 IN ('$activity2_filters')");
+                $num_rows = mysql_num_rows($result);
+                $row = mysql_fetch_array($result, MYSQL_NUM);
+                if ($num_rows > 0){
+                    array_push($activity1_filtered_arr,$row[0]);
+                }
+            }
+            $activity1_items = $activity1_filtered_arr;
+            $activity1_count = count($activity1_filtered_arr);
+        }
+        /* END ACTIVITY 2 FILTER */
+
+        $temp_arr = $activity1_items;
+        array_unshift($temp_arr, 'Study', 'User');
+        array_push($temp_arr,"TOTAL");
+        fputcsv($output, $temp_arr);
+
         for ($x = 0; $x < $study_count; $x++) {
 
             for ($y = 0; $y < $user_count; $y++) {
 
-                $result = mysql_query("SELECT user_login FROM users WHERE user_login='$user_items[$y]' AND company IN ('$company_type_filters')");
+                $result = mysql_query("SELECT user_login FROM users WHERE user_login='$user_items[$y]' AND (company IN ('$company_type_filters'))");
                 $num_rows = mysql_num_rows($result);
 
                 if ($num_rows > 0){
@@ -220,15 +239,12 @@ if($action == "1"){
                     for ($z = 0; $z < $activity1_count; $z++) {
 
                         $total_hours_employee = 0;
-                        for ($m = 0; $m < $activity2_count; $m++) {
-                            $result = mysql_query("SELECT hours,date,study,activity_1,activity_2 FROM timesheet_log WHERE study='$study_items[$x]' AND user_login='$user_items[$y]' AND activity_1='$activity1_items[$z]'");
+                        //for ($m = 0; $m < $activity2_count; $m++) {
+                            $result = mysql_query("SELECT hours,date,study,activity_1,activity_2 FROM timesheet_log WHERE study='$study_items[$x]' AND user_login='$user_items[$y]'");
                             //$result = mysql_query("SELECT hours,date FROM timesheet_log WHERE study='$study_items[$x]' AND user_login='$user_items[$y]' AND activity_1='$activity1_items[$z]'");
                             while ($row = mysql_fetch_array($result, MYSQL_NUM)) {
-                                $temp = $row[4];
-                                if($row[4] === ''){
-                                    $temp = '(empty)';
-                                }
-                                if($temp == $activity2_items[$m]){
+                                $temp = $row[3];
+                                if($temp == $activity1_items[$z]){
                                     $entry_date = $row[1];
                                     $entry_date = date('Y-m-d',strtotime($entry_date));
                                     $entry_hours = $row[0];
@@ -239,7 +255,7 @@ if($action == "1"){
                                     }
                                 }
                             }   
-                        }
+                        //}
 
                         $total_study += $total_hours_employee;
                         $totals_arr[$z] += $total_hours_employee;
@@ -248,7 +264,9 @@ if($action == "1"){
 
                     array_unshift($activity_arr, $study_items[$x] , $user_items[$y]);
                     array_push($activity_arr,$total_study);
-                    fputcsv($output, $activity_arr);
+                    if($total_study != 0){
+                        fputcsv($output, $activity_arr);
+                    }
                 }
             }
         }
@@ -266,18 +284,40 @@ if($action == "1"){
 
 
         $activity1_filters = join("','",$activity1_items);
+        $activity2_filters = join("','",$activity2_items);
 
-        fputcsv($output, array('Study Activity','From ' . $start_date,'Ending ' . $end_date));
+        fputcsv($output, array('Study L2 Activity report','From ' . $start_date,'Ending ' . $end_date));
         fputcsv($output, array(''));
-        $temp_arr = $activity2_items;
-        array_unshift($temp_arr, 'Study', 'User', 'Activity 1');
-        array_push($temp_arr,"TOTAL");
-        fputcsv($output, $temp_arr);
+
         $totals_arr = array();
+        $activity2_filtered_arr = array();
 
         mysql_connect($host, $username, $password) or
             die("Could not connect: " . mysql_error());
         mysql_select_db($dbname);
+
+
+        /* START ACTIVITY 1 FILTER */
+
+        if($_POST['activity1Report_set'][0] != "0"){
+            for ($z = 0; $z < $activity2_count; $z++) {
+                $result = mysql_query("SELECT DISTINCT activity_2 FROM activity_level_2 WHERE activity_2='$activity2_items[$z]' AND activity_1 IN ('$activity1_filters')");
+                $num_rows = mysql_num_rows($result);
+                $row = mysql_fetch_array($result, MYSQL_NUM);
+                if ($num_rows > 0){
+                    array_push($activity2_filtered_arr,$row[0]);
+                }
+            }
+            $activity2_items = $activity2_filtered_arr;
+            $activity2_count = count($activity2_filtered_arr);
+        }
+
+        /* END ACTIVITY 1 FILTER */
+
+        $temp_arr = $activity2_items;
+        array_unshift($temp_arr, 'Study', 'User', 'Activity 1');
+        array_push($temp_arr,"TOTAL");
+        fputcsv($output, $temp_arr);
 
         for ($x = 0; $x < $study_count; $x++) {
 
@@ -297,7 +337,6 @@ if($action == "1"){
 
                         $total_hours_employee = 0;
                         $result = mysql_query("SELECT hours,date,study,activity_1,activity_2 FROM timesheet_log WHERE study='$study_items[$x]' AND user_login='$user_items[$y]' AND activity_1 IN ('$activity1_filters')");
-                        //$result = mysql_query("SELECT hours,date FROM timesheet_log WHERE study='$study_items[$x]' AND user_login='$user_items[$y]' AND activity_1='$activity1_items[$z]'");
                         while ($row = mysql_fetch_array($result, MYSQL_NUM)) {
                             $temp = $row[4];
                             if($row[4] === ''){
@@ -314,7 +353,13 @@ if($action == "1"){
                                     $total_hours_employee += $entry_hours;
                                 }
                             }
-                        }   
+                        }
+
+                        /****** START MYSQL ONLY ALTERNATIVE ************
+                        $result = mysql_query("SELECT SUM(hours) AS hours_sum FROM timesheet_log WHERE activity_2='$activity2_items[$z]' AND study='$study_items[$x]' AND user_login='$user_items[$y]' AND activity_1 IN ('$activity1_filters') AND (date >= '$start_date' AND date <= '$end_date')"); 
+                        $row = mysql_fetch_assoc($result); 
+                        $total_hours_employee = $row['hours_sum'];
+                        ****** END MYSQL ONLY ALTERNATIVE ************/ 
 
                         $total_study += $total_hours_employee;
                         $totals_arr[$z] += $total_hours_employee;
@@ -323,7 +368,9 @@ if($action == "1"){
 
                     array_unshift($activity_arr, $study_items[$x] , $user_items[$y], $temp2);
                     array_push($activity_arr,$total_study);
-                    fputcsv($output, $activity_arr);
+                    if($total_study != 0){
+                        fputcsv($output, $activity_arr);
+                    }
                 }
             }
         }
@@ -339,7 +386,10 @@ if($action == "1"){
     }
     elseif($report_type == "User Study Activity Report"){
 
-        fputcsv($output, array('Study Activity','From ' . $start_date,'Ending ' . $end_date));
+        $activity1_filters = join("','",$activity1_items);
+        $activity2_filters = join("','",$activity2_items);
+
+        fputcsv($output, array('User Study Activity Report','From ' . $start_date,'Ending ' . $end_date));
         fputcsv($output, array(''));
         $temp_arr = $study_items;
         array_unshift($temp_arr, 'PROJECTS');
@@ -356,7 +406,7 @@ if($action == "1"){
 
         for ($x = 0; $x < $user_count; $x++) {
 
-            $result = mysql_query("SELECT user_login FROM users WHERE user_login='$user_items[$x]' AND company IN ('$company_type_filters')");
+            $result = mysql_query("SELECT user_login FROM users WHERE user_login='$user_items[$x]' AND (company IN ('$company_type_filters'))");
             $num_rows = mysql_num_rows($result);
 
             if ($num_rows > 0){
@@ -436,7 +486,9 @@ if($action == "1"){
 
                 array_unshift($activity_arr, $user_items[$x]);
                 array_push($activity_arr,$total_study);
-                fputcsv($output, $activity_arr);
+                if($total_study != 0){
+                    fputcsv($output, $activity_arr);
+                }
             }
         }
 
@@ -450,6 +502,10 @@ if($action == "1"){
         exit(); 
     }
     else{
+
+        $activity2_filters = join("','",$activity2_items);
+        $activity1_filters = join("','",$activity1_items);
+        $study_filters = join("','",$study_items);
 
         // output the column headings
         /*  fputcsv($output, array('Column 1', 'Column 2', 'Column 3'));  */
@@ -469,7 +525,7 @@ if($action == "1"){
             $total_personal_hours = 0;
             $total_unpaid_hours = 0;
             $total_vacation_days = 0;
-            for ($x = 1; $x < $user_count; $x++) {
+            for ($x = 0; $x < $user_count; $x++) {
                 $total_hours_employee = 0;
                 $total_personal_hours_employee = 0;
                 $total_unpaid_hours_employee = 0;
@@ -488,7 +544,7 @@ if($action == "1"){
                     mysql_connect($host, $username, $password) or
                         die("Could not connect: " . mysql_error());
                     mysql_select_db($dbname);
-                    $result = mysql_query("SELECT user_firstname,user_lastname FROM users WHERE user_login='" . $user . "'");
+                    $result = mysql_query("SELECT user_firstname,user_lastname FROM users WHERE user_login='$user'");
                     $row = mysql_fetch_array($result, MYSQL_NUM);
                     $name = $row[0] . ' ' . $row[1];
                     mysql_free_result($result);
@@ -502,7 +558,7 @@ if($action == "1"){
                             die("Could not connect: " . mysql_error());
                         mysql_select_db($dbname);
 
-                        $result = mysql_query("SELECT hours,date,study,activity_1,activity_2,notes FROM timesheet_log WHERE  user_login='" . $user . "'");
+                        $result = mysql_query("SELECT hours,date,study,activity_1,activity_2,notes FROM timesheet_log WHERE  user_login='$user' AND study IN ('$study_filters')");
 
                         while ($row = mysql_fetch_array($result, MYSQL_NUM)) {
 
@@ -516,7 +572,7 @@ if($action == "1"){
                             }
                         }
 
-                        $result = mysql_query("SELECT hours,start_date,type,approved,end_date,note FROM request WHERE user_login='" . $user . "'");
+                        $result = mysql_query("SELECT hours,start_date,type,approved,end_date,note FROM request WHERE user_login='$user'");
 
                         while ($row = mysql_fetch_array($result, MYSQL_NUM)) {
 
@@ -569,7 +625,7 @@ if($action == "1"){
             if($add_history == '1')
             {
 
-                for ($x = 1; $x < $user_count; $x++) {
+                for ($x = 0; $x < $user_count; $x++) {
 
                     //$user = $_POST['requests_id'][$x];
                     //$name = $_POST['requests_name'][$x];
@@ -586,7 +642,7 @@ if($action == "1"){
                         mysql_connect($host, $username, $password) or
                             die("Could not connect: " . mysql_error());
                         mysql_select_db($dbname);
-                        $result = mysql_query("SELECT user_firstname,user_lastname FROM users WHERE user_login='" . $user . "'");
+                        $result = mysql_query("SELECT user_firstname,user_lastname FROM users WHERE user_login='$user'");
                         $row = mysql_fetch_array($result, MYSQL_NUM);
                         $name = $row[0] . ' ' . $row[1];
                         mysql_free_result($result);
@@ -599,7 +655,7 @@ if($action == "1"){
                                 die("Could not connect: " . mysql_error());
                             mysql_select_db($dbname);
 
-                            $result = mysql_query("SELECT hours,date,study,activity_1,activity_2,notes FROM timesheet_log WHERE user_login='" . $user . "'");
+                            $result = mysql_query("SELECT hours,date,study,activity_1,activity_2,notes FROM timesheet_log WHERE user_login='$user' AND (activity_1 IN ('$activity1_filters')) AND (activity_2 IN ('$activity2_filters')) AND (study IN ('$study_filters'))");
 
                             while ($row = mysql_fetch_array($result, MYSQL_NUM)) {
 

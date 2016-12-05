@@ -1,5 +1,5 @@
 <?php   global $current_user;
-                                $second_website_url = 'http://10.35.0.235/rhino'; // put your second website url
+                                $second_website_url = 'http://YOUR_SITE'; // put your second website url
                                 $date = $_POST['date_expense'];
                                 $user_email = $_POST['user_email_expense'];
                                 $user_login = $_POST['user_login_expense'];
