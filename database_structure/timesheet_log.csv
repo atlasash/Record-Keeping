@@ -1,1670 +1,1670 @@
 ID,user_login,study,activity_1,activity_2,date,hours,week,byweek,year,notes,submitted,approved,day
-39,alebedev,"Veritas IRB Inc.","Project Management",,2016-09-01,1.00,0,17,2016,,0,1,1
-40,alebedev,"Non-Study Activity",,,2016-09-01,0.00,0,17,2016,,0,1,1
-41,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-09-01,8.00,0,17,2016,,0,1,1
-43,mdakouo,TEO-RHA-1402,Biostatistics,,2016-09-01,8.00,0,17,2016,,0,1,1
-44,abekri,TEO-RHA-1501,"Data Management",,2016-09-01,1.00,0,17,2016,,0,1,1
-45,nbenmouffok,SCY-078-203,"Data Management","Project Management/Supervision",2016-09-01,2.00,0,17,2016,,0,1,1
-46,nkordi,SCY-078-203,"Data Management",,2016-09-02,0.00,0,17,2016,,0,1,1
-49,cmarion,V01-123A-201,,,2016-09-01,7.50,0,17,2016,,0,1,1
-52,kantonucci,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-09-08,0.50,0,17,2016,,0,1,1
-53,kantonucci,"Non-Study Activity",Lunch,,2016-08-31,0.50,0,17,2016,,0,1,1
-54,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-01,2.00,0,17,2016,,0,1,1
-55,kantonucci,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-09-01,2.00,0,17,2016,,0,1,1
-56,kantonucci,SUN-15-03,"Study Maintenance","Project Management/Supervision",2016-09-01,1.50,0,17,2016,,0,1,1
-57,kantonucci,SUN-15-04,"Study Maintenance","Project Management/Supervision",2016-09-01,1.50,0,17,2016,,0,1,1
-58,tmete,TEO-RHA-1302,"Study Closure",,2016-09-01,1.00,0,17,2016,,0,1,1
-59,tmete,TEO-RHA-1501,"Study Start-up",,2016-09-01,1.00,0,17,2016,,0,1,1
-60,jparente,"Non-Study Activity",,,2016-09-01,1.50,0,17,2016,,0,1,1
-61,avincelli,"Veritas IRB Inc.",Marketing/Communications,,2016-09-02,8.00,0,17,2016,,0,1,1
-62,nbenmouffok,V01-123A-201,"Data Management","Project Management/Supervision",2016-09-01,3.00,0,17,2016,,0,1,1
-63,nbenmouffok,TEO-RHA-1501,"Data Management","Project Management/Supervision",2016-09-01,3.00,0,17,2016,,0,1,1
-66,kemery,"Veritas IRB Inc.",QC,,2016-09-01,8.00,0,17,2016,,0,1,1
-71,snardo,SCY-078-203,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-01,5.50,0,17,2016,,0,1,1
-72,snardo,"Non-Study Activity",,,2016-09-01,0.00,0,17,2016,,0,1,1
-73,snardo,"Non-Study Activity",Lunch,,2016-09-01,0.50,0,17,2016,,0,1,1
-75,aoziegbe,"Veritas IRB Inc.",QC,,2016-09-02,8.00,0,17,2016,,0,1,1
-79,mjensen,V01-123A-201,"Data Management","Project Management/Supervision",2016-09-01,1.00,0,17,2016,,0,1,1
-82,mjensen,TEO-RHA-1302,"Medical Writing","Clinical Study Report",2016-09-01,4.00,0,17,2016,,0,1,1
-83,jparente,"Non-Study Activity",,,2016-09-01,2.25,0,17,2016,,0,1,1
-84,snardo,,,,2016-09-01,0.00,0,17,2016,,0,1,1
-85,snardo,SCY-078-203,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-02,7.50,0,17,2016,,0,1,1
-87,jmediati,"Non-Study Activity",Audit,,2016-09-01,0.00,0,17,2016,,0,1,1
-88,jmediati,TEO-RHA-1501,"Study Start-up","ICF Development",2016-09-02,0.00,0,17,2016,,0,1,1
-89,jmediati,"Veritas IRB Inc.",Marketing/Communications,,2016-09-01,8.00,0,17,2016,,0,1,1
-90,jmediati,"Veritas IRB Inc.",Marketing/Communications,,2016-09-02,8.00,0,17,2016,,0,1,1
-91,nkordi,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-02,7.50,0,17,2016,,0,1,1
-92,nkordi,SCY-078-203,"Data Management",,2016-09-01,7.50,0,17,2016,,0,1,1
-93,nsfato,"Non-Study Activity","Non-Study Related",,2016-09-01,8.00,0,17,2016,,0,1,1
-94,nsfato,"Non-Study Activity","Non-Study Related",,2016-09-02,8.00,0,17,2016,,0,1,1
-95,kemery,"Veritas IRB Inc.",QC,,2016-09-02,8.00,0,17,2016,,0,1,1
-96,jmediati,"Veritas IRB Inc.",Marketing/Communications,,2016-09-02,0.00,0,17,2016,,0,1,1
-97,alebedev,"Veritas IRB Inc.","Project Management",,2016-09-02,4.00,0,17,2016,,0,1,1
-98,alebedev,"Non-Study Activity","Statutory Holiday",,2016-09-02,4.00,0,17,2016,,0,1,1
-99,alebedev,"Non-Study Activity","Statutory Holiday",,2016-09-05,8.00,0,17,2016,,0,1,1
-100,alebedev,"Veritas IRB Inc.","Project Management",,2016-09-06,8.00,0,17,2016,,0,1,1
-101,kemery,"Veritas IRB Inc.",QC,,2016-08-29,8.00,0,17,2016,,0,1,1
-102,kemery,"Veritas IRB Inc.",QC,,2016-09-06,7.50,0,17,2016,,0,1,1
-103,jmediati,"Non-Study Activity","Statutory Holiday",,2016-09-05,8.00,0,18,2016,,0,1,1
-104,aoziegbe,"Non-Study Activity","Statutory Holiday",,2016-09-05,8.00,0,18,2016,,0,1,1
-105,snardo,SCY-078-203,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-06,1.00,0,18,2016,,0,1,1
-106,snardo,TEO-RHA-1501,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-06,6.50,0,18,2016,,0,1,1
-107,snardo,"Non-Study Activity",Lunch,,2016-09-06,0.50,0,18,2016,,0,1,1
-108,jmediati,"Veritas IRB Inc.",Marketing/Communications,,2016-09-06,8.00,0,18,2016,,0,1,1
-109,jmediati,"Non-Study Activity","Personal Time",,2016-09-06,0.00,0,18,2016,,0,1,1
-110,nsfato,"Non-Study Activity","Non-Study Related",,2016-09-06,8.00,0,18,2016,,0,1,1
-111,kantonucci,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-09-06,2.00,0,18,2016,,0,1,1
-112,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-06,3.00,0,18,2016,,0,1,1
-113,kantonucci,SUN-15-03,"Study Maintenance","Project Management/Supervision",2016-09-06,1.50,0,18,2016,,0,1,1
-114,kantonucci,SUN-15-04,"Study Maintenance","Project Management/Supervision",2016-09-06,1.50,0,18,2016,,0,1,1
-115,kantonucci,"Non-Study Activity","Statutory Holiday",,2016-09-05,8.00,0,18,2016,,0,1,1
-116,aoziegbe,"Veritas IRB Inc.",QC,,2016-09-06,7.50,0,18,2016,,0,1,1
-117,aoziegbe,"Non-Study Activity",Lunch,,2016-09-06,0.50,0,18,2016,,0,1,1
-118,nkordi,"Non-Study Activity",Training,,2016-09-13,0.50,0,18,2016,,0,1,1
-119,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-01,2.00,0,18,2016,,0,1,1
-120,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-01,2.50,0,18,2016,,0,1,1
-121,mletendre,"Veritas IRB Inc.","Staff Meeting",,2016-09-01,0.50,0,18,2016,,0,1,1
-122,mletendre,"Non-Study Activity","Office Management",,2016-09-01,3.00,0,18,2016,,0,1,1
-123,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-02,1.50,0,18,2016,,0,1,1
-124,mletendre,"Non-Study Activity","Office Management",,2016-09-02,4.50,0,18,2016,,0,1,1
-125,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-02,2.00,0,18,2016,,0,1,1
-126,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-06,3.50,0,18,2016,,0,1,1
-127,mletendre,"Veritas IRB Inc.","Staff Meeting",,2016-09-06,1.00,0,18,2016,,0,1,1
-128,mletendre,"Non-Study Activity","Office Management",,2016-09-06,4.00,0,18,2016,,0,1,1
-129,tmete,"Non-Study Activity","Statutory Holiday",,2016-09-05,8.00,0,18,2016,,0,1,1
-130,tmete,"Non-Study Activity",Lunch,,2016-09-06,0.50,0,18,2016,,0,1,1
-131,tmete,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-09-06,1.50,0,18,2016,,0,1,1
-132,tmete,TEO-RHA-1302,"Study Closure","Project Management/Supervision",2016-09-06,4.50,0,18,2016,,0,1,1
-133,tmete,TEO-RHA-1402,"Study Closure","Project Management/Supervision",2016-09-06,1.50,0,18,2016,,0,1,1
-134,lstephan,"Non-Study Activity",,,2016-09-01,0.00,0,18,2016,,0,1,1
-135,lstephan,"Non-Study Activity","Statutory Holiday",,2016-09-02,8.00,0,18,2016,,0,1,1
-136,lstephan,"Non-Study Activity","Statutory Holiday",,2016-09-05,8.00,0,18,2016,,0,1,1
-137,lstephan,"Veritas IRB Inc.","Project Management",,2016-09-06,8.00,0,18,2016,,0,1,1
-138,lstephan,"Veritas IRB Inc.","Project Management",,2016-09-07,8.00,0,18,2016,,0,1,1
-139,kemery,"Veritas IRB Inc.",QC,,2016-09-07,7.50,0,18,2016,,0,1,1
-140,jparente,TEO-RHA-1501,"Study Start-up","Study Conceptualization",2016-09-07,1.00,0,18,2016,,0,1,1
-141,kantonucci,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-07,1.00,0,18,2016,,0,1,1
-142,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-07,3.00,0,18,2016,,0,1,1
-143,kantonucci,SUN-15-03,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-07,1.50,0,18,2016,,0,1,1
-144,kantonucci,SUN-15-04,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-07,1.50,0,18,2016,,0,1,1
-145,kantonucci,SUN-15-03,"Study Maintenance","IRB Coordination/Communication",2016-09-07,0.50,0,18,2016,,0,1,1
-146,kantonucci,SUN-15-04,"Study Maintenance","IRB Coordination/Communication",2016-09-07,0.50,0,18,2016,,0,1,1
-147,aoziegbe,"Non-Study Activity",Lunch,,2016-09-07,0.50,0,18,2016,,0,1,1
-148,aoziegbe,"Veritas IRB Inc.",QC,,2016-09-07,7.50,0,18,2016,,0,1,1
-149,snardo,SCY-078-203,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-07,5.00,0,18,2016,,0,1,1
-150,snardo,TEO-RHA-1501,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-07,2.50,0,18,2016,,0,1,1
-151,snardo,"Non-Study Activity",Lunch,,2016-09-07,0.50,0,18,2016,,0,1,1
-152,snardo,"Non-Study Activity",Lunch,,2016-09-02,0.50,0,17,2016,,0,1,1
-153,jmediati,"Veritas IRB Inc.",Marketing/Communications,,2016-09-07,8.00,0,17,2016,,0,1,1
-154,nbenmouffok,"Non-Study Activity",Lunch,,2016-09-01,0.50,0,17,2016,,0,1,1
-155,jparente,Directors,Accounting,,2016-09-07,2.00,0,18,2016,,0,1,1
-156,jparente,Directors,Legal,,2016-09-07,3.00,0,18,2016,,0,1,1
-157,jparente,Directors,Legal,,2016-09-03,5.00,0,18,2016,,0,1,1
-158,jparente,Directors,Legal,,2016-09-04,5.00,0,18,2016,,0,1,1
-159,jparente,Directors,Legal,,2016-09-05,5.00,0,18,2016,,0,1,1
-160,jparente,Directors,Legal,,2016-09-06,5.00,0,18,2016,,0,1,1
-161,nbenmouffok,"Non-Study Activity",Lunch,,2016-09-02,0.50,0,17,2016,,0,1,1
-162,nbenmouffok,SCY-078-203,"Data Management","Project Management/Supervision",2016-09-02,2.50,0,17,2016,,0,1,1
-163,nbenmouffok,V01-123A-201,"Data Management","Project Management/Supervision",2016-09-02,3.00,0,17,2016,,0,1,1
-164,nbenmouffok,CP-PER-2015-01,"Data Management","Project Management/Supervision",2016-09-02,1.00,0,17,2016,,0,1,1
-165,nbenmouffok,SUN-15-04,"Data Management","Project Management/Supervision",2016-09-02,1.00,0,17,2016,,0,1,1
-166,nbenmouffok,V01-123A-201,"Data Management","Project Management/Supervision",2016-09-06,3.00,0,17,2016,,0,1,1
-167,nbenmouffok,TEO-RHA-1501,"Data Management","Project Management/Supervision",2016-09-06,1.50,0,17,2016,,0,1,1
-168,jparente,Directors,"Corporate Meeting",,2016-09-06,0.75,0,18,2016,,0,1,1
-169,nbenmouffok,SCY-078-203,"Data Management","Project Management/Supervision",2016-09-06,3.00,0,17,2016,,0,1,1
-170,nbenmouffok,"Non-Study Activity",Lunch,,2016-09-06,0.50,0,17,2016,,0,1,1
-171,snardo,"Non-Study Activity","Statutory Holiday",,2016-09-05,8.00,0,18,2016,,0,1,1
-172,nkordi,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-06,6.50,0,18,2016,,0,1,1
-173,nkordi,SUN-15-03,Training,,2016-09-06,1.00,0,18,2016,,0,1,1
-174,tmete,"Non-Study Activity",Lunch,,2016-09-07,0.50,0,18,2016,,0,1,1
-175,nkordi,"Non-Study Activity","Statutory Holiday",,2016-09-05,8.00,0,18,2016,,0,1,1
-176,tmete,TEO-RHA-1501,"Study Start-up","Regulatory Documents Development/Collection/Submission",2016-09-07,7.50,0,18,2016,,0,1,1
-177,nbenmouffok,V01-123A-201,"Data Management","Project Management/Supervision",2016-09-07,4.00,0,17,2016,,0,1,1
-178,nbenmouffok,"Non-Study Activity",Lunch,,2016-09-07,0.50,0,17,2016,,0,1,1
-179,nbenmouffok,SCY-078-203,"Data Management","Project Management/Supervision",2016-09-07,2.00,0,17,2016,,0,1,1
-180,cmarion,"Non-Study Activity",,,2016-09-12,0.50,0,17,2016,,0,1,1
-181,nbenmouffok,SUN-15-04,"Data Management","Project Management/Supervision",2016-09-07,1.50,0,17,2016,,0,1,1
-182,cmarion,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-02,6.50,0,17,2016,,0,1,1
-183,nbenmouffok,"Non-Study Activity","Statutory Holiday",,2016-09-05,8.00,0,17,2016,,0,1,1
-184,cmarion,"Non-Study Activity",,,2016-09-05,8.00,0,17,2016,,0,1,1
-185,cmarion,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-06,7.50,0,17,2016,,0,1,1
-186,cmarion,,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-07,7.50,0,17,2016,,0,1,1
-187,cmarion,SUN-15-04,Training,,2016-09-02,1.00,0,17,2016,,0,1,1
-189,jparente,Directors,Accounting,,2016-09-07,1.00,0,18,2016,,0,1,1
-190,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-07,1.00,0,18,2016,,0,1,1
-191,mjensen,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-01,2.00,0,18,2016,,0,1,1
-192,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-07,1.00,0,18,2016,,0,1,1
-193,mjensen,TEO-RHA-1302,Biostatistics,"Project Management/Supervision",2016-09-02,8.00,0,18,2016,,0,1,1
-194,mletendre,"Veritas IRB Inc.","Staff Meeting",,2016-09-07,0.40,0,18,2016,,0,1,1
-195,mletendre,"Veritas IRB Inc.","Staff Meeting",,2016-09-07,0.50,0,18,2016,,0,1,1
-196,mletendre,Directors,Legal,,2016-09-07,0.50,0,18,2016,,0,1,1
-197,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-07,0.50,0,18,2016,,0,1,1
-198,mletendre,Directors,Legal,,2016-09-07,1.25,0,18,2016,,0,1,1
-199,alebedev,"Veritas IRB Inc.","Project Management",,2016-09-08,8.00,0,18,2016,,0,1,1
-200,alebedev,"Veritas IRB Inc.","Project Management",,2016-09-07,8.00,0,18,2016,,0,1,1
-201,aoziegbe,"Veritas IRB Inc.",QC,,2016-08-29,8.00,0,18,2016,,0,1,1
-202,jmediati,"Veritas IRB Inc.",Marketing/Communications,,2016-09-08,8.00,0,18,2016,,0,1,1
-203,aoziegbe,"Veritas IRB Inc.",QC,,2016-08-31,8.00,0,18,2016,,0,1,1
-204,aoziegbe,"Veritas IRB Inc.",QC,,2016-08-30,8.00,0,18,2016,,0,1,1
-205,aoziegbe,"Veritas IRB Inc.",QC,,2016-09-01,4.00,0,18,2016,,0,1,1
-206,aoziegbe,"Veritas IRB Inc.",QC,,2016-09-08,8.00,0,18,2016,,0,1,1
-207,jparente,Directors,Legal,,2016-09-08,5.00,0,18,2016,,0,1,1
-208,nsfato,"Non-Study Activity","Office Management",,2016-09-07,8.00,0,18,2016,,0,1,1
-209,nsfato,"Non-Study Activity","Office Management",,2016-09-08,8.00,0,18,2016,,0,1,1
-210,lstephan,"Veritas IRB Inc.","Project Management",,2016-09-08,8.00,0,18,2016,,0,1,1
-211,kemery,"Veritas IRB Inc.",QC,,2016-09-08,7.50,0,18,2016,,0,1,1
-212,ikryvonos,V01-123A-201,"Study Maintenance","Project Management/Supervision",2016-09-08,8.00,0,18,2016,,0,1,1
-213,snardo,TEO-RHA-1501,"Data Management","CRF Development",2016-09-08,5.00,0,18,2016,,0,1,1
-214,snardo,SCY-078-203,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-08,2.50,0,18,2016,,0,1,1
-215,snardo,"Non-Study Activity",Lunch,,2016-09-08,0.50,0,18,2016,,0,1,1
-216,ikryvonos,"Non-Study Activity","Statutory Holiday",,2016-08-29,8.00,0,18,2016,,0,1,1
-217,ikryvonos,V01-123A-201,"Study Maintenance","Monitoring Report Writing/Review/Analysis",2016-09-06,4.00,0,18,2016,,0,1,1
-218,ikryvonos,V01-123A-201,"Study Maintenance","Project Management/Supervision",2016-09-06,3.00,0,18,2016,,0,1,1
-219,ikryvonos,V01-123A-201,"Study Maintenance","Team Meeting",2016-09-06,0.50,0,18,2016,,0,1,1
-220,ikryvonos,V01-123A-201,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-06,0.50,0,18,2016,,0,1,1
-221,ikryvonos,V01-123A-201,"Study Maintenance","Sponsor Communications",2016-09-07,1.00,0,18,2016,,0,1,1
-222,ikryvonos,V01-123A-201,"Study Maintenance","Project Management/Supervision",2016-09-07,2.00,0,18,2016,,0,1,1
-223,ikryvonos,V01-123A-201,"Study Maintenance","Monitoring Report Writing/Review/Analysis",2016-09-07,5.00,0,18,2016,,0,1,1
-224,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-09-02,8.00,0,18,2016,,0,1,1
-225,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-09-12,8.00,0,17,2016,,0,1,1
-226,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-09-06,8.00,0,17,2016,,0,1,1
-227,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-09-07,8.00,0,17,2016,,0,1,1
-228,tmete,"Non-Study Activity",Lunch,,2016-09-08,0.50,0,18,2016,,0,1,1
-229,tmete,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-09-08,0.50,0,18,2016,,0,1,1
-230,tmete,TEO-RHA-1501,"Study Start-up","Regulatory Documents Development/Collection/Submission",2016-09-08,6.00,0,18,2016,,0,1,1
-231,tmete,TEO-RHA-1402,"Study Closure","Project Management/Supervision",2016-09-08,1.00,0,18,2016,,0,1,1
-232,kantonucci,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-08,2.00,0,17,2016,,0,1,1
-233,kantonucci,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-09-08,1.50,0,17,2016,,0,1,1
-234,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-08,2.00,0,17,2016,,0,1,1
-235,kantonucci,SUN-15-03,"Study Maintenance","Project Management/Supervision",2016-09-08,1.00,0,17,2016,,0,1,1
-236,kantonucci,SUN-15-04,"Study Maintenance","Project Management/Supervision",2016-09-08,1.00,0,17,2016,,0,1,1
-237,jparente,Directors,Legal,,2016-09-08,1.50,0,18,2016,,0,1,1
-238,mletendre,"Veritas IRB Inc.","Project Management",,2016-08-29,8.00,0,18,2016,,0,1,1
-239,mletendre,"Veritas IRB Inc.","Project Management",,2016-08-30,8.00,0,18,2016,,0,1,1
-240,mletendre,"Veritas IRB Inc.","Project Management",,2016-08-31,8.00,0,18,2016,,0,1,1
-241,mletendre,"Non-Study Activity","Statutory Holiday",,2016-09-05,8.00,0,18,2016,,0,1,1
-242,mletendre,Directors,"Corporate Meeting",,2016-09-07,1.00,0,18,2016,,0,1,1
-243,mletendre,Directors,Legal,,2016-09-07,1.00,0,18,2016,,0,1,1
-244,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-07,0.50,0,18,2016,,0,1,1
-245,mletendre,"Veritas IRB Inc.",Sales,,2016-09-08,0.75,0,18,2016,,0,1,1
-246,mletendre,"Veritas IRB Inc.",Sales,,2016-09-08,2.50,0,18,2016,,0,1,1
-247,mletendre,"Veritas IRB Inc.",Sales,,2016-09-08,0.25,0,18,2016,,0,1,1
-248,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-08,0.50,0,18,2016,,0,1,1
-249,mletendre,Directors,Legal,,2016-09-08,2.50,0,18,2016,,0,1,1
-250,nsfato,"Non-Study Activity","Office Management",,2016-08-29,8.00,0,18,2016,,0,1,1
-251,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-08,0.75,0,18,2016,,0,1,1
-252,nsfato,"Non-Study Activity","Office Management",,2016-08-30,8.00,0,18,2016,,0,1,1
-253,nsfato,"Non-Study Activity","Office Management",,2016-08-31,8.00,0,18,2016,,0,1,1
-254,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-08,0.75,0,18,2016,,0,1,1
-255,nsfato,"Non-Study Activity","Statutory Holiday",,2016-09-05,8.00,0,18,2016,,0,1,1
-256,nsfato,"Non-Study Activity","Office Management",,2016-09-09,8.00,0,18,2016,,0,1,1
-257,nkordi,SCY-078-203,"Data Management","Data Entry/Data Validation/Query Generation",2016-08-29,6.50,0,18,2016,,0,1,1
-258,nkordi,SCY-078-203,"Data Management","Data Entry/Data Validation/Query Generation",2016-08-30,7.50,0,18,2016,,0,1,1
-259,nkordi,SCY-078-203,"Data Management","Data Entry/Data Validation/Query Generation",2016-08-31,7.50,0,18,2016,,0,1,1
-260,nkordi,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-08,7.50,0,18,2016,,0,1,1
-261,nkordi,"Non-Study Activity",Lunch,,2016-09-08,0.50,0,18,2016,,0,1,1
-262,jmediati,"Veritas IRB Inc.",Marketing/Communications,,2016-08-29,8.00,0,18,2016,,0,1,1
-263,jmediati,"Veritas IRB Inc.",Marketing/Communications,,2016-08-30,8.00,0,18,2016,,0,1,1
-264,jmediati,"Veritas IRB Inc.",Marketing/Communications,,2016-08-31,8.00,0,18,2016,,0,1,1
-265,alebedev,"Veritas IRB Inc.","Project Management",,2016-08-29,8.00,0,18,2016,,0,1,1
-266,alebedev,"Veritas IRB Inc.","Project Management",,2016-08-30,8.00,0,18,2016,,0,1,1
-267,alebedev,"Veritas IRB Inc.","Project Management",,2016-08-31,8.00,0,18,2016,,0,1,1
-268,alebedev,"Veritas IRB Inc.","Project Management",,2016-09-09,8.00,0,18,2016,,0,1,1
-269,mletendre,"Veritas IRB Inc.",Sales,,2016-09-09,0.50,0,18,2016,,0,1,1
-270,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-09,0.50,0,18,2016,,0,1,1
-271,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-09,0.50,0,18,2016,,0,1,1
-272,mletendre,Directors,Legal,,2016-09-09,0.50,0,18,2016,,0,1,1
-273,jparente,"Non-Study Activity","Office Management",,2016-08-29,8.00,0,18,2016,,0,1,1
-274,kantonucci,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-08-29,1.00,0,18,2016,,0,1,1
-275,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-08-29,2.50,0,18,2016,,0,1,1
-276,kantonucci,SUN-15-03,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-08-29,1.00,0,18,2016,,0,1,1
-277,kantonucci,SUN-15-04,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-08-29,1.00,0,18,2016,,0,1,1
-278,kantonucci,SUN-15-03,"Study Maintenance","Project Management/Supervision",2016-08-29,1.00,0,18,2016,,0,1,1
-279,kantonucci,SUN-15-04,"Study Maintenance","Project Management/Supervision",2016-08-29,1.00,0,18,2016,,0,1,1
-280,kantonucci,"Non-Study Activity",Lunch,,2016-08-29,0.50,0,18,2016,,0,1,1
-281,kantonucci,TEO-RHA-1501,"Study Start-up","IRB Coordination",2016-08-30,1.00,0,18,2016,,0,1,1
-282,kantonucci,"Non-Study Activity",Lunch,,2016-08-30,0.50,0,18,2016,,0,1,1
-283,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-08-30,4.00,0,18,2016,,0,1,1
-284,kantonucci,SUN-15-03,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-08-30,0.50,0,18,2016,,0,1,1
-285,kantonucci,SUN-15-03,"Study Maintenance","Project Management/Supervision",2016-08-30,1.00,0,18,2016,,0,1,1
-286,kantonucci,SUN-15-04,"Study Maintenance","Project Management/Supervision",2016-08-30,1.00,0,18,2016,,0,1,1
-287,kantonucci,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-08-31,0.50,0,17,2016,,0,1,1
-288,kantonucci,SUN-15-03,"Study Maintenance","Team Meeting",2016-08-31,0.50,0,17,2016,,0,1,1
-289,kantonucci,SUN-15-04,"Study Maintenance","Team Meeting",2016-08-31,0.50,0,17,2016,,0,1,1
-290,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-08-31,3.00,0,17,2016,,0,1,1
-291,kantonucci,SUN-15-03,"Study Maintenance","Project Management/Supervision",2016-08-31,1.50,0,17,2016,,0,1,1
-292,kantonucci,SUN-15-04,"Study Maintenance","Project Management/Supervision",2016-08-31,1.50,0,17,2016,,0,1,1
-293,kantonucci,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-09-01,0.50,0,17,2016,,0,1,1
-294,kantonucci,"Non-Study Activity",Lunch,,2016-09-01,0.50,0,17,2016,,0,1,1
-295,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-02,1.00,0,17,2016,,0,1,1
-296,kantonucci,"Non-Study Activity",Lunch,,2016-09-09,0.50,0,17,2016,,0,1,1
-297,kantonucci,TEO-RHA-1501,"Study Start-up","Regulatory Documents Development/Collection/Submission",2016-09-09,1.50,0,17,2016,,0,1,1
-298,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-09,3.00,0,17,2016,,0,1,1
-299,kantonucci,SUN-15-03,"Study Maintenance","Project Management/Supervision",2016-09-09,1.50,0,17,2016,,0,1,1
-300,kantonucci,SUN-15-04,"Study Maintenance","Project Management/Supervision",2016-09-09,1.50,0,17,2016,,0,1,1
-301,jmediati,"Veritas IRB Inc.",Marketing/Communications,,2016-09-09,8.00,0,18,2016,,0,1,1
-302,aoziegbe,"Veritas IRB Inc.",QC,,2016-09-09,7.00,0,18,2016,,0,1,1
-303,kemery,"Veritas IRB Inc.",QC,,2016-08-30,8.00,0,17,2016,,0,1,1
-304,kemery,"Veritas IRB Inc.",QC,,2016-08-31,8.00,0,17,2016,,0,1,1
-305,kemery,"Non-Study Activity","Statutory Holiday",,2016-09-05,8.00,0,17,2016,,0,1,1
-306,kemery,"Veritas IRB Inc.",QC,,2016-09-09,7.50,0,17,2016,,0,1,1
-307,snardo,SCY-078-203,"Data Management","Data Entry/Data Validation/Query Generation",2016-08-29,7.50,0,18,2016,,0,1,1
-308,snardo,"Non-Study Activity",Lunch,,2016-08-29,0.50,0,18,2016,,0,1,1
-309,snardo,SCY-078-203,"Data Management","Data Entry/Data Validation/Query Generation",2016-08-30,7.50,0,18,2016,,0,1,1
-310,snardo,"Non-Study Activity",Lunch,,2016-08-30,0.50,0,18,2016,,0,1,1
-311,snardo,SCY-078-203,"Data Management","Data Entry/Data Validation/Query Generation",2016-08-31,7.50,0,18,2016,,0,1,1
-312,snardo,"Non-Study Activity",Lunch,,2016-08-31,0.50,0,18,2016,,0,1,1
-313,snardo,SCY-078-203,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-09,7.50,0,18,2016,,0,1,1
-314,snardo,"Non-Study Activity",Lunch,,2016-09-09,0.50,0,18,2016,,0,1,1
-315,lstephan,"Non-Study Activity",Lunch,,2016-09-14,0.25,0,18,2016,,0,1,1
-316,lstephan,"Non-Study Activity",Lunch,,2016-08-30,0.00,0,18,2016,,0,1,1
-317,lstephan,"Non-Study Activity",Lunch,,2016-08-31,0.00,0,18,2016,,0,1,1
-318,lstephan,"Veritas IRB Inc.","Project Management",,2016-09-09,8.00,0,18,2016,,0,1,1
-319,jparente,"Non-Study Activity","Office Management",,2016-08-30,5.00,0,18,2016,,0,1,1
-320,jparente,"Non-Study Activity","Office Management",,2016-08-31,5.00,0,18,2016,,0,1,1
-321,jparente,"Non-Study Activity","Office Management",,2016-09-02,5.00,0,18,2016,,0,1,1
-322,jparente,Directors,Accounting,,2016-09-09,2.00,0,18,2016,,0,1,1
-323,jparente,Directors,"Corporate Meeting",,2016-09-09,1.00,0,18,2016,,0,1,1
-324,jparente,Directors,Legal,,2016-09-09,1.00,0,18,2016,,0,1,1
-325,ikryvonos,"Non-Study Activity","Statutory Holiday",,2016-08-30,8.00,0,18,2016,,0,1,1
-326,ikryvonos,"Non-Study Activity","Statutory Holiday",,2016-08-31,8.00,0,18,2016,,0,1,1
-327,ikryvonos,"Non-Study Activity","Statutory Holiday",,2016-09-01,8.00,0,18,2016,,0,1,1
-328,ikryvonos,"Non-Study Activity","Statutory Holiday",,2016-09-02,8.00,0,18,2016,,0,1,1
-329,ikryvonos,"Non-Study Activity","Statutory Holiday",,2016-09-05,8.00,0,18,2016,,0,1,1
-330,ikryvonos,V01-123A-201,"Study Maintenance","Monitoring Report Writing/Review/Analysis",2016-09-09,2.00,0,18,2016,,0,1,1
-331,ikryvonos,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-09,4.00,0,18,2016,,0,1,1
-332,ikryvonos,V01-123A-201,"Study Maintenance","Project Management/Supervision",2016-09-09,1.50,0,18,2016,,0,1,1
-333,nkordi,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-09,7.50,0,18,2016,,0,1,1
-334,nkordi,"Non-Study Activity",Lunch,,2016-09-09,0.50,0,18,2016,,0,1,1
-335,ikryvonos,"Non-Study Activity",Lunch,,2016-09-09,0.50,0,18,2016,,0,1,1
-336,cgleeson,"Veritas IRB Inc.","IRB Meeting Preparation",,2016-09-12,8.00,0,18,2016,,0,1,1
-337,cgleeson,SCY-078-203,"Study Closure","Team Meeting",2016-09-12,6.00,0,18,2016,,0,1,1
-338,nsfato,,"Office Management",,2016-09-12,0.00,0,18,2016,,0,1,1
-339,nsfato,"Non-Study Activity","Office Management",,2016-09-12,0.00,0,18,2016,,0,1,1
-340,alebedev,"Veritas IRB Inc.","Project Management",,2016-09-12,8.00,0,18,2016,,0,1,1
-341,jparente,Directors,Accounting,,2016-09-12,2.00,0,18,2016,,0,1,1
-342,kemery,"Veritas IRB Inc.","Project Management",,2016-09-12,7.25,0,18,2016,,0,1,1
-343,nsfato,"Non-Study Activity","Office Management",,2016-09-12,8.00,0,18,2016,,0,1,1
-344,snardo,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-12,5.50,0,18,2016,,0,1,1
-345,snardo,"Non-Study Activity",Lunch,,2016-09-12,0.50,0,18,2016,,0,1,1
-346,snardo,SCY-078-203,"Data Management","Database Lock and Data Transfer",2016-09-12,1.00,0,18,2016,,0,1,1
-347,kantonucci,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-12,1.00,0,18,2016,,0,1,1
-348,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-12,4.50,0,18,2016,,0,1,1
-349,kantonucci,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-09-12,1.00,0,18,2016,,0,1,1
-350,kantonucci,"Non-Study Activity",Lunch,,2016-09-12,0.50,0,18,2016,,0,1,1
-351,kantonucci,SUN-15-03,"Study Maintenance","Project Management/Supervision",2016-09-12,0.50,0,18,2016,,0,1,1
-352,kantonucci,SUN-15-04,"Study Maintenance","Project Management/Supervision",2016-09-12,0.50,0,18,2016,,0,1,1
-353,snardo,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-12,1.00,0,18,2016,,0,1,1
-354,jparente,Directors,"Corporate Meeting",,2016-09-12,6.00,0,18,2016,,0,1,1
-355,godige,V01-123A-201,"Study Maintenance","Site Communications",2016-09-12,1.00,0,18,2016,,0,1,1
-356,godige,V01-123A-201,"Study Maintenance","IRB Coordination/Communication",2016-09-12,4.00,0,18,2016,,0,1,1
-357,godige,V01-123A-201,"Study Maintenance","IRB Coordination/Communication",2016-09-12,2.50,0,18,2016,,0,1,1
-358,nkordi,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-12,7.50,0,18,2016,,0,1,1
-359,nkordi,"Non-Study Activity",Lunch,,2016-09-12,0.50,0,18,2016,,0,1,1
-360,mdakouo,TEO-RHA-1402,Biostatistics,"Statistical Analysis/Report",2016-09-12,8.00,0,18,2016,,0,1,1
-361,snardo,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-13,7.00,0,18,2016,,0,1,1
-362,snardo,"Non-Study Activity",Lunch,,2016-09-13,0.50,0,18,2016,,0,1,1
-363,mletendre,Directors,Legal,,2016-09-12,1.50,0,18,2016,,0,1,1
-364,mletendre,Directors,Accounting,,2016-09-13,0.25,0,18,2016,,0,1,1
-365,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-12,2.00,0,18,2016,,0,1,1
-366,snardo,"Non-Study Activity",Training,,2016-09-13,0.50,0,18,2016,,0,1,1
-367,mletendre,"Veritas IRB Inc.",Sales,,2016-09-12,1.25,0,18,2016,,0,1,1
-368,mletendre,Directors,"Corporate Meeting",,2016-09-12,1.00,0,18,2016,,0,1,1
-369,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-12,1.50,0,18,2016,,0,1,1
-370,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-12,0.75,0,18,2016,,0,1,1
-371,mletendre,"Veritas IRB Inc.","Staff Meeting",,2016-09-12,0.25,0,18,2016,,0,1,1
-372,jparente,"Non-Study Activity",Training,,2016-08-29,0.25,0,18,2016,,0,1,1
-373,mletendre,Directors,Legal,,2016-09-12,0.50,0,18,2016,,0,1,1
-374,mdakouo,"Non-Study Activity",Lunch,,2016-08-29,0.50,0,18,2016,,0,1,1
-375,mdakouo,"Non-Study Activity",Lunch,,2016-08-31,0.50,0,18,2016,,0,1,1
-376,mdakouo,"Non-Study Activity",Lunch,,2016-08-30,0.50,0,18,2016,,0,1,1
-377,lstephan,"Non-Study Activity",Lunch,,2016-09-12,0.50,0,18,2016,,0,1,1
-378,lstephan,"Veritas IRB Inc.","Project Management",,2016-09-12,7.50,0,18,2016,,0,1,1
-379,cmarion,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-08-29,7.50,0,18,2016,,0,1,1
-380,cmarion,"Non-Study Activity",Lunch,,2016-08-29,0.50,0,18,2016,,0,1,1
-381,cmarion,"Non-Study Activity",Lunch,,2016-08-30,0.50,0,18,2016,,0,1,1
-382,cmarion,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-08-30,7.50,0,18,2016,,0,1,1
-383,cmarion,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-08-31,7.50,0,18,2016,,0,1,1
-384,cmarion,"Non-Study Activity",Lunch,,2016-08-31,0.50,0,18,2016,,0,1,1
-385,kantonucci,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-13,2.00,0,18,2016,,0,1,1
-386,kantonucci,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-09-13,0.50,0,18,2016,,0,1,1
-387,cmarion,"Non-Study Activity",Lunch,,2016-09-01,0.50,0,17,2016,,0,1,1
-388,nkordi,SUN-15-04,Training,,2016-08-29,1.00,0,18,2016,,0,1,1
-389,nkordi,"Non-Study Activity",Lunch,,2016-08-29,0.50,0,18,2016,,0,1,1
-390,nkordi,"Non-Study Activity",Lunch,,2016-08-30,0.50,0,18,2016,,0,1,1
-391,cmarion,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-12,7.50,0,17,2016,,0,1,1
-392,nkordi,"Non-Study Activity",Lunch,,2016-08-31,0.50,0,18,2016,,0,1,1
-393,nkordi,"Non-Study Activity",Lunch,,2016-09-01,0.50,0,17,2016,,0,1,1
-394,mdakouo,TEO-RHA-1402,Biostatistics,"Statistical Analysis/Report",2016-08-29,8.00,0,18,2016,,0,1,1
-395,snardo,"Non-Study Activity",Training,,2016-09-13,0.50,0,18,2016,,0,1,1
-396,ikryvonos,V01-123A-201,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-12,2.00,0,18,2016,,0,1,1
-397,ikryvonos,V01-123A-201,"Study Maintenance","Monitoring Report Writing/Review/Analysis",2016-09-12,3.00,0,18,2016,,0,1,1
-398,ikryvonos,V01-123A-201,"Study Maintenance","Project Management/Supervision",2016-09-12,3.00,0,18,2016,,0,1,1
-399,mdakouo,TEO-RHA-1402,Biostatistics,"Statistical Analysis/Report",2016-08-30,8.50,0,18,2016,,0,1,1
-400,mdakouo,TEO-RHA-1402,Biostatistics,"Statistical Analysis/Report",2016-08-31,8.00,0,18,2016,,0,1,1
-401,mdakouo,"Non-Study Activity",Lunch,,2016-09-01,0.50,0,17,2016,,0,1,1
-402,cmarion,"Non-Study Activity",Lunch,,2016-09-13,0.50,0,18,2016,,0,1,1
-403,nbenmouffok,"Non-Study Activity",Lunch,,2016-09-12,0.00,0,18,2016,,0,1,1
-404,nbenmouffok,V01-123A-201,"Data Management","Project Management/Supervision",2016-09-13,3.00,0,18,2016,,0,1,1
-405,mdakouo,"Non-Study Activity",Lunch,,2016-09-13,0.50,0,17,2016,,0,1,1
-406,cmarion,"Non-Study Activity",Training,,2016-09-13,1.00,0,18,2016,,0,1,1
-407,cmarion,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-13,6.50,0,18,2016,,0,1,1
-408,nkordi,"Non-Study Activity",Lunch,,2016-09-13,0.50,0,18,2016,,0,1,1
-409,kantonucci,"Non-Study Activity",Training,,2016-09-13,0.50,0,18,2016,,0,1,1
-410,kantonucci,"Non-Study Activity",Lunch,,2016-09-13,0.50,0,18,2016,,0,1,1
-411,kantonucci,TEO-RHA-1501,"Study Start-up","Investigator/Site Selection/Qualification/Preparation",2016-09-13,1.00,0,18,2016,,0,1,1
-412,alebedev,"Non-Study Activity",Lunch,,2016-09-13,0.50,0,18,2016,,0,1,1
-413,godige,V01-123A-201,"Study Maintenance","IRB Coordination/Communication",2016-09-13,3.00,0,18,2016,,0,1,1
-414,mdakouo,"Non-Study Activity","Statutory Holiday",,2016-09-05,8.00,0,18,2016,,0,1,1
-415,cmarion,"Non-Study Activity",Lunch,,2016-09-02,0.50,0,18,2016,,0,1,1
-416,nkordi,"Non-Study Activity",Lunch,,2016-09-06,0.50,0,18,2016,,0,1,1
-417,nkordi,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-07,7.50,0,18,2016,,0,1,1
-418,godige,"Non-Study Activity",Lunch,,2016-09-01,0.50,0,18,2016,,0,1,1
-419,nkordi,"Non-Study Activity",Lunch,,2016-09-07,0.50,0,18,2016,,0,1,1
-420,tmete,"Non-Study Activity",Lunch,,2016-09-12,0.50,0,18,2016,,0,1,1
-421,godige,V01-123A-201,"Study Maintenance","Site Communications",2016-09-01,2.00,0,18,2016,,0,1,1
-422,nkordi,"Non-Study Activity",Lunch,,2016-09-02,0.50,0,17,2016,,0,1,1
-423,godige,V01-123A-201,"Study Maintenance","IRB Coordination/Communication",2016-09-01,1.00,0,18,2016,,0,1,1
-424,godige,V01-123A-201,"Study Maintenance","Team Meeting",2016-09-01,1.50,0,18,2016,,0,1,1
-425,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-09-08,8.00,0,18,2016,,0,1,1
-426,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-09-09,8.00,0,18,2016,,0,1,1
-427,godige,V01-123A-201,"Study Maintenance","Sponsor Communications",2016-09-01,0.50,0,18,2016,,0,1,1
-428,godige,"Non-Study Activity",Lunch,,2016-09-02,0.50,0,18,2016,,0,1,1
-429,godige,V01-123A-201,"Study Maintenance","Project Management/Supervision",2016-09-02,4.00,0,18,2016,,0,1,1
-430,godige,V01-123A-201,"Study Maintenance","Site Communications",2016-09-02,2.00,0,18,2016,,0,1,1
-431,godige,V01-123A-201,"Study Maintenance","Sponsor Communications",2016-09-02,0.50,0,18,2016,,0,1,1
-432,godige,"Non-Study Activity","Statutory Holiday",,2016-09-05,8.00,0,18,2016,,0,1,1
-433,godige,"Non-Study Activity",Training,,2016-09-13,0.75,0,18,2016,,0,1,1
-434,nsfato,"Non-Study Activity","Office Management",,2016-09-12,0.00,0,18,2016,,0,1,1
-435,mdakouo,"Non-Study Activity",Lunch,,2016-09-02,0.50,0,17,2016,,0,1,1
-436,mdakouo,TEO-RHA-1402,Biostatistics,"Statistical Analysis/Report",2016-09-02,8.00,0,17,2016,,0,1,1
-437,mdakouo,TEO-RHA-1402,Biostatistics,"Statistical Analysis/Report",2016-09-03,4.00,0,17,2016,,0,1,1
-438,mdakouo,TEO-RHA-1402,Biostatistics,"Statistical Analysis/Report",2016-09-04,3.00,0,17,2016,,0,1,1
-439,godige,"Non-Study Activity",Lunch,,2016-09-12,0.50,0,18,2016,,0,1,1
-440,godige,"Non-Study Activity",Lunch,,2016-09-13,0.50,0,18,2016,,0,1,1
-441,mdakouo,"Non-Study Activity",Lunch,,2016-09-06,0.50,0,17,2016,,0,1,1
-442,mdakouo,TEO-RHA-1402,Biostatistics,"Statistical Analysis/Report",2016-09-06,9.00,0,17,2016,,0,1,1
-443,mdakouo,TEO-RHA-1402,Biostatistics,"Statistical Analysis/Report",2016-09-07,8.50,0,17,2016,,0,1,1
-444,mdakouo,"Non-Study Activity",Lunch,,2016-09-07,0.50,0,17,2016,,0,1,1
-445,mdakouo,TEO-RHA-1402,Biostatistics,"Statistical Analysis/Report",2016-09-08,8.50,0,17,2016,,0,1,1
-446,mdakouo,"Non-Study Activity",Lunch,,2016-09-08,0.50,0,17,2016,,0,1,1
-447,mdakouo,"Non-Study Activity",Lunch,,2016-09-09,0.50,0,17,2016,,0,1,1
-448,godige,"Non-Study Activity",,,2016-08-30,0.50,0,18,2016,,0,1,1
-449,mdakouo,TEO-RHA-1402,Biostatistics,"Statistical Analysis/Report",2016-09-09,8.00,0,17,2016,,0,1,1
-450,mdakouo,TEO-RHA-1402,Biostatistics,"Statistical Analysis/Report",2016-09-10,3.00,0,17,2016,,0,1,1
-451,tmete,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-12,2.50,0,18,2016,,0,1,1
-452,tmete,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-09-12,0.50,0,18,2016,,0,1,1
-453,tmete,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-12,2.50,0,18,2016,,0,1,1
-454,tmete,TEO-RHA-1402,"Study Closure","Project Management/Supervision",2016-09-12,2.00,0,18,2016,,0,1,1
-455,nkordi,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-13,5.00,0,18,2016,,0,1,1
-456,godige,V01-123A-201,"Study Maintenance","Sponsor Communications",2016-08-31,1.00,0,18,2016,,0,1,1
-457,godige,V01-123A-201,"Study Maintenance","Team Meeting",2016-08-31,0.50,0,18,2016,,0,1,1
-458,godige,V01-123A-201,"Study Maintenance","Site Communications",2016-08-31,2.50,0,18,2016,,0,1,1
-459,godige,"Non-Study Activity",Lunch,,2016-08-31,0.50,0,18,2016,,0,1,1
-460,godige,V01-123A-201,"Study Maintenance","Site Communications",2016-08-30,1.00,0,18,2016,,0,1,1
-461,godige,V01-123A-201,"Study Maintenance","Project Management/Supervision",2016-08-31,3.00,0,18,2016,,0,1,1
-462,mletendre,"Non-Study Activity","Office Management",,2016-09-13,0.10,0,18,2016,,0,1,1
-463,godige,"Non-Study Activity","Statutory Holiday",,2016-09-06,8.00,0,18,2016,,0,1,1
-464,godige,"Non-Study Activity","Statutory Holiday",,2016-09-07,8.00,0,18,2016,,0,1,1
-465,godige,"Non-Study Activity","Statutory Holiday",,2016-09-08,8.00,0,18,2016,,0,1,1
-466,godige,"Non-Study Activity","Statutory Holiday",,2016-09-09,8.00,0,18,2016,,0,1,1
-467,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-13,2.50,0,18,2016,,0,1,1
-468,kantonucci,SUN-15-03,"Study Maintenance","Site Communications",2016-09-13,0.50,0,18,2016,,0,1,1
-469,kantonucci,SUN-15-04,"Study Maintenance","Site Communications",2016-09-13,0.50,0,18,2016,,0,1,1
-470,tmete,"Non-Study Activity",Lunch,,2016-09-13,0.50,0,18,2016,,0,1,1
-471,tmete,TEO-RHA-1402,"Study Closure","Project Management/Supervision",2016-09-13,1.00,0,18,2016,,0,1,1
-472,tmete,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-09-13,1.00,0,18,2016,,0,1,1
-473,tmete,"Non-Study Activity",Training,,2016-09-13,0.50,0,18,2016,,0,1,1
-474,tmete,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-13,5.00,0,18,2016,,0,1,1
-475,alebedev,"Veritas IRB Inc.","Project Management",,2016-09-13,7.50,0,18,2016,,0,1,1
-476,lstephan,"Veritas IRB Inc.","Project Management",,2016-09-13,7.50,0,18,2016,,0,1,1
-477,lstephan,"Non-Study Activity",Lunch,,2016-09-13,0.50,0,18,2016,,0,1,1
-478,ikryvonos,"Non-Study Activity",Training,,2016-09-13,0.50,0,18,2016,,0,1,1
-479,ikryvonos,"Non-Study Activity",Lunch,,2016-09-13,0.50,0,18,2016,,0,1,1
-480,ikryvonos,V01-123A-201,"Study Maintenance","Site Communications",2016-09-13,3.00,0,18,2016,,0,1,1
-481,ikryvonos,V01-123A-201,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-13,2.00,0,18,2016,,0,1,1
-482,ikryvonos,V01-123A-201,"Study Maintenance","Team Meeting",2016-09-13,1.50,0,18,2016,,0,1,1
-483,ikryvonos,V01-123A-201,"Study Maintenance","Monitoring Report Writing/Review/Analysis",2016-09-13,0.50,0,18,2016,,0,1,1
-484,jparente,"Non-Study Activity",Training,,2016-09-13,5.00,0,18,2016,,0,1,1
-485,jparente,Directors,Accounting,,2016-09-13,3.00,0,18,2016,,0,1,1
-486,adyuzhykov,"Non-Study Activity","Statutory Holiday",,2016-09-05,8.00,0,18,2016,,0,1,1
-487,lstephan,"Veritas IRB Inc.","Staff Meeting",,2016-09-14,1.25,0,18,2016,,0,1,1
-488,nsfato,"Non-Study Activity","Office Management",,2016-09-13,0.00,0,18,2016,,0,1,1
-489,nsfato,"Non-Study Activity","Office Management",,2016-09-13,8.00,0,18,2016,,0,1,1
-490,alebedev,"Veritas IRB Inc.","Staff Meeting",,2016-09-14,1.25,0,18,2016,,0,1,1
-491,nsfato,"Non-Study Activity","Office Management",,2016-09-14,8.00,0,18,2016,,0,1,1
-492,kemery,"Veritas IRB Inc.",QC,,2016-09-13,3.00,0,18,2016,,0,1,1
-493,kemery,"Veritas IRB Inc.","Project Management",,2016-09-13,4.50,0,18,2016,,0,1,1
-494,kemery,"Non-Study Activity",Lunch,,2016-09-13,0.50,0,18,2016,,0,1,1
-495,kemery,"Non-Study Activity",Lunch,,2016-09-12,0.50,0,18,2016,,0,1,1
-496,kemery,"Non-Study Activity",Lunch,,2016-09-09,0.50,0,17,2016,,0,1,1
-497,kemery,"Non-Study Activity",Lunch,,2016-09-08,0.50,0,18,2016,,0,1,1
-498,kemery,"Non-Study Activity",Lunch,,2016-09-07,0.50,0,18,2016,,0,1,1
-499,kemery,"Non-Study Activity",Lunch,,2016-09-06,0.50,0,17,2016,,0,1,1
-500,jparente,Directors,Accounting,,2016-09-01,1.00,0,17,2016,,0,1,1
-501,jparente,Directors,"Human Resources",,2016-09-01,2.00,0,17,2016,,0,1,1
-502,jparente,"Non-Study Activity","Office Management",,2016-09-01,1.00,0,17,2016,,0,1,1
-503,jparente,Directors,"Corporate Meeting",,2016-09-01,1.00,0,17,2016,,0,1,1
-504,jparente,Directors,Accounting,,2016-09-14,2.00,0,18,2016,,0,1,1
-505,jparente,"Non-Study Activity","Office Management",,2016-09-14,1.00,0,18,2016,,0,1,1
-506,jparente,Directors,"Corporate Meeting",,2016-09-14,1.00,0,18,2016,,0,1,1
-507,jparente,Directors,"Human Resources",,2016-09-14,2.00,0,18,2016,,0,1,1
-508,mjensen,TEO-RHA-1402,Biostatistics,"Project Management/Supervision",2016-09-05,6.00,0,18,2016,,0,1,1
-509,mjensen,TEO-RHA-1302,"Medical Writing","Clinical Study Report",2016-09-05,3.50,0,18,2016,,0,1,1
-510,mjensen,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-06,4.00,0,18,2016,,0,1,1
-511,mjensen,TEO-RHA-1402,Biostatistics,"Statistical Analysis/Report",2016-09-06,4.00,0,18,2016,,0,1,1
-512,mjensen,TEO-RHA-1402,Biostatistics,"Statistical Analysis/Report",2016-09-07,5.00,0,18,2016,,0,1,1
-513,mjensen,V01-123A-201,"Data Management","Project Management/Supervision",2016-09-07,2.00,0,18,2016,,0,1,1
-514,mjensen,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-07,2.00,0,18,2016,,0,1,1
-515,mjensen,TEO-RHA-1402,Biostatistics,"Statistical Analysis/Report",2016-09-08,5.00,0,18,2016,,0,1,1
-516,mjensen,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-08,4.50,0,18,2016,,0,1,1
-517,mjensen,TEO-RHA-1402,Biostatistics,"Statistical Analysis/Report",2016-09-09,6.00,0,18,2016,,0,1,1
-518,mjensen,V01-123A-201,"Data Management","Project Management/Supervision",2016-09-09,2.00,0,18,2016,,0,1,1
-519,mjensen,V01-123A-201,"Data Management","Project Management/Supervision",2016-09-09,1.50,0,18,2016,,0,1,1
-520,mjensen,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-12,4.00,0,18,2016,,0,1,1
-521,mjensen,TEO-RHA-1402,Biostatistics,"Project Management/Supervision",2016-09-12,2.00,0,18,2016,,0,1,1
-522,mjensen,V01-123A-201,"Data Management","Project Management/Supervision",2016-09-13,4.00,0,18,2016,,0,1,1
-523,mjensen,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-13,5.00,0,18,2016,,0,1,1
-524,mjensen,V01-123A-201,Biostatistics,"Project Management/Supervision",2016-09-14,8.00,0,18,2016,,0,1,1
-525,mjensen,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-09-14,2.00,0,18,2016,,0,1,1
-526,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-13,1.25,0,18,2016,,0,1,1
-527,mletendre,"Veritas IRB Inc.",Sales,,2016-09-13,0.50,0,18,2016,,0,1,1
-528,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-13,0.50,0,18,2016,,0,1,1
-529,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-13,1.00,0,18,2016,,0,1,1
-530,mletendre,Directors,Accounting,,2016-09-13,0.50,0,18,2016,,0,1,1
-531,mletendre,Directors,Legal,,2016-09-13,0.50,0,18,2016,,0,1,1
-532,mletendre,Directors,"Corporate Meeting",,2016-09-13,1.50,0,18,2016,,0,1,1
-533,mletendre,Directors,Legal,,2016-09-13,0.50,0,18,2016,,0,1,1
-534,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-13,1.00,0,18,2016,,0,1,1
-535,mletendre,"Veritas IRB Inc.",Sales,,2016-09-13,0.50,0,18,2016,,0,1,1
-536,mletendre,Directors,"Corporate Meeting",,2016-09-14,0.75,0,18,2016,,0,1,1
-537,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-14,0.50,0,18,2016,,0,1,1
-538,mletendre,"Veritas IRB Inc.","Staff Meeting",,2016-09-14,1.25,0,18,2016,,0,1,1
-539,mletendre,Directors,Legal,,2016-09-14,0.25,0,18,2016,,0,1,1
-540,alebedev,"Non-Study Activity",Lunch,,2016-09-14,0.50,0,18,2016,,0,1,1
-541,mletendre,Directors,"Corporate Meeting",,2016-09-14,0.75,0,18,2016,,0,1,1
-542,alebedev,"Veritas IRB Inc.","Project Management",,2016-09-14,6.25,0,18,2016,,0,1,1
-543,mletendre,"Non-Study Activity",Lunch,,2016-09-14,0.25,0,18,2016,,0,1,1
-544,abekri,"Non-Study Activity",Lunch,,2016-09-01,0.50,0,18,2016,,0,1,1
-545,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-14,0.25,0,18,2016,,0,1,1
-546,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-14,0.25,0,18,2016,,0,1,1
-547,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-14,0.50,0,18,2016,,0,1,1
-548,mletendre,Directors,Legal,,2016-09-14,0.50,0,18,2016,,0,1,1
-549,mletendre,Directors,"Corporate Meeting",,2016-09-14,0.50,0,18,2016,,0,1,1
-550,mletendre,Directors,Legal,,2016-09-14,0.25,0,18,2016,,0,1,1
-551,nkordi,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-14,7.00,0,18,2016,,0,1,1
-552,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-14,0.15,0,18,2016,,0,1,1
-553,nkordi,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-14,0.50,0,18,2016,,0,1,1
-554,nkordi,"Non-Study Activity",Lunch,,2016-09-14,0.50,0,18,2016,,0,1,1
-555,tmete,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-14,1.50,0,18,2016,,0,1,1
-556,tmete,TEO-RHA-1402,"Study Closure","Project Management/Supervision",2016-09-14,2.50,0,18,2016,,0,1,1
-557,tmete,"Non-Study Activity",Lunch,,2016-09-14,0.50,0,18,2016,,0,1,1
-558,tmete,TEO-RHA-1501,"Study Start-up","Regulatory Documents Development/Collection/Submission",2016-09-14,3.50,0,18,2016,,0,1,1
-559,kantonucci,SUN-15-03,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-14,1.00,0,18,2016,,0,1,1
-560,kantonucci,SUN-15-04,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-14,1.00,0,18,2016,,0,1,1
-561,kantonucci,SUN-15-03,"Study Maintenance","Site Communications",2016-09-14,0.50,0,18,2016,,0,1,1
-562,kantonucci,SUN-15-04,"Study Maintenance","Site Communications",2016-09-14,0.50,0,18,2016,,0,1,1
-563,kantonucci,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-14,1.00,0,18,2016,,0,1,1
-564,kantonucci,"Non-Study Activity",Lunch,,2016-09-14,0.50,0,18,2016,,0,1,1
-565,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-14,1.50,0,18,2016,,0,1,1
-566,kantonucci,TEO-RHA-1501,"Study Start-up","Investigator/Site Selection/Qualification/Preparation",2016-09-14,1.00,0,18,2016,,0,1,1
-567,kantonucci,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-09-14,0.50,0,18,2016,,0,1,1
-568,kemery,"Veritas IRB Inc.","Staff Meeting",,2016-09-12,0.25,0,18,2016,,0,1,1
-569,kemery,"Veritas IRB Inc.","Project Management",,2016-09-12,5.75,0,18,2016,,0,1,1
-570,kemery,"Veritas IRB Inc.",QC,,2016-09-12,0.50,0,18,2016,,0,1,1
-571,kemery,"Non-Study Activity",Lunch,,2016-09-12,0.50,0,18,2016,,0,1,1
-572,kemery,"Veritas IRB Inc.","Staff Meeting",,2016-09-12,1.25,0,18,2016,,0,1,1
-573,jparente,Directors,Accounting,,2016-09-14,1.50,0,18,2016,,0,1,1
-574,adyuzhykov,"Non-Study Activity","Statutory Holiday",,2016-09-13,1.00,0,18,2016,,0,1,1
-575,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-09-13,7.50,0,18,2016,,0,1,1
-576,adyuzhykov,"Non-Study Activity",Lunch,,2016-09-13,0.50,0,18,2016,,0,1,1
-577,adyuzhykov,"Veritas IRB Inc.","Staff Meeting",,2016-09-14,1.50,0,18,2016,,0,1,1
-578,adyuzhykov,"Non-Study Activity",Lunch,,2016-09-14,0.50,0,18,2016,,0,1,1
-579,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-09-14,6.00,0,18,2016,,0,1,1
-580,mletendre,Directors,"Corporate Meeting",,2016-09-14,0.25,0,18,2016,,0,1,1
-581,mletendre,Directors,Legal,,2016-09-14,0.50,0,18,2016,,0,1,1
-582,mletendre,"Non-Study Activity","Office Management",,2016-09-14,0.50,0,18,2016,,0,1,1
-583,godige,V01-123A-201,"Study Maintenance","Site Communications",2016-09-13,2.00,0,18,2016,,0,1,1
-584,godige,V01-123A-201,"Study Maintenance","Site Communications",2016-09-14,2.00,0,18,2016,,0,1,1
-585,godige,"Non-Study Activity",Lunch,,2016-09-14,0.50,0,18,2016,,0,1,1
-586,godige,V01-123A-201,"Study Maintenance","Team Meeting",2016-09-13,0.50,0,18,2016,,0,1,1
-587,godige,V01-123A-201,"Study Maintenance","Team Meeting",2016-09-14,1.00,0,18,2016,,0,1,1
-588,godige,V01-123A-201,"Study Maintenance","IRB Coordination/Communication",2016-09-14,1.00,0,18,2016,,0,1,1
-589,godige,V01-123A-201,"Study Maintenance","Project Management/Supervision",2016-09-14,3.00,0,18,2016,,0,1,1
-590,lstephan,"Veritas IRB Inc.","Project Management",,2016-09-14,7.50,0,18,2016,,0,1,1
-591,nbenmouffok,V01-123A-201,"Data Management","Project Management/Supervision",2016-09-08,4.00,0,18,2016,,0,1,1
-592,nbenmouffok,SCY-078-203,"Data Management","Project Management/Supervision",2016-09-08,3.00,0,18,2016,,0,1,1
-593,nbenmouffok,"Non-Study Activity",Lunch,,2016-09-08,0.50,0,18,2016,,0,1,1
-594,nbenmouffok,SUN-15-04,"Data Management","Project Management/Supervision",2016-09-08,1.00,0,18,2016,,0,1,1
-595,nbenmouffok,"Non-Study Activity",Lunch,,2016-09-09,0.50,0,18,2016,,0,1,1
-596,nbenmouffok,SCY-078-203,"Data Management","Database Lock and Data Transfer",2016-09-09,4.50,0,18,2016,,0,1,1
-597,nbenmouffok,V01-123A-201,"Data Management","Project Management/Supervision",2016-09-09,3.00,0,18,2016,,0,1,1
-598,nbenmouffok,TEO-RHA-1501,"Data Management","CRF Development",2016-09-13,2.00,0,18,2016,,0,1,1
-599,nbenmouffok,"Non-Study Activity",Lunch,,2016-09-13,0.50,0,18,2016,,0,1,1
-600,nbenmouffok,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-13,3.00,0,18,2016,,0,1,1
-601,abekri,SCY-078-203,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-01,2.00,0,18,2016,,0,1,1
-602,abekri,V01-123A-201,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-01,4.50,0,18,2016,,0,1,1
-603,nbenmouffok,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-14,6.50,0,18,2016,,0,1,1
-604,abekri,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-02,7.50,0,18,2016,,0,1,1
-605,nbenmouffok,"Non-Study Activity",Lunch,,2016-09-14,0.50,0,18,2016,,0,1,1
-606,abekri,"Non-Study Activity",Lunch,,2016-09-02,0.50,0,18,2016,,0,1,1
-607,abekri,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-05,3.50,0,18,2016,,0,1,1
-608,nbenmouffok,SUN-15-04,"Data Management","Project Management/Supervision",2016-09-14,1.00,0,18,2016,,0,1,1
-609,abekri,"Non-Study Activity",Lunch,,2016-09-05,0.50,0,18,2016,,0,1,1
-610,abekri,CP-PER-2015-01,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-06,7.50,0,18,2016,,0,1,1
-611,abekri,"Non-Study Activity",Lunch,,2016-09-06,0.50,0,18,2016,,0,1,1
-612,abekri,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-07,7.50,0,18,2016,,0,1,1
-613,abekri,"Non-Study Activity",Lunch,,2016-09-07,0.50,0,18,2016,,0,1,1
-614,abekri,V01-123A-201,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-08,5.00,0,18,2016,,0,1,1
-615,abekri,SCY-078-203,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-08,2.50,0,18,2016,,0,1,1
-616,abekri,"Non-Study Activity",Lunch,,2016-09-08,0.50,0,18,2016,,0,1,1
-617,abekri,V01-123A-201,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-09,5.00,0,18,2016,,0,1,1
-618,ikryvonos,V01-123A-201,"Study Closure","Site Communications",2016-09-14,6.00,0,18,2016,,0,1,1
-619,abekri,SCY-078-203,"Data Management","Database Lock and Data Transfer",2016-09-09,2.50,0,18,2016,,0,1,1
-620,abekri,"Non-Study Activity",Lunch,,2016-09-09,0.50,0,18,2016,,0,1,1
-621,ikryvonos,V01-123A-201,"Study Closure","Sponsor Communications",2016-09-14,0.50,0,18,2016,,0,1,1
-622,ikryvonos,V01-123A-201,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-14,1.50,0,18,2016,,0,1,1
-623,abekri,SCY-078-203,"Data Management","Database Lock and Data Transfer",2016-09-13,4.00,0,18,2016,,0,1,1
-624,abekri,V01-123A-201,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-13,4.00,0,18,2016,,0,1,1
-625,abekri,"Non-Study Activity",Lunch,,2016-09-14,0.50,0,18,2016,,0,1,1
-626,abekri,V01-123A-201,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-14,7.50,0,18,2016,,0,1,1
-627,snardo,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-15,7.50,0,18,2016,,0,1,1
-628,snardo,"Non-Study Activity",Lunch,,2016-09-15,0.50,0,18,2016,,0,1,1
-629,jparente,Directors,Accounting,,2016-09-15,3.00,0,18,2016,,0,1,1
-630,jparente,"Non-Study Activity",Training,,2016-09-15,0.50,0,18,2016,,0,1,1
-631,tdelpe,V01-123A-201,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-14,4.50,0,18,2016,,0,1,1
-632,tdelpe,V01-123A-201,"Study Maintenance","Site Communications",2016-09-14,1.50,0,18,2016,,0,1,1
-633,tdelpe,"Non-Study Activity",Lunch,,2016-09-14,0.50,0,18,2016,,0,1,1
-634,tdelpe,V01-123A-201,"Study Maintenance","Team Meeting",2016-09-14,0.50,0,18,2016,,0,1,1
-635,tdelpe,V01-123A-201,"Study Maintenance","Monitoring Report Writing/Review/Analysis",2016-09-14,1.00,0,18,2016,,0,1,1
-636,tdelpe,V01-123A-201,Training,,2016-09-15,0.25,0,18,2016,,0,1,1
-637,tdelpe,V01-123A-201,"Study Maintenance","Monitoring Report Writing/Review/Analysis",2016-09-15,2.50,0,18,2016,,0,1,1
-638,tdelpe,"Non-Study Activity","Statutory Holiday",,2016-09-13,8.00,0,18,2016,,0,1,1
-639,tdelpe,"Non-Study Activity","Statutory Holiday",,2016-09-12,8.00,0,18,2016,,0,1,1
-640,tdelpe,"Non-Study Activity","Statutory Holiday",,2016-09-09,8.00,0,18,2016,,0,1,1
-641,tdelpe,"Non-Study Activity","Statutory Holiday",,2016-09-08,8.00,0,18,2016,,0,1,1
-642,tdelpe,"Non-Study Activity","Statutory Holiday",,2016-09-07,8.00,0,18,2016,,0,1,1
-643,tdelpe,"Non-Study Activity","Statutory Holiday",,2016-09-06,8.00,0,18,2016,,0,1,1
-644,tdelpe,"Non-Study Activity","Statutory Holiday",,2016-09-05,8.00,0,18,2016,,0,1,1
-645,tdelpe,"Non-Study Activity","Statutory Holiday",,2016-09-02,8.00,0,18,2016,,0,1,1
-646,tdelpe,"Non-Study Activity","Statutory Holiday",,2016-09-01,8.00,0,18,2016,,0,1,1
-647,tdelpe,,Lunch,,2016-09-15,0.50,0,18,2016,,0,1,1
-648,kantonucci,GIL-1501,"Study Start-up","Investigator/Site Selection/Qualification/Preparation",2016-09-15,0.50,0,18,2016,,0,1,1
-649,kantonucci,SUN-15-03,"Study Maintenance","Site Communications",2016-09-15,0.50,0,18,2016,,0,1,1
-650,kantonucci,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-09-15,1.00,0,18,2016,,0,1,1
-651,kantonucci,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-09-15,1.00,0,18,2016,,0,1,1
-652,kantonucci,TEO-RHA-1501,"Study Start-up","IRB Coordination",2016-09-15,0.50,0,18,2016,,0,1,1
-653,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-15,2.50,0,18,2016,,0,1,1
-654,kantonucci,"Non-Study Activity",Lunch,,2016-09-15,0.50,0,18,2016,,0,1,1
-655,kantonucci,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-15,1.00,0,18,2016,,0,1,1
-656,kantonucci,GIL-1501,"Study Maintenance","Project Management/Supervision",2016-09-15,0.50,0,18,2016,,0,1,1
-657,nkordi,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-15,7.50,0,18,2016,,0,1,1
-658,nkordi,"Non-Study Activity",Lunch,,2016-09-15,0.50,0,18,2016,,0,1,1
-659,abekri,"Non-Study Activity",Lunch,,2016-09-15,0.50,0,18,2016,,0,1,1
-660,abekri,V01-123A-201,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-15,7.50,0,18,2016,,0,1,1
-661,tmete,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-15,2.50,0,18,2016,,0,1,1
-662,tmete,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-09-15,1.50,0,18,2016,,0,1,1
-663,tmete,"Non-Study Activity",Lunch,,2016-09-15,0.50,0,18,2016,,0,1,1
-664,tmete,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-15,2.50,0,18,2016,,0,1,1
-665,tmete,TEO-RHA-1402,"Study Closure","Project Management/Supervision",2016-09-15,1.00,0,18,2016,,0,1,1
-666,kemery,"Non-Study Activity",Lunch,,2016-09-15,0.50,0,18,2016,,0,1,1
-667,kemery,"Veritas IRB Inc.","Project Management",,2016-09-15,6.25,0,18,2016,,0,1,1
-668,kemery,"Veritas IRB Inc.",QC,,2016-09-15,1.50,0,18,2016,,0,1,1
-669,kemery,"Non-Study Activity",Lunch,,2016-09-14,0.50,0,18,2016,,0,1,1
-670,kemery,"Veritas IRB Inc.","Staff Meeting",,2016-09-14,1.25,0,18,2016,,0,1,1
-671,kemery,"Veritas IRB Inc.",QC,,2016-09-14,0.50,0,18,2016,,0,1,1
-672,kemery,"Veritas IRB Inc.","Project Management",,2016-09-14,5.75,0,18,2016,,0,1,1
-673,alebedev,"Non-Study Activity",Lunch,,2016-09-15,0.50,0,18,2016,,0,1,1
-674,alebedev,"Veritas IRB Inc.","Project Management",,2016-09-15,7.50,0,18,2016,,0,1,1
-675,ikryvonos,V01-123A-201,"Study Closure","Site Communications",2016-09-15,6.00,0,18,2016,,0,1,1
-676,tdelpe,V01-123A-201,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-15,4.00,0,18,2016,,0,1,1
-677,ikryvonos,V01-123A-201,"Study Maintenance","Monitoring Report Writing/Review/Analysis",2016-09-15,1.00,0,18,2016,,0,1,1
-678,tdelpe,V01-123A-201,"Study Maintenance","Site Communications",2016-09-15,1.00,0,18,2016,,0,1,1
-679,ikryvonos,V01-123A-201,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-15,1.50,0,18,2016,,0,1,1
-680,jparente,Directors,"Corporate Meeting",,2016-09-15,1.25,0,18,2016,,0,1,1
-681,jparente,Directors,"Corporate Meeting",,2016-09-15,1.50,0,18,2016,,0,1,1
-682,jparente,Directors,Accounting,,2016-09-15,1.50,0,18,2016,,0,1,1
-683,lstephan,"Non-Study Activity",Lunch,,2016-09-15,0.50,0,18,2016,,0,1,1
-684,lstephan,"Veritas IRB Inc.","Project Management",,2016-09-15,7.50,0,18,2016,,0,1,1
-685,lstephan,"Non-Study Activity","Office Management",,2016-09-15,0.25,0,18,2016,,0,1,1
-686,cmarion,"Non-Study Activity",Lunch,,2016-09-06,0.50,0,18,2016,,0,1,1
-687,snardo,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-16,7.50,0,18,2016,,0,1,1
-688,snardo,"Non-Study Activity",Lunch,,2016-09-16,0.50,0,18,2016,,0,1,1
-689,kantonucci,GIL-1501,"Study Start-up","Regulatory Documents Development/Collection/Submission",2016-09-16,0.50,0,18,2016,,0,1,1
-690,kantonucci,TEO-RHA-1501,"Study Start-up","Regulatory Documents Development/Collection/Submission",2016-09-16,1.00,0,18,2016,,0,1,1
-691,kantonucci,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-16,0.50,0,18,2016,,0,1,1
-692,godige,"Non-Study Activity",Lunch,,2016-09-15,0.50,0,18,2016,,0,1,1
-693,jmediati,"Non-Study Activity",Lunch,,2016-09-12,8.00,0,18,2016,,0,1,1
-694,jmediati,"Non-Study Activity",Lunch,,2016-09-13,0.00,0,18,2016,,0,1,1
-695,jmediati,"Non-Study Activity",Lunch,,2016-09-13,8.00,0,18,2016,,0,1,1
-696,jmediati,"Non-Study Activity",Lunch,,2016-09-14,8.00,0,18,2016,,0,1,1
-697,jmediati,"Non-Study Activity",Lunch,,2016-09-15,8.00,0,18,2016,,0,1,1
-698,jmediati,"Veritas IRB Inc.",Marketing/Communications,,2016-09-16,8.00,0,18,2016,,0,1,1
-699,mjensen,V01-123A-201,Biostatistics,"Project Management/Supervision",2016-09-15,6.00,0,18,2016,,0,1,1
-700,mjensen,TEO-RHA-1501,"Study Start-up",,2016-09-15,2.00,0,18,2016,,0,1,1
-701,mjensen,V01-123A-201,"Data Management","Project Management/Supervision",2016-09-16,7.00,0,18,2016,,0,1,1
-702,mjensen,SCY-078-203,Biostatistics,"Project Management/Supervision",2016-09-16,2.00,0,18,2016,,0,1,1
-703,abekri,"Non-Study Activity",Lunch,,2016-09-16,0.50,0,18,2016,,0,1,1
-704,abekri,V01-123A-201,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-16,7.50,0,18,2016,,0,1,1
-705,ikryvonos,V01-123A-201,"Study Closure","Site Communications",2016-09-16,1.00,0,18,2016,,0,1,1
-706,ikryvonos,V01-123A-201,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-16,3.00,0,18,2016,,0,1,1
-707,ikryvonos,V01-123A-201,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-16,1.00,0,18,2016,,0,1,1
-708,ikryvonos,V01-123A-201,"Study Closure","Team Meeting",2016-09-16,1.50,0,18,2016,,0,1,1
-709,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-16,2.00,0,18,2016,,0,1,1
-710,kantonucci,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-16,2.00,0,18,2016,,0,1,1
-711,kantonucci,SUN-15-03,"Study Maintenance","Site Communications",2016-09-16,0.50,0,18,2016,,0,1,1
-712,kantonucci,"Non-Study Activity",Lunch,,2016-09-16,0.50,0,18,2016,,0,1,1
-713,tdelpe,"Non-Study Activity",Lunch,,2016-09-16,0.50,0,18,2016,,0,1,1
-714,tdelpe,V01-123A-201,"Study Maintenance","Site Communications",2016-09-16,1.00,0,18,2016,,0,1,1
-715,tdelpe,V01-123A-201,"Study Maintenance","Monitoring Report Writing/Review/Analysis",2016-09-16,4.00,0,18,2016,,0,1,1
-716,tdelpe,V01-123A-201,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-16,2.50,0,18,2016,,0,1,1
-717,ikryvonos,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-16,2.00,0,18,2016,,0,1,1
-718,alebedev,"Non-Study Activity",Lunch,,2016-09-16,0.50,0,18,2016,,0,1,1
-719,nbenmouffok,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-15,6.00,0,18,2016,,0,1,1
-720,godige,V01-123A-201,"Study Maintenance","Project Management/Supervision",2016-09-15,5.00,0,18,2016,,0,1,1
-721,alebedev,"Veritas IRB Inc.",QC,,2016-09-16,2.00,0,18,2016,,0,1,1
-722,nbenmouffok,"Non-Study Activity",Lunch,,2016-09-15,0.50,0,18,2016,,0,1,1
-723,godige,V01-123A-201,"Study Maintenance","Team Meeting",2016-09-15,1.00,0,18,2016,,0,1,1
-724,nbenmouffok,TEO-RHA-1501,"Data Management","Project Management/Supervision",2016-09-15,1.50,0,18,2016,,0,1,1
-725,alebedev,"Veritas IRB Inc.","Project Management",,2016-09-16,6.00,0,18,2016,,0,1,1
-726,godige,V01-123A-201,"Study Maintenance","IRB Coordination/Communication",2016-09-15,1.00,0,18,2016,,0,1,1
-727,nbenmouffok,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-16,8.00,0,18,2016,,0,1,1
-728,godige,V01-123A-201,"Study Maintenance","Site Communications",2016-09-15,2.00,0,18,2016,,0,1,1
-729,nbenmouffok,"Non-Study Activity",Lunch,,2016-09-16,0.50,0,18,2016,,0,1,1
-730,godige,V01-123A-201,"Study Maintenance","Site Communications",2016-09-16,1.00,0,18,2016,,0,1,1
-731,godige,V01-123A-201,"Study Maintenance","Team Meeting",2016-09-16,1.00,0,18,2016,,0,1,1
-732,godige,"Non-Study Activity",Lunch,,2016-09-16,0.50,0,18,2016,,0,1,1
-733,godige,V01-123A-201,"Study Maintenance","IRB Coordination/Communication",2016-09-16,0.50,0,18,2016,,0,1,1
-734,godige,V01-123A-201,"Study Maintenance","Sponsor Communications",2016-09-16,0.50,0,18,2016,,0,1,1
-735,godige,V01-123A-201,"Study Maintenance","Project Management/Supervision",2016-09-16,2.50,0,18,2016,,0,1,1
-736,cmarion,"Non-Study Activity",Lunch,,2016-09-07,0.50,0,17,2016,,0,1,1
-737,cmarion,"Non-Study Activity",Lunch,,2016-09-08,0.50,0,17,2016,,0,1,1
-738,cmarion,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-08,7.50,0,17,2016,,0,1,1
-739,cmarion,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-09,7.50,0,17,2016,,0,1,1
-740,cmarion,"Non-Study Activity",Lunch,,2016-09-09,0.50,0,17,2016,,0,1,1
-741,cmarion,"Non-Study Activity",Lunch,,2016-09-14,0.50,0,17,2016,,0,1,1
-742,cmarion,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-14,7.50,0,17,2016,,0,1,1
-743,cmarion,"Non-Study Activity",Lunch,,2016-09-15,0.50,0,17,2016,,0,1,1
-744,cmarion,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-15,7.50,0,17,2016,,0,1,1
-745,cmarion,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-16,8.00,0,17,2016,,0,1,1
-746,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-15,1.00,0,18,2016,,0,1,1
-747,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-15,2.50,0,18,2016,,0,1,1
-748,mletendre,Directors,Legal,,2016-09-15,1.25,0,18,2016,,0,1,1
-749,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-15,0.75,0,18,2016,,0,1,1
-750,mletendre,Directors,"Corporate Meeting",,2016-09-15,1.50,0,18,2016,,0,1,1
-751,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-15,0.50,0,18,2016,,0,1,1
-752,mletendre,Directors,"Human Resources",,2016-09-16,0.75,0,18,2016,,0,1,1
-753,mletendre,Directors,Legal,,2016-09-16,0.75,0,18,2016,,0,1,1
-754,mletendre,Directors,Legal,,2016-09-16,0.40,0,18,2016,,0,1,1
-755,mletendre,Directors,Legal,,2016-09-16,0.10,0,18,2016,,0,1,1
-756,mletendre,Directors,"Human Resources",,2016-09-16,0.10,0,18,2016,,0,1,1
-757,mletendre,Directors,"Corporate Meeting",,2016-09-16,1.25,0,18,2016,,0,1,1
-758,mletendre,Directors,Legal,,2016-09-16,0.50,0,18,2016,,0,1,1
-759,mletendre,"Veritas IRB Inc.",Sales,,2016-09-16,0.75,0,18,2016,,0,1,1
-760,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-16,0.75,0,18,2016,,0,1,1
-761,mletendre,Directors,"Human Resources",,2016-09-16,0.25,0,18,2016,,0,1,1
-762,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-16,1.25,0,18,2016,,0,1,1
-763,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-16,0.25,0,18,2016,,0,1,1
-764,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-16,0.75,0,18,2016,,0,1,1
-765,mletendre,"Veritas IRB Inc.",Sales,,2016-09-16,0.50,0,18,2016,,0,1,1
-766,jparente,Directors,Accounting,,2016-09-16,5.00,0,18,2016,,0,1,1
-767,jparente,Directors,"Corporate Meeting",,2016-09-16,1.50,0,18,2016,,0,1,1
-768,jparente,Directors,Accounting,,2016-09-16,1.00,0,18,2016,,0,1,1
-769,nkordi,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-16,6.50,0,19,2016,,0,1,1
-770,nkordi,"Non-Study Activity",Lunch,,2016-09-16,0.50,0,19,2016,,0,1,1
-771,nkordi,SUN-15-03,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-16,1.00,0,19,2016,,0,1,1
-772,nsfato,"Non-Study Activity","Office Management",,2016-09-19,8.00,0,19,2016,,0,1,1
-773,nsfato,"Non-Study Activity","Office Management",,2016-09-16,8.00,0,19,2016,,0,1,1
-774,jmediati,"Veritas IRB Inc.",Marketing/Communications,,2016-09-19,8.00,0,19,2016,,0,1,1
-775,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-09-15,7.00,0,19,2016,,0,1,1
-776,adyuzhykov,"Non-Study Activity",Lunch,,2016-09-15,0.50,0,19,2016,,0,1,1
-777,adyuzhykov,"Non-Study Activity","Office Management",,2016-09-15,0.50,0,19,2016,,0,1,1
-778,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-09-16,7.50,0,19,2016,,0,1,1
-779,adyuzhykov,"Non-Study Activity",Lunch,,2016-09-16,0.50,0,19,2016,,0,1,1
-780,snardo,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-19,7.50,0,19,2016,,0,1,1
-781,snardo,"Non-Study Activity",Lunch,,2016-09-19,0.50,0,19,2016,,0,1,1
-782,snardo,,Lunch,,2016-09-14,0.00,0,19,2016,,0,1,1
-783,avincelli,"Veritas IRB Inc.",Marketing/Communications,,2016-09-19,8.00,0,19,2016,,0,1,1
-784,kantonucci,SUN-15-03,"Study Maintenance","Project Management/Supervision",2016-09-19,1.50,0,19,2016,,0,1,1
-785,kantonucci,SUN-15-04,"Study Maintenance","Project Management/Supervision",2016-09-19,1.50,0,19,2016,,0,1,1
-786,kantonucci,SUN-15-03,"Study Maintenance","Site Communications",2016-09-19,1.00,0,19,2016,,0,1,1
-787,kantonucci,SUN-15-04,"Study Maintenance","Site Communications",2016-09-19,0.50,0,19,2016,,0,1,1
-788,kantonucci,SUN-15-03,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-19,0.50,0,19,2016,,0,1,1
-789,kantonucci,SUN-15-04,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-19,0.50,0,19,2016,,0,1,1
-790,kantonucci,"Non-Study Activity",Lunch,,2016-09-19,0.50,0,19,2016,,0,1,1
-791,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-19,1.00,0,19,2016,,0,1,1
-792,kantonucci,TEO-RHA-1501,"Study Start-up","Investigator/Site Selection/Qualification/Preparation",2016-09-19,1.00,0,19,2016,,0,1,1
-793,lstephan,"Non-Study Activity",Lunch,,2016-09-16,0.50,0,19,2016,,0,1,1
-794,lstephan,"Veritas IRB Inc.",QC,,2016-09-16,1.00,0,19,2016,,0,1,1
-795,lstephan,"Veritas IRB Inc.","Project Management",,2016-09-16,8.50,0,19,2016,,0,1,1
-796,nkordi,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-19,7.00,0,19,2016,,0,1,1
-797,nkordi,SUN-15-03,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-19,0.50,0,19,2016,,0,1,1
-798,nkordi,"Non-Study Activity",Lunch,,2016-09-19,0.50,0,19,2016,,0,1,1
-799,alebedev,"Non-Study Activity",Lunch,,2016-09-19,0.50,0,19,2016,,0,1,1
-800,alebedev,"Veritas IRB Inc.",QC,,2016-09-19,1.00,0,19,2016,,0,1,1
-801,alebedev,"Veritas IRB Inc.","Project Management",,2016-09-19,6.50,0,19,2016,,0,1,1
-802,ikryvonos,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-17,2.00,0,19,2016,,0,1,1
-803,ikryvonos,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-18,2.00,0,19,2016,,0,1,1
-804,ikryvonos,V01-123A-201,"Study Maintenance","Monitoring Report Writing/Review/Analysis",2016-09-19,2.00,0,19,2016,,0,1,1
-805,ikryvonos,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-19,6.00,0,19,2016,,0,1,1
-806,ikryvonos,V01-123A-201,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-19,1.00,0,19,2016,,0,1,1
-807,mjensen,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-19,8.00,0,19,2016,,0,1,1
-808,mjensen,SCY-078-203,Biostatistics,"Statistical Analysis/Report",2016-09-19,2.00,0,19,2016,,0,1,1
-809,jparente,"Non-Study Activity","Office Management",,2016-09-19,1.00,0,19,2016,,0,1,1
-810,jparente,Directors,Accounting,,2016-09-19,7.00,0,19,2016,,0,1,1
-811,jparente,Directors,"Corporate Meeting",,2016-09-19,2.00,0,19,2016,,0,1,1
-812,jparente,V01-123A-201,"Study Maintenance","Project Management/Supervision",2016-09-19,1.00,0,19,2016,,0,1,1
-813,jparente,"Non-Study Activity","Office Management",,2016-09-20,1.00,0,19,2016,,0,1,1
-814,tmete,TEO-RHA-1501,"Study Start-up","Regulatory Documents Development/Collection/Submission",2016-09-19,3.00,0,19,2016,,0,1,1
-815,tmete,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-19,2.00,0,19,2016,,0,1,1
-816,tmete,"Non-Study Activity",Lunch,,2016-09-19,0.50,0,19,2016,,0,1,1
-817,tmete,TEO-RHA-1402,"Study Closure","Project Management/Supervision",2016-09-19,2.50,0,19,2016,,0,1,1
-818,abekri,"Non-Study Activity",Lunch,,2016-09-19,0.50,0,19,2016,,0,1,1
-819,abekri,SUN-15-03,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-19,2.00,0,19,2016,,0,1,1
-820,abekri,SUN-15-04,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-19,2.00,0,19,2016,,0,1,1
-821,abekri,V01-123A-201,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-19,3.50,0,19,2016,,0,1,1
-822,mdakouo,"Non-Study Activity",Lunch,,2016-09-19,0.50,0,19,2016,,0,1,1
-823,adyuzhykov,"Non-Study Activity",Lunch,,2016-09-19,0.50,0,19,2016,,0,1,1
-824,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-09-19,8.00,0,19,2016,,0,1,1
-825,mdakouo,TEO-RHA-1402,Biostatistics,"Statistical Analysis/Report",2016-09-19,7.50,0,19,2016,,0,1,1
-826,avincelli,"Veritas IRB Inc.",Marketing/Communications,,2016-09-20,8.00,0,19,2016,,0,1,1
-827,lstephan,"Non-Study Activity",Lunch,,2016-09-19,0.50,0,19,2016,,0,1,1
-828,lstephan,"Veritas IRB Inc.",QC,,2016-09-19,0.50,0,19,2016,,0,1,1
-829,lstephan,"Veritas IRB Inc.","Project Management",,2016-09-19,7.50,0,19,2016,,0,1,1
-830,lstephan,"Non-Study Activity","Office Management",,2016-09-19,0.25,0,19,2016,,0,1,1
-831,nsfato,"Non-Study Activity","Office Management",,2016-09-20,8.00,0,19,2016,,0,1,1
-832,nsfato,"Non-Study Activity","Office Management",,2016-09-15,8.00,0,19,2016,,0,1,1
-833,tdelpe,"Non-Study Activity",Lunch,,2016-09-19,0.50,0,19,2016,,0,1,1
-834,tdelpe,V01-123A-201,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-19,4.00,0,19,2016,,0,1,1
-835,tdelpe,V01-123A-201,"Study Maintenance","Site Communications",2016-09-19,0.50,0,19,2016,,0,1,1
-836,tdelpe,V01-123A-201,"Study Closure","Monitoring Report Writing/Review/Analysis",2016-09-19,3.00,0,19,2016,,0,1,1
-837,tdelpe,,Lunch,,2016-09-21,0.50,0,19,2016,,0,1,1
-838,kantonucci,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-20,2.00,0,19,2016,,0,1,1
-839,kantonucci,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-09-20,0.50,0,19,2016,,0,1,1
-840,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-20,3.50,0,19,2016,,0,1,1
-841,kantonucci,"Non-Study Activity",Lunch,,2016-09-20,0.50,0,19,2016,,0,1,1
-842,kantonucci,SUN-15-03,"Study Maintenance","Site Communications",2016-09-20,0.50,0,19,2016,,0,1,1
-843,nkordi,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-20,6.50,0,19,2016,,0,1,1
-844,nkordi,SUN-15-03,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-20,1.00,0,19,2016,,0,1,1
-845,jparente,Directors,"Corporate Meeting",,2016-09-20,3.00,0,19,2016,,0,1,1
-846,nkordi,"Non-Study Activity",Lunch,,2016-09-20,0.50,0,19,2016,,0,1,1
-847,jparente,Directors,Accounting,,2016-09-20,4.00,0,19,2016,,0,1,1
-848,mdakouo,TEO-RHA-1302,Biostatistics,"Statistical Analysis/Report",2016-09-20,5.50,0,19,2016,,0,1,1
-849,mdakouo,TEO-RHA-1402,Biostatistics,"Statistical Analysis/Report",2016-09-20,2.50,0,19,2016,,0,1,1
-850,tdelpe,V01-123A-201,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-20,8.00,0,19,2016,,0,1,1
-851,tdelpe,V01-123A-201,"Study Maintenance","Site Communications",2016-09-20,0.75,0,19,2016,,0,1,1
-852,adyuzhykov,"Non-Study Activity",Lunch,,2016-09-20,0.50,0,19,2016,,0,1,1
-853,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-09-20,8.00,0,19,2016,,0,1,1
-854,jparente,"Non-Study Activity","Office Management",,2016-09-21,1.00,0,19,2016,,0,1,1
-855,ikryvonos,V01-123A-201,"Study Closure","Monitoring Report Writing/Review/Analysis",2016-09-20,2.00,0,19,2016,,0,1,1
-856,ikryvonos,V01-123A-201,"Study Maintenance","Monitoring Report Writing/Review/Analysis",2016-09-20,1.00,0,19,2016,,0,1,1
-857,ikryvonos,V01-123A-201,"Study Maintenance","Project Management/Supervision",2016-09-20,4.00,0,19,2016,,0,1,1
-858,ikryvonos,V01-123A-201,"Study Closure","Team Meeting",2016-09-20,1.50,0,19,2016,,0,1,1
-859,ikryvonos,V01-123A-201,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-20,0.50,0,19,2016,,0,1,1
-860,alebedev,"Non-Study Activity",Lunch,,2016-09-20,0.50,0,19,2016,,0,1,1
-861,alebedev,"Veritas IRB Inc.",QC,,2016-09-20,0.25,0,19,2016,,0,1,1
-862,alebedev,"Veritas IRB Inc.","Project Management",,2016-09-20,7.25,0,19,2016,,0,1,1
-863,tmete,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-20,5.00,0,19,2016,,0,1,1
-864,tmete,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-09-20,1.00,0,19,2016,,0,1,1
-865,tmete,TEO-RHA-1501,"Study Start-up","Regulatory Documents Development/Collection/Submission",2016-09-20,2.00,0,19,2016,,0,1,1
-866,snardo,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-21,7.50,0,19,2016,,0,1,1
-867,snardo,"Non-Study Activity",Lunch,,2016-09-21,0.50,0,19,2016,,0,1,1
-868,jmediati,"Veritas IRB Inc.",Marketing/Communications,,2016-09-20,8.00,0,19,2016,,0,1,1
-869,jmediati,"Veritas IRB Inc.",Marketing/Communications,,2016-09-21,8.00,0,19,2016,,0,1,1
-870,avincelli,"Veritas IRB Inc.",Marketing/Communications,,2016-09-21,8.00,0,19,2016,,0,1,1
-871,alebedev,"Veritas IRB Inc.","Staff Meeting",,2016-09-21,1.25,0,19,2016,,0,1,1
-872,alebedev,"Non-Study Activity",Lunch,,2016-09-21,0.50,0,19,2016,,0,1,1
-873,nbenmouffok,V01-123A-201,"Data Management","Database Lock and Data Transfer",2016-09-19,9.00,0,19,2016,,0,1,1
-874,nbenmouffok,V01-123A-201,"Data Management","Database Lock and Data Transfer",2016-09-20,10.00,0,19,2016,,0,1,1
-875,nbenmouffok,"Non-Study Activity",Lunch,,2016-09-20,0.50,0,19,2016,,0,1,1
-876,nbenmouffok,"Non-Study Activity",Lunch,,2016-09-19,0.50,0,19,2016,,0,1,1
-877,jparente,Directors,"Human Resources",,2016-09-21,3.00,0,19,2016,,0,1,1
-878,jparente,"Non-Study Activity","Office Management",,2016-09-21,2.00,0,19,2016,,0,1,1
-879,jparente,V01-123A-201,"Study Maintenance","Project Management/Supervision",2016-09-21,1.50,0,19,2016,,0,1,1
-880,nkordi,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-21,5.00,0,19,2016,,0,1,1
-881,nkordi,SUN-15-03,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-21,2.50,0,19,2016,,0,1,1
-882,nkordi,"Non-Study Activity",Lunch,,2016-09-21,0.50,0,19,2016,,0,1,1
-883,kantonucci,TEO-RHA-1302,"Study Closure","Team Meeting",2016-09-21,2.50,0,19,2016,,0,1,1
-884,kantonucci,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-09-21,0.50,0,19,2016,,0,1,1
-885,kantonucci,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-21,2.50,0,19,2016,,0,1,1
-886,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-21,1.50,0,19,2016,,0,1,1
-887,kantonucci,"Non-Study Activity",Lunch,,2016-09-21,0.50,0,19,2016,,0,1,1
-888,alebedev,"Veritas IRB Inc.",QC,,2016-09-21,0.50,0,19,2016,,0,1,1
-889,alebedev,"Veritas IRB Inc.","Project Management",,2016-09-21,5.75,0,19,2016,,0,1,1
-890,lstephan,"Veritas IRB Inc.","Project Management",,2016-09-20,7.50,0,19,2016,,0,1,1
-891,lstephan,"Veritas IRB Inc.",QC,,2016-09-20,0.50,0,19,2016,,0,1,1
-892,lstephan,"Non-Study Activity",Lunch,,2016-09-21,0.50,0,19,2016,,0,1,1
-893,lstephan,"Veritas IRB Inc.","Staff Meeting",,2016-09-21,1.25,0,19,2016,,0,1,1
-894,lstephan,"Veritas IRB Inc.","Project Management",,2016-09-21,6.25,0,19,2016,,0,1,1
-895,cgleeson,"Non-Study Activity",Lunch,,2016-09-21,3.00,0,19,2016,,0,1,1
-896,tdelpe,,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-21,4.50,0,19,2016,,0,1,1
-897,tdelpe,,"Study Closure","Monitoring Report Writing/Review/Analysis",2016-09-21,3.00,0,19,2016,,0,1,1
-898,tdelpe,"Non-Study Activity",Lunch,,2016-09-20,0.50,0,19,2016,,0,1,1
-899,tdelpe,,"Study Maintenance","Site Communications",2016-09-21,1.00,0,19,2016,,0,1,1
-900,ikryvonos,V01-123A-201,"Study Closure","Site Communications",2016-09-21,6.00,0,19,2016,,0,1,1
-901,ikryvonos,V01-123A-201,"Study Closure","Monitoring Report Writing/Review/Analysis",2016-09-21,2.00,0,19,2016,,0,1,1
-902,ikryvonos,V01-123A-201,"Study Maintenance","Monitoring Report Writing/Review/Analysis",2016-09-21,2.00,0,19,2016,,0,1,1
-903,godige,V01-123A-201,"Study Maintenance","Site Communications",2016-09-19,4.00,0,19,2016,,0,1,1
-904,godige,"Non-Study Activity",Lunch,,2016-09-19,0.50,0,19,2016,,0,1,1
-905,godige,V01-123A-201,"Study Maintenance","IRB Coordination/Communication",2016-09-19,0.50,0,19,2016,,0,1,1
-906,godige,V01-123A-201,"Study Maintenance","Team Meeting",2016-09-19,1.00,0,19,2016,,0,1,1
-907,godige,V01-123A-201,"Study Maintenance","Site Communications",2016-09-20,6.00,0,19,2016,,0,1,1
-908,godige,"Non-Study Activity",Lunch,,2016-09-20,0.50,0,19,2016,,0,1,1
-909,godige,V01-123A-201,"Study Maintenance","Team Meeting",2016-09-20,1.00,0,19,2016,,0,1,1
-910,adyuzhykov,"Non-Study Activity",Lunch,,2016-09-21,0.50,0,19,2016,,0,1,1
-911,adyuzhykov,"Veritas IRB Inc.","Staff Meeting",,2016-09-21,1.25,0,19,2016,,0,1,1
-912,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-09-21,7.25,0,19,2016,,0,1,1
-913,mdakouo,TEO-RHA-1302,Biostatistics,"Statistical Analysis/Report",2016-09-21,8.00,0,19,2016,,0,1,1
-914,cmarion,"Non-Study Activity",Lunch,,2016-09-19,0.50,0,19,2016,,0,1,1
-915,cmarion,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-19,6.50,0,19,2016,,0,1,1
-916,cmarion,V01-123A-201,"Data Management",,2016-09-19,1.00,0,19,2016,,0,1,1
-917,cmarion,"Non-Study Activity",Lunch,,2016-09-20,0.50,0,19,2016,,0,1,1
-918,cmarion,V01-123A-201,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-20,7.50,0,19,2016,,0,1,1
-919,cmarion,V01-123A-201,"Data Management","Database Lock and Data Transfer",2016-09-21,7.50,0,19,2016,,0,1,1
-920,cmarion,"Non-Study Activity",Lunch,,2016-09-21,0.50,0,19,2016,,0,1,1
-921,cmarion,"Non-Study Activity",Lunch,,2016-09-22,0.50,0,19,2016,,0,1,1
-922,cmarion,V01-123A-201,"Data Management",,2016-09-22,7.50,0,19,2016,,0,1,1
-923,avincelli,"Veritas IRB Inc.",Marketing/Communications,,2016-09-22,8.00,0,19,2016,,0,1,1
-924,jmediati,"Veritas IRB Inc.",Marketing/Communications,,2016-09-22,8.00,0,19,2016,,0,1,1
-925,nsfato,"Non-Study Activity","Office Management",,2016-09-21,8.00,0,19,2016,,0,1,1
-926,nsfato,"Non-Study Activity","Office Management",,2016-09-22,8.00,0,19,2016,,0,1,1
-927,tmete,TEO-RHA-1302,"Study Closure","Team Meeting",2016-09-21,3.00,0,19,2016,,0,1,1
-928,tmete,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-21,4.00,0,19,2016,,0,1,1
-929,tmete,TEO-RHA-1501,"Study Start-up","Regulatory Documents Development/Collection/Submission",2016-09-21,1.00,0,19,2016,,0,1,1
-930,lstephan,"Non-Study Activity",Lunch,,2016-09-22,0.50,0,19,2016,,0,1,1
-931,snardo,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-22,7.50,0,19,2016,,0,1,1
-932,snardo,"Non-Study Activity",Lunch,,2016-09-22,0.50,0,19,2016,,0,1,1
-933,mdakouo,"Non-Study Activity","Statutory Holiday",,2016-09-14,8.00,0,19,2016,,0,1,1
-934,mdakouo,"Non-Study Activity","Statutory Holiday",,2016-09-15,8.00,0,19,2016,,0,1,1
-935,mdakouo,"Non-Study Activity","Statutory Holiday",,2016-09-16,8.00,0,19,2016,,0,1,1
-936,mdakouo,TEO-RHA-1302,Biostatistics,"Statistical Analysis/Report",2016-09-22,6.00,0,19,2016,,0,1,1
-937,mdakouo,TEO-RHA-1402,Biostatistics,"Statistical Analysis/Report",2016-09-22,2.00,0,19,2016,,0,1,1
-938,nkordi,SUN-15-03,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-22,6.50,0,19,2016,,0,1,1
-939,nkordi,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-22,1.00,0,19,2016,,0,1,1
-940,nkordi,"Non-Study Activity",Lunch,,2016-09-22,0.50,0,19,2016,,0,1,1
-941,tdelpe,"Non-Study Activity",Lunch,,2016-09-22,0.50,0,19,2016,,0,1,1
-942,tdelpe,V01-123A-201,"Study Maintenance","Site Communications",2016-09-22,0.75,0,19,2016,,0,1,1
-943,tdelpe,V01-123A-201,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-22,1.00,0,19,2016,,0,1,1
-944,tdelpe,V01-123A-201,"Study Closure","Monitoring Report Writing/Review/Analysis",2016-09-22,5.75,0,19,2016,,0,1,1
-945,adyuzhykov,"Non-Study Activity",Lunch,,2016-09-22,0.50,0,19,2016,,0,1,1
-946,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-09-22,7.50,0,19,2016,,0,1,1
-947,adyuzhykov,"Veritas IRB Inc.","Staff Meeting",,2016-09-22,0.25,0,19,2016,,0,1,1
-948,nbenmouffok,V01-123A-201,"Data Management","Database Lock and Data Transfer",2016-09-21,10.00,0,19,2016,,0,1,1
-949,nbenmouffok,"Non-Study Activity",Lunch,,2016-09-21,0.50,0,19,2016,,0,1,1
-950,ikryvonos,V01-123A-201,"Study Closure","Site Communications",2016-09-22,4.00,0,19,2016,,0,1,1
-951,ikryvonos,V01-123A-201,"Study Closure","Monitoring Report Writing/Review/Analysis",2016-09-22,1.00,0,19,2016,,0,1,1
-952,ikryvonos,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-22,4.00,0,19,2016,,0,1,1
-953,abekri,"Non-Study Activity",Lunch,,2016-09-20,0.50,0,19,2016,,0,1,1
-954,abekri,V01-123A-201,"Data Management","Database Lock and Data Transfer",2016-09-20,7.50,0,19,2016,,0,1,1
-955,abekri,"Non-Study Activity",Lunch,,2016-09-21,0.50,0,19,2016,,0,1,1
-956,abekri,V01-123A-201,"Data Management","Database Lock and Data Transfer",2016-09-21,3.50,0,19,2016,,0,1,1
-957,nbenmouffok,V01-123A-201,"Data Management","Database Lock and Data Transfer",2016-09-22,7.50,0,19,2016,,0,1,1
-958,abekri,"Non-Study Activity",Lunch,,2016-09-22,0.50,0,19,2016,,0,1,1
-959,nbenmouffok,"Non-Study Activity",Lunch,,2016-09-22,0.50,0,19,2016,,0,1,1
-960,abekri,V01-123A-201,"Data Management","Database Lock and Data Transfer",2016-09-22,7.50,0,19,2016,,0,1,1
-961,snardo,SCY-078-203,"Data Management","Database Lock and Data Transfer",2016-09-23,4.00,0,19,2016,,0,1,1
-962,snardo,"Non-Study Activity",Lunch,,2016-09-23,0.50,0,19,2016,,0,1,1
-963,jmediati,"Veritas IRB Inc.",Marketing/Communications,,2016-09-23,8.00,0,18,2016,,0,1,1
-964,lstephan,"Veritas IRB Inc.","Project Management",,2016-09-22,7.00,0,19,2016,,0,1,1
-965,nsfato,"Non-Study Activity","Office Management",,2016-09-23,8.00,0,19,2016,,0,1,1
-966,snardo,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-23,3.00,0,19,2016,,0,1,1
-967,snardo,TEO-RHA-1402,"Data Management","Database Lock and Data Transfer",2016-09-23,0.50,0,19,2016,,0,1,1
-968,lstephan,"Non-Study Activity",Lunch,,2016-09-23,0.50,0,19,2016,,0,1,1
-969,lstephan,"Veritas IRB Inc.","Project Management",,2016-09-23,6.50,0,19,2016,,0,1,1
-970,lstephan,"Veritas IRB Inc.","Project Management",,2016-09-23,0.50,0,19,2016,,0,1,1
-971,jparente,Directors,"Corporate Meeting",,2016-09-22,2.00,0,19,2016,,0,1,1
-972,jparente,Directors,Accounting,,2016-09-22,5.00,0,19,2016,,0,1,1
-973,lstephan,"Non-Study Activity","Office Management",,2016-09-23,0.25,0,19,2016,,0,1,1
-974,jparente,"Non-Study Activity","Office Management",,2016-09-22,0.50,0,19,2016,,0,1,1
-975,jparente,Directors,Accounting,,2016-09-23,5.00,0,19,2016,,0,1,1
-976,jparente,Directors,"Corporate Meeting",,2016-09-23,1.00,0,19,2016,,0,1,1
-977,jparente,Directors,"Corporate Meeting",,2016-09-23,1.00,0,19,2016,,0,1,1
-978,jparente,Directors,"Human Resources",,2016-09-23,1.50,0,19,2016,,0,1,1
-979,nbenmouffok,V01-123A-201,"Data Management","Database Lock and Data Transfer",2016-09-23,3.00,0,19,2016,,0,1,1
-980,nbenmouffok,SUN-15-04,"Data Management","Project Management/Supervision",2016-09-23,3.50,0,19,2016,,0,1,1
-981,nbenmouffok,"Non-Study Activity",Lunch,,2016-09-23,0.50,0,19,2016,,0,1,1
-982,nbenmouffok,CP-PER-2015-01,"Data Management","Project Management/Supervision",2016-09-23,1.50,0,19,2016,,0,1,1
-983,ikryvonos,V01-123A-201,"Study Closure","Site Communications",2016-09-23,2.00,0,19,2016,,0,1,1
-984,ikryvonos,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-23,6.00,0,19,2016,,0,1,1
-985,mletendre,Directors,Legal,,2016-09-19,1.75,0,19,2016,,0,1,1
-986,mletendre,Directors,"Human Resources",,2016-09-19,1.00,0,19,2016,,0,1,1
-987,mletendre,Directors,"Human Resources",,2016-09-19,0.75,0,19,2016,,0,1,1
-988,mletendre,"Veritas IRB Inc.",Sales,,2016-09-19,0.50,0,19,2016,,0,1,1
-989,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-19,2.25,0,19,2016,,0,1,1
-990,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-19,1.25,0,19,2016,,0,1,1
-991,mletendre,"Veritas IRB Inc.",QC,,2016-09-19,0.75,0,19,2016,,0,1,1
-992,mletendre,"Veritas IRB Inc.",Sales,,2016-09-19,0.25,0,19,2016,,0,1,1
-993,mletendre,Directors,"Human Resources",,2016-09-20,0.25,0,19,2016,,0,1,1
-994,mletendre,Directors,Legal,,2016-09-20,4.00,0,19,2016,,0,1,1
-995,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-20,1.75,0,19,2016,,0,1,1
-996,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-20,0.75,0,19,2016,,0,1,1
-997,mletendre,Directors,Legal,,2016-09-19,0.50,0,19,2016,,0,1,1
-998,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-20,0.25,0,19,2016,,0,1,1
-999,mletendre,Directors,"Human Resources",,2016-09-20,0.25,0,19,2016,,0,1,1
-1000,mletendre,"Veritas IRB Inc.",QC,,2016-09-20,0.25,0,19,2016,,0,1,1
-1001,mletendre,"Veritas IRB Inc.","Staff Meeting",,2016-09-21,1.25,0,19,2016,,0,1,1
-1002,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-21,0.50,0,19,2016,,0,1,1
-1003,mletendre,Directors,"Human Resources",,2016-09-21,0.50,0,19,2016,,0,1,1
-1004,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-21,3.25,0,19,2016,,0,1,1
-1005,mletendre,Directors,Legal,,2016-09-21,0.50,0,19,2016,,0,1,1
-1006,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-21,1.50,0,19,2016,,0,1,1
-1007,mletendre,Directors,"Corporate Meeting",,2016-09-22,2.00,0,19,2016,,0,1,1
-1008,mletendre,Directors,"Human Resources",,2016-09-22,1.00,0,19,2016,,0,1,1
-1009,mletendre,Directors,"Human Resources",,2016-09-22,0.25,0,19,2016,,0,1,1
-1010,mletendre,"Veritas IRB Inc.",Sales,,2016-09-22,4.50,0,19,2016,,0,1,1
-1011,mletendre,Directors,"Corporate Meeting",,2016-09-22,0.75,0,19,2016,,0,1,1
-1012,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-22,0.75,0,19,2016,,0,1,1
-1013,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-22,1.25,0,19,2016,,0,1,1
-1014,mletendre,Directors,Legal,,2016-09-22,0.75,0,19,2016,,0,1,1
-1015,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-22,1.00,0,19,2016,,0,1,1
-1016,mletendre,"Veritas IRB Inc.","Staff Meeting",,2016-09-22,0.25,0,19,2016,,0,1,1
-1017,mletendre,"Veritas IRB Inc.",Sales,,2016-09-22,0.50,0,19,2016,,0,1,1
-1018,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-22,0.50,0,19,2016,,0,1,1
-1019,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-23,0.75,0,19,2016,,0,1,1
-1020,mletendre,Directors,Legal,,2016-09-23,0.50,0,19,2016,,0,1,1
-1021,mletendre,Directors,Legal,,2016-09-23,0.75,0,19,2016,,0,1,1
-1022,mletendre,Directors,Legal,,2016-09-23,0.50,0,19,2016,,0,1,1
-1023,mletendre,"Veritas IRB Inc.",Sales,,2016-09-23,0.75,0,19,2016,,0,1,1
-1024,mletendre,,"Human Resources",,2016-09-22,0.75,0,19,2016,,0,1,1
-1025,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-23,1.50,0,19,2016,,0,1,1
-1026,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-23,0.75,0,19,2016,,0,1,1
-1027,mletendre,"Veritas IRB Inc.",QC,,2016-09-23,0.25,0,19,2016,,0,1,1
-1028,mletendre,"Veritas IRB Inc.","Staff Meeting",,2016-09-23,0.15,0,19,2016,,0,1,1
-1029,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-21,0.50,0,19,2016,,0,1,1
-1030,mletendre,"Non-Study Activity","Office Management",,2016-09-23,0.50,0,19,2016,,0,1,1
-1031,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-23,0.75,0,19,2016,,0,1,1
-1032,mletendre,Directors,"Human Resources",,2016-09-23,0.50,0,19,2016,,0,1,1
-1033,mletendre,Directors,"Human Resources",,2016-09-24,0.25,0,19,2016,,0,1,1
-1034,mletendre,Directors,"Corporate Meeting",,2016-09-24,0.75,0,19,2016,,0,1,1
-1035,mletendre,Directors,"Human Resources",,2016-09-25,1.25,0,19,2016,,0,1,1
-1036,mletendre,Directors,"Human Resources",,2016-09-23,0.50,0,19,2016,,0,1,1
-1037,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-24,1.00,0,19,2016,,0,1,1
-1038,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-24,1.00,0,19,2016,,0,1,1
-1039,jparente,Directors,Accounting,,2016-09-25,4.00,0,19,2016,,0,1,1
-1040,cmarion,"Non-Study Activity",Lunch,,2016-09-23,0.50,0,19,2016,,0,1,1
-1041,nkordi,SUN-15-03,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-23,5.50,0,19,2016,,0,1,1
-1042,nkordi,"Non-Study Activity",Lunch,,2016-09-23,0.50,0,19,2016,,0,1,1
-1043,nkordi,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-23,2.50,0,19,2016,,0,1,1
-1044,tmete,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-22,5.00,0,19,2016,,0,1,1
-1045,tmete,TEO-RHA-1501,"Study Start-up","Regulatory Documents Development/Collection/Submission",2016-09-22,3.00,0,19,2016,,0,1,1
-1046,snardo,TEO-RHA-1501,"Data Management",,2016-09-26,7.50,0,19,2016,,0,1,1
-1047,snardo,"Non-Study Activity",Lunch,,2016-09-26,0.50,0,19,2016,,0,1,1
-1048,aoziegbe,"Veritas IRB Inc.",QC,,2016-09-26,0.00,0,19,2016,,0,1,1
-1049,aoziegbe,"Veritas IRB Inc.",QC,,2016-09-26,1.50,0,19,2016,,0,1,1
-1050,cmarion,V01-123A-201,"Data Management","Data Management Plan",2016-09-23,5.00,0,19,2016,,0,1,1
-1051,cmarion,CP-PER-2015-01,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-23,2.00,0,19,2016,,0,1,1
-1052,cmarion,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-23,0.50,0,19,2016,,0,1,1
-1053,cmarion,"Non-Study Activity",Lunch,,2016-09-26,0.00,0,19,2016,,0,1,1
-1054,cmarion,CP-PER-2015-01,"Data Management",,2016-09-26,5.00,0,19,2016,,0,1,1
-1055,alebedev,"Non-Study Activity",Lunch,,2016-09-22,0.50,0,19,2016,,0,1,1
-1056,alebedev,"Veritas IRB Inc.","Project Management",,2016-09-22,7.50,0,19,2016,,0,1,1
-1057,alebedev,"Non-Study Activity",Lunch,,2016-09-23,0.50,0,19,2016,,0,1,1
-1058,alebedev,"Veritas IRB Inc.","Project Management",,2016-09-23,7.50,0,19,2016,,0,1,1
-1059,alebedev,"Non-Study Activity",Lunch,,2016-09-26,0.50,0,19,2016,,0,1,1
-1060,kantonucci,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-22,3.00,0,19,2016,,0,1,1
-1061,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-22,2.50,0,19,2016,,0,1,1
-1062,kantonucci,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-09-22,1.00,0,19,2016,,0,1,1
-1063,kantonucci,"Non-Study Activity",Lunch,,2016-09-22,0.50,0,19,2016,,0,1,1
-1064,kantonucci,TEO-RHA-1501,"Study Start-up",,2016-09-22,0.50,0,19,2016,,0,1,1
-1065,kantonucci,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-23,16.00,0,19,2016,,0,1,1
-1066,kantonucci,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-24,16.00,0,19,2016,,0,1,1
-1067,kantonucci,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-26,2.00,0,19,2016,,0,1,1
-1068,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-26,3.50,0,19,2016,,0,1,1
-1069,nsfato,"Non-Study Activity","Office Management",,2016-09-26,8.00,0,19,2016,,0,1,1
-1070,jmediati,"Veritas IRB Inc.",Marketing/Communications,,2016-09-26,8.00,0,19,2016,,0,1,1
-1071,tmete,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-23,16.00,0,19,2016,,0,1,1
-1072,tmete,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-24,12.00,0,19,2016,,0,1,1
-1073,ikryvonos,V01-123A-201,"Study Closure","Site Communications",2016-09-26,2.00,0,19,2016,,0,1,1
-1074,ikryvonos,V01-123A-201,"Study Closure","Team Meeting",2016-09-26,2.00,0,19,2016,,0,1,1
-1075,ikryvonos,"Non-Study Activity",Lunch,,2016-09-26,0.50,0,19,2016,,0,1,1
-1076,ikryvonos,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-26,4.00,0,19,2016,,0,1,1
-1077,kantonucci,"Non-Study Activity",Lunch,,2016-09-26,0.50,0,19,2016,,0,1,1
-1078,kantonucci,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-09-26,1.00,0,19,2016,,0,1,1
-1079,nbenmouffok,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-26,4.50,0,19,2016,,0,1,1
-1080,nbenmouffok,"Non-Study Activity",Lunch,,2016-09-26,0.50,0,19,2016,,0,1,1
-1081,adyuzhykov,"Non-Study Activity",Lunch,,2016-09-23,0.50,0,19,2016,,0,1,1
-1082,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-09-23,8.00,0,19,2016,,0,1,1
-1083,adyuzhykov,"Non-Study Activity",Lunch,,2016-09-26,0.50,0,19,2016,,0,1,1
-1084,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-09-26,7.50,0,19,2016,,0,1,1
-1085,mjensen,TEO-RHA-1302,"Medical Writing","Clinical Study Report",2016-09-23,6.00,0,19,2016,,0,1,1
-1086,mjensen,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-09-23,4.00,0,19,2016,,0,1,1
-1087,mjensen,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-09-24,9.00,0,19,2016,,0,1,1
-1088,mjensen,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-26,2.00,0,19,2016,,0,1,1
-1089,mjensen,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-26,4.00,0,19,2016,,0,1,1
-1090,mjensen,CP-PER-2015-01,"Study Start-up","Project Management/Supervision",2016-09-26,1.00,0,19,2016,,0,1,1
-1091,mjensen,TEO-RHA-1302,Biostatistics,"Project Management/Supervision",2016-09-26,2.00,0,19,2016,,0,1,1
-1092,jparente,"Non-Study Activity","Office Management",,2016-09-26,1.00,0,19,2016,,0,1,1
-1093,jparente,Directors,Accounting,,2016-09-26,6.00,0,19,2016,,0,1,1
-1094,jparente,"Non-Study Activity","Office Management",,2016-09-26,2.00,0,19,2016,,0,1,1
-1095,jparente,"Veritas IRB Inc.",Marketing/Communications,,2016-09-27,1.00,0,19,2016,,0,1,1
-1096,jparente,"Non-Study Activity","Office Management",,2016-09-27,2.00,0,19,2016,,0,1,1
-1097,jparente,V01-123A-201,"Study Closure",,2016-09-26,1.00,0,19,2016,,0,1,1
-1098,kemery,"Veritas IRB Inc.","Project Management",,2016-09-22,5.25,0,19,2016,,0,1,1
-1099,kemery,"Veritas IRB Inc.",QC,,2016-09-22,2.50,0,19,2016,,0,1,1
-1100,kemery,"Non-Study Activity",Lunch,,2016-09-22,0.50,0,19,2016,,0,1,1
-1101,kemery,"Veritas IRB Inc.","Project Management",,2016-09-23,2.50,0,19,2016,,0,1,1
-1102,kemery,"Veritas IRB Inc.",QC,,2016-09-23,5.00,0,19,2016,,0,1,1
-1103,kemery,"Non-Study Activity",Lunch,,2016-09-23,0.50,0,19,2016,,0,1,1
-1104,kemery,"Veritas IRB Inc.","Project Management",,2016-09-26,6.75,0,19,2016,,0,1,1
-1105,kemery,"Veritas IRB Inc.",QC,,2016-09-26,0.75,0,19,2016,,0,1,1
-1106,kemery,"Non-Study Activity",Lunch,,2016-09-26,0.50,0,19,2016,,0,1,1
-1107,nkordi,SUN-15-03,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-26,2.00,0,19,2016,,0,1,1
-1108,nkordi,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-26,5.50,0,19,2016,,0,1,1
-1109,nkordi,"Non-Study Activity",Lunch,,2016-09-26,0.50,0,19,2016,,0,1,1
-1110,tmete,"Non-Study Activity",Lunch,,2016-09-26,0.50,0,19,2016,,0,1,1
-1111,tmete,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-09-26,0.50,0,19,2016,,0,1,1
-1112,tmete,TEO-RHA-1501,"Study Start-up","Regulatory Documents Development/Collection/Submission",2016-09-26,7.50,0,19,2016,,0,1,1
-1113,tmete,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-23,0.00,0,19,2016,,0,1,1
-1114,cmarion,V01-123A-201,"Data Management","Database Lock and Data Transfer",2016-09-26,2.50,0,19,2016,,0,1,1
-1115,cmarion,"Non-Study Activity",Lunch,,2016-09-26,0.50,0,19,2016,,0,1,1
-1116,cmarion,SUN-15-04,Training,,2016-09-26,0.00,0,19,2016,,0,1,1
-1117,cmarion,"Non-Study Activity",Lunch,,2016-09-27,0.50,0,19,2016,,0,1,1
-1118,nkordi,"Non-Study Activity",Lunch,,2016-09-27,0.50,0,19,2016,,0,1,1
-1119,jmediati,"Veritas IRB Inc.",Marketing/Communications,,2016-09-27,8.00,0,19,2016,,0,1,1
-1120,alebedev,"Non-Study Activity",Lunch,,2016-09-27,0.25,0,19,2016,,0,1,1
-1121,lstephan,"Non-Study Activity",Lunch,,2016-09-26,0.50,0,19,2016,,0,1,1
-1122,lstephan,"Veritas IRB Inc.","Project Management",,2016-09-26,7.00,0,19,2016,,0,1,1
-1123,lstephan,"Veritas IRB Inc.","Project Management",,2016-09-26,0.50,0,19,2016,,0,1,1
-1124,snardo,TEO-RHA-1302,"Data Management","Database Lock and Data Transfer",2016-09-26,4.00,0,19,2016,,0,1,1
-1125,snardo,TEO-RHA-1302,"Data Management","Database Lock and Data Transfer",2016-09-26,3.50,0,19,2016,,0,1,1
-1126,snardo,"Non-Study Activity",Lunch,,2016-09-26,0.50,0,19,2016,,0,1,1
-1127,nsfato,"Non-Study Activity","Office Management",,2016-09-26,8.00,0,19,2016,,0,1,1
-1128,nsfato,"Non-Study Activity","Office Management",,2016-09-27,8.00,0,19,2016,,0,1,1
-1129,kantonucci,SUN-15-03,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-26,0.50,0,19,2016,,0,1,1
-1130,kantonucci,SUN-15-04,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-09-26,0.50,0,19,2016,,0,1,1
-1131,kantonucci,TEO-RHA-1501,"Study Start-up",,2016-09-27,4.00,0,19,2016,,0,1,1
-1132,kantonucci,SUN-15-03,"Study Maintenance","Site Communications",2016-09-27,1.00,0,19,2016,,0,1,1
-1133,kantonucci,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-09-27,1.50,0,19,2016,,0,1,1
-1134,kantonucci,"Non-Study Activity",Lunch,,2016-09-27,0.50,0,19,2016,,0,1,1
-1135,kantonucci,SUN-15-03,"Study Maintenance","Project Management/Supervision",2016-09-27,0.50,0,19,2016,,0,1,1
-1136,kantonucci,SUN-15-04,"Study Maintenance","Project Management/Supervision",2016-09-27,0.50,0,19,2016,,0,1,1
-1137,aoziegbe,"Veritas IRB Inc.",QC,,2016-09-27,8.00,0,19,2016,,0,1,1
-1138,aoziegbe,"Veritas IRB Inc.",QC,,2016-09-26,7.00,0,19,2016,,0,1,1
-1139,tmete,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-09-27,7.50,0,19,2016,,0,1,1
-1140,tmete,"Non-Study Activity",Lunch,,2016-09-27,0.50,0,19,2016,,0,1,1
-1141,ikryvonos,,"Study Closure","Team Meeting",2016-09-27,2.00,0,19,2016,,0,1,1
-1142,ikryvonos,V01-123A-201,"Study Closure","Site Communications",2016-09-27,3.00,0,19,2016,,0,1,1
-1143,nkordi,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-27,7.50,0,19,2016,,0,1,1
-1144,jparente,"Non-Study Activity","Office Management",,2016-09-27,3.00,0,19,2016,,0,1,1
-1145,mletendre,"Non-Study Activity",Training,,2016-09-26,5.00,0,19,2016,,0,1,1
-1146,jparente,Directors,Accounting,,2016-09-27,2.50,0,19,2016,,0,1,1
-1147,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-26,0.50,0,19,2016,,0,1,1
-1148,mletendre,Directors,Accounting,,2016-09-26,1.25,0,19,2016,,0,1,1
-1149,mletendre,Directors,"Corporate Meeting",,2016-09-26,0.75,0,19,2016,,0,1,1
-1150,mletendre,"Non-Study Activity",Training,,2016-09-27,3.00,0,19,2016,,0,1,1
-1151,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-27,0.50,0,19,2016,,0,1,1
-1152,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-27,2.00,0,19,2016,,0,1,1
-1153,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-27,1.00,0,19,2016,,0,1,1
-1154,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-27,0.50,0,19,2016,,0,1,1
-1155,adyuzhykov,"Non-Study Activity",Lunch,,2016-09-27,0.50,0,19,2016,,0,1,1
-1156,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-09-27,7.75,0,19,2016,,0,1,1
-1157,godige,V01-123A-201,"Study Maintenance","Site Communications",2016-09-23,2.00,0,19,2016,,0,1,1
-1158,godige,"Non-Study Activity",Lunch,,2016-09-23,0.50,0,19,2016,,0,1,1
-1159,godige,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-23,4.00,0,19,2016,,0,1,1
-1160,godige,V01-123A-201,"Study Closure","Site Communications",2016-09-23,0.50,0,19,2016,,0,1,1
-1161,godige,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-26,4.00,0,19,2016,,0,1,1
-1162,godige,"Non-Study Activity",Lunch,,2016-09-26,0.50,0,19,2016,,0,1,1
-1163,godige,V01-123A-201,"Study Closure","Team Meeting",2016-09-26,1.00,0,19,2016,,0,1,1
-1164,godige,"Non-Study Activity",Lunch,,2016-09-27,0.50,0,19,2016,,0,1,1
-1165,godige,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-27,7.00,0,19,2016,,0,1,1
-1166,godige,V01-123A-201,"Study Closure","Team Meeting",2016-09-27,0.50,0,19,2016,,0,1,1
-1167,godige,V01-123A-201,"Study Closure","Site Communications",2016-09-27,0.50,0,19,2016,,0,1,1
-1168,jparente,Directors,Accounting,,2016-09-28,3.00,0,19,2016,,0,1,1
-1169,jparente,Directors,"Human Resources",,2016-09-28,0.75,0,19,2016,,0,1,1
-1170,ikryvonos,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-27,2.50,0,19,2016,,0,1,1
-1171,ikryvonos,"Non-Study Activity",Lunch,,2016-09-27,0.50,0,19,2016,,0,1,1
-1172,ikryvonos,CLR-16-21,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-09-27,0.50,0,19,2016,,0,1,1
-1173,alebedev,"Veritas IRB Inc.","Project Management",,2016-09-27,7.75,0,19,2016,,0,1,1
-1174,jmediati,"Veritas IRB Inc.",Marketing/Communications,,2016-09-27,0.00,0,19,2016,,0,1,1
-1175,alebedev,"Non-Study Activity",Training,,2016-09-28,3.00,0,19,2016,,0,1,1
-1176,jparente,Directors,"Corporate Meeting",,2016-09-28,1.00,0,19,2016,,0,1,1
-1177,jparente,Directors,"Corporate Meeting",,2016-09-28,1.00,0,19,2016,,0,1,1
-1178,lstephan,"Non-Study Activity",Lunch,,2016-09-27,0.25,0,19,2016,,0,1,1
-1179,lstephan,"Veritas IRB Inc.","Project Management",,2016-09-27,8.00,0,19,2016,,0,1,1
-1180,kemery,"Veritas IRB Inc.","Project Management",,2016-09-27,5.75,0,19,2016,,0,1,1
-1181,kemery,"Veritas IRB Inc.",QC,,2016-09-27,1.75,0,19,2016,,0,1,1
-1182,kemery,"Non-Study Activity",Lunch,,2016-09-27,0.50,0,19,2016,,0,1,1
-1183,jmediati,"Veritas IRB Inc.",Marketing/Communications,,2016-09-28,8.00,0,19,2016,,0,1,1
-1184,nbenmouffok,TEO-RHA-1501,"Data Management","CRF Development",2016-09-26,3.00,0,19,2016,,0,1,1
-1185,nkordi,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-28,7.50,0,19,2016,,0,1,1
-1186,nkordi,"Non-Study Activity",Lunch,,2016-09-28,0.50,0,19,2016,,0,1,1
-1187,nbenmouffok,SUN-15-04,"Data Management","Project Management/Supervision",2016-09-27,4.00,0,19,2016,,0,1,1
-1188,nbenmouffok,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-27,3.50,0,19,2016,,0,1,1
-1189,nbenmouffok,"Non-Study Activity",Lunch,,2016-09-27,0.50,0,19,2016,,0,1,1
-1190,nbenmouffok,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-28,5.00,0,19,2016,,0,1,1
-1191,nbenmouffok,SUN-15-04,"Data Management","Project Management/Supervision",2016-09-28,2.00,0,19,2016,,0,1,1
-1192,nbenmouffok,SCY-078-203,"Data Management","Project Management/Supervision",2016-09-28,1.00,0,19,2016,,0,1,1
-1193,nbenmouffok,"Non-Study Activity",Lunch,,2016-09-28,0.50,0,19,2016,,0,1,1
-1194,alebedev,"Non-Study Activity",Lunch,,2016-09-28,0.25,0,19,2016,,0,1,1
-1195,alebedev,"Veritas IRB Inc.","Project Management",,2016-09-28,5.25,0,19,2016,,0,1,1
-1196,ikryvonos,CLR-16-21,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-09-28,0.50,0,19,2016,,0,1,1
-1197,ikryvonos,V01-123A-201,"Study Closure","Team Meeting",2016-09-28,1.00,0,19,2016,,0,1,1
-1198,ikryvonos,V01-123A-201,"Study Closure","Site Communications",2016-09-28,1.00,0,19,2016,,0,1,1
-1199,ikryvonos,"Non-Study Activity",Lunch,,2016-09-28,0.50,0,19,2016,,0,1,1
-1200,ikryvonos,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-28,1.00,0,19,2016,,0,1,1
-1201,ikryvonos,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-09-28,1.00,0,19,2016,,0,1,1
-1202,ikryvonos,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-28,4.00,0,19,2016,,0,1,1
-1203,aoziegbe,"Veritas IRB Inc.",QC,,2016-09-28,8.50,0,19,2016,,0,1,1
-1204,adyuzhykov,"Non-Study Activity",Training,,2016-09-28,2.50,0,19,2016,,0,1,1
-1205,adyuzhykov,"Non-Study Activity",Lunch,,2016-09-28,0.50,0,19,2016,,0,1,1
-1206,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-09-28,6.00,0,19,2016,,0,1,1
-1207,mletendre,"Non-Study Activity",Training,,2016-09-28,1.50,0,19,2016,,0,1,1
-1208,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-28,2.00,0,19,2016,,0,1,1
-1209,mletendre,"Veritas IRB Inc.",Sales,,2016-09-28,0.75,0,19,2016,,0,1,1
-1210,mletendre,"Veritas IRB Inc.",QC,,2016-09-28,0.50,0,19,2016,,0,1,1
-1211,mletendre,Directors,Accounting,,2016-09-28,2.50,0,19,2016,,0,1,1
-1212,mletendre,Directors,"Human Resources",,2016-09-28,0.75,0,19,2016,,0,1,1
-1213,mletendre,"Veritas IRB Inc.",Sales,,2016-09-28,0.50,0,19,2016,,0,1,1
-1214,mletendre,"Non-Study Activity",Lunch,,2016-09-28,0.75,0,19,2016,,0,1,1
-1215,mletendre,Directors,"Corporate Meeting",,2016-09-28,0.75,0,19,2016,,0,1,1
-1216,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-28,0.50,0,19,2016,,0,1,1
-1217,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-28,0.50,0,19,2016,,0,1,1
-1218,mletendre,Directors,Legal,,2016-09-28,0.25,0,19,2016,,0,1,1
-1219,mletendre,Directors,Legal,,2016-09-28,0.25,0,19,2016,,0,1,1
-1220,lstephan,"Non-Study Activity",Training,,2016-09-28,3.00,0,19,2016,,0,1,1
-1221,lstephan,"Veritas IRB Inc.","Project Management",,2016-09-28,5.75,0,19,2016,,0,1,1
-1222,godige,V01-123A-201,"Study Closure","Site Communications",2016-09-28,2.00,0,19,2016,,0,1,1
-1223,godige,"Non-Study Activity",Lunch,,2016-09-28,0.50,0,19,2016,,0,1,1
-1224,godige,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-28,4.00,0,19,2016,,0,1,1
-1225,snardo,TEO-RHA-1402,"Data Management","Database Lock and Data Transfer",2016-09-27,3.50,0,19,2016,,0,1,1
-1226,snardo,TEO-RHA-1302,"Data Management","Database Lock and Data Transfer",2016-09-27,4.00,0,19,2016,,0,1,1
-1227,snardo,"Non-Study Activity",Lunch,,2016-09-27,0.50,0,19,2016,,0,1,1
-1228,snardo,SCY-078-203,"Data Management","Database Lock and Data Transfer",2016-09-28,7.50,0,19,2016,,0,1,1
-1229,snardo,"Non-Study Activity",Lunch,,2016-09-28,0.50,0,19,2016,,0,1,1
-1230,kemery,"Veritas IRB Inc.","Project Management",,2016-09-28,3.75,0,19,2016,,0,1,1
-1231,kemery,"Veritas IRB Inc.",QC,,2016-09-28,1.25,0,19,2016,,0,1,1
-1232,kemery,"Non-Study Activity",Lunch,,2016-09-28,0.50,0,19,2016,,0,1,1
-1233,kemery,"Non-Study Activity",Training,,2016-09-28,3.00,0,19,2016,,0,1,1
-1234,kantonucci,GIL-1501,"Study Start-up","Regulatory Documents Development/Collection/Submission",2016-09-28,0.50,0,19,2016,,0,1,1
-1235,kantonucci,GIL-1501,"Study Start-up","Project Management/Supervision",2016-09-28,0.50,0,19,2016,,0,1,1
-1236,kantonucci,GIL-1501,"Study Start-up","IRB Coordination",2016-09-28,0.25,0,19,2016,,0,1,1
-1237,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-28,3.00,0,19,2016,,0,1,1
-1238,kantonucci,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-09-28,0.50,0,19,2016,,0,1,1
-1239,kantonucci,SUN-15-03,"Study Maintenance","Project Management/Supervision",2016-09-28,1.00,0,19,2016,,0,1,1
-1240,kantonucci,SUN-15-04,"Study Maintenance","Project Management/Supervision",2016-09-28,1.00,0,19,2016,,0,1,1
-1241,kantonucci,"Non-Study Activity",Lunch,,2016-09-28,0.50,0,19,2016,,0,1,1
-1242,kantonucci,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-09-28,0.50,0,19,2016,,0,1,1
-1243,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-29,3.50,0,19,2016,,0,1,1
-1244,cmarion,V01-123A-201,"Data Management","Database Lock and Data Transfer",2016-09-26,0.00,0,19,2016,,0,1,1
-1245,cmarion,V01-123A-201,"Data Management","Database Lock and Data Transfer",2016-09-27,4.00,0,19,2016,,0,1,1
-1246,cmarion,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-27,3.50,0,19,2016,,0,1,1
-1247,tdelpe,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-23,8.00,0,19,2016,,0,1,1
-1248,tdelpe,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-24,12.00,0,19,2016,,0,1,1
-1249,tdelpe,V01-123A-201,"Study Closure","Travel Time",2016-09-26,9.50,0,19,2016,,0,1,1
-1250,tdelpe,V01-123A-201,"On-Site Monitoring","COV (Outside Canada)",2016-09-27,7.50,0,19,2016,,0,1,1
-1251,tdelpe,V01-123A-201,"Study Closure","Travel Time",2016-09-27,0.50,0,19,2016,,0,1,1
-1252,tmete,TEO-RHA-1501,"Study Start-up","Regulatory Documents Development/Collection/Submission",2016-09-28,3.50,0,19,2016,,0,1,1
-1253,tmete,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-09-28,4.00,0,19,2016,,0,1,1
-1254,tmete,"Non-Study Activity",Lunch,,2016-09-28,0.50,0,19,2016,,0,1,1
-1255,tdelpe,V01-123A-201,"Study Closure","Travel Time",2016-09-28,9.00,0,19,2016,,0,1,1
-1256,tdelpe,V01-123A-201,"On-Site Monitoring","COV (Outside Canada)",2016-09-28,7.00,0,19,2016,,0,1,1
-1257,tdelpe,,Lunch,,2016-09-29,0.50,0,19,2016,,0,1,1
-1258,nbenmouffok,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-29,4.00,0,19,2016,,0,1,1
-1259,nbenmouffok,CP-PER-2015-01,"Data Management","Project Management/Supervision",2016-09-29,1.00,0,19,2016,,0,1,1
-1260,nbenmouffok,"Non-Study Activity",Lunch,,2016-09-29,0.50,0,19,2016,,0,1,1
-1261,alebedev,"Non-Study Activity",Lunch,,2016-09-29,0.25,0,19,2016,,0,1,1
-1262,alebedev,"Veritas IRB Inc.","Project Management",,2016-09-29,1.25,0,19,2016,,0,1,1
-1263,tmete,"Non-Study Activity",Lunch,,2016-09-29,0.50,0,19,2016,,0,1,1
-1264,tmete,TEO-RHA-1501,"Study Start-up","Regulatory Documents Development/Collection/Submission",2016-09-29,4.50,0,19,2016,,0,1,1
-1265,tmete,TEO-RHA-1402,"Study Closure","Project Management/Supervision",2016-09-29,2.50,0,19,2016,,0,1,1
-1266,tmete,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-09-29,0.50,0,19,2016,,0,1,1
-1267,alebedev,"Veritas IRB Inc.","Project Management",,2016-09-29,6.50,0,19,2016,,0,1,1
-1268,ikryvonos,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-09-29,2.00,0,19,2016,,0,1,1
-1269,ikryvonos,V01-123A-201,"Study Closure","Site Communications",2016-09-29,1.00,0,19,2016,,0,1,1
-1270,ikryvonos,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-29,2.50,0,19,2016,,0,1,1
-1271,ikryvonos,V01-123A-201,"Study Closure","Team Meeting",2016-09-29,1.50,0,19,2016,,0,1,1
-1272,ikryvonos,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-29,1.00,0,19,2016,,0,1,1
-1273,ikryvonos,"Non-Study Activity",Lunch,,2016-09-29,0.50,0,19,2016,,0,1,1
-1274,avincelli,"Veritas IRB Inc.",QC,,2016-09-22,0.00,0,19,2016,,0,1,1
-1275,aoziegbe,"Veritas IRB Inc.",QC,,2016-09-29,8.00,0,19,2016,,0,1,1
-1276,tdelpe,"Non-Study Activity","Office Management",,2016-09-29,1.50,0,19,2016,,0,1,1
-1277,tdelpe,V01-123A-201,"Study Closure","Site Communications",2016-09-29,0.50,0,19,2016,,0,1,1
-1278,tdelpe,V01-123A-201,"Study Closure","Monitoring Report Writing/Review/Analysis",2016-09-29,5.00,0,19,2016,,0,1,1
-1279,jparente,Directors,Accounting,,2016-09-29,2.00,0,19,2016,,0,1,1
-1280,jparente,Directors,Accounting,,2016-09-29,2.00,0,19,2016,,0,1,1
-1281,jparente,Directors,"Corporate Meeting",,2016-09-29,1.00,0,19,2016,,0,1,1
-1282,jparente,TEO-RHA-1501,"Study Start-up",,2016-09-29,1.00,0,19,2016,,0,1,1
-1283,aoziegbe,"Veritas IRB Inc.",QC,,2016-09-30,8.00,0,19,2016,,0,1,1
-1284,lstephan,"Non-Study Activity",Lunch,,2016-09-29,0.50,0,19,2016,,0,1,1
-1285,lstephan,"Veritas IRB Inc.","Project Management",,2016-09-29,7.50,0,19,2016,,0,1,1
-1286,nkordi,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-29,6.00,0,19,2016,,0,1,1
-1287,nkordi,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-29,1.00,0,19,2016,,0,1,1
-1288,nkordi,SUN-15-03,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-29,0.50,0,19,2016,,0,1,1
-1289,nkordi,"Non-Study Activity",Lunch,,2016-09-29,0.50,0,19,2016,,0,1,1
-1290,kantonucci,TEO-RHA-1501,"Study Start-up","Investigator Meeting (Preparation, Attendance, etc.)",2016-09-29,2.00,0,19,2016,,0,1,1
-1291,kantonucci,"Non-Study Activity",Lunch,,2016-09-29,0.50,0,19,2016,,0,1,1
-1292,kantonucci,TEO-RHA-1501,"Study Start-up","Investigator/Site Selection/Qualification/Preparation",2016-09-29,1.00,0,19,2016,,0,1,1
-1293,kantonucci,SUN-15-04,"Study Maintenance","Project Management/Supervision",2016-09-29,0.50,0,19,2016,,0,1,1
-1294,kantonucci,SUN-15-03,"Study Maintenance","Project Management/Supervision",2016-09-29,0.50,0,19,2016,,0,1,1
-1295,mjensen,CLR-16-21,"Study Start-up","Project Management/Supervision",2016-09-27,4.00,0,19,2016,,0,1,1
-1296,mjensen,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-27,2.00,0,19,2016,,0,1,1
-1297,mjensen,TEO-RHA-1302,Biostatistics,"Project Management/Supervision",2016-09-27,2.00,0,19,2016,,0,1,1
-1298,mjensen,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-27,1.00,0,19,2016,,0,1,1
-1299,mjensen,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-28,3.00,0,19,2016,,0,1,1
-1300,mjensen,SCY-078-203,Biostatistics,"Project Management/Supervision",2016-09-28,6.00,0,19,2016,,0,1,1
-1301,mjensen,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-29,2.00,0,19,2016,,0,1,1
-1302,mjensen,SCY-078-203,Biostatistics,"Project Management/Supervision",2016-09-29,4.00,0,19,2016,,0,1,1
-1303,mjensen,TEO-RHA-1302,Biostatistics,"Project Management/Supervision",2016-09-29,1.00,0,19,2016,,0,1,1
-1304,mjensen,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-29,1.00,0,19,2016,,0,1,1
-1305,mjensen,Directors,"Corporate Meeting",,2016-09-29,1.00,0,19,2016,,0,1,1
-1306,mjensen,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-30,2.00,0,19,2016,,0,1,1
-1307,mjensen,TEO-RHA-1302,Biostatistics,"Project Management/Supervision",2016-09-30,1.00,0,19,2016,,0,1,1
-1308,mjensen,SCY-078-203,Biostatistics,"Project Management/Supervision",2016-09-30,4.00,0,19,2016,,0,1,1
-1309,adyuzhykov,"Non-Study Activity",Lunch,,2016-09-29,0.00,0,19,2016,,0,1,1
-1310,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-09-29,7.00,0,19,2016,,0,1,1
-1311,kantonucci,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-09-30,2.50,0,19,2016,,0,1,1
-1312,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-09-30,3.00,0,19,2016,,0,1,1
-1313,kantonucci,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-09-30,1.00,0,19,2016,,0,1,1
-1314,kantonucci,"Non-Study Activity",Lunch,,2016-09-30,0.50,0,19,2016,,0,1,1
-1315,kantonucci,GIL-1501,"Study Start-up","Project Management/Supervision",2016-09-30,0.50,0,19,2016,,0,1,1
-1316,kemery,"Veritas IRB Inc.","Project Management",,2016-09-29,4.25,0,19,2016,,0,1,1
-1317,kemery,"Veritas IRB Inc.",QC,,2016-09-29,3.25,0,19,2016,,0,1,1
-1318,kemery,"Non-Study Activity",Lunch,,2016-09-29,0.50,0,19,2016,,0,1,1
-1319,snardo,TEO-RHA-1501,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-29,3.50,0,19,2016,,0,1,1
-1320,snardo,"Non-Study Activity",Lunch,,2016-09-29,0.50,0,19,2016,,0,1,1
-1321,snardo,TEO-RHA-1501,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-30,7.50,0,19,2016,,0,1,1
-1322,snardo,"Non-Study Activity",Lunch,,2016-09-30,0.50,0,19,2016,,0,1,1
-1323,nbenmouffok,SUN-15-04,"Data Management","Project Management/Supervision",2016-09-29,2.50,0,19,2016,,0,1,1
-1324,nbenmouffok,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-30,5.00,0,19,2016,,0,1,1
-1325,nbenmouffok,TEO-RHA-1402,"Data Management","Database Lock and Data Transfer",2016-09-30,1.00,0,19,2016,,0,1,1
-1326,nbenmouffok,CP-PER-2015-01,"Data Management","Project Management/Supervision",2016-09-30,2.00,0,19,2016,,0,1,1
-1327,nbenmouffok,"Non-Study Activity",Lunch,,2016-09-30,0.50,0,19,2016,,0,1,1
-1328,cmarion,"Non-Study Activity",Lunch,,2016-09-29,0.50,0,19,2016,,0,1,1
-1329,nsfato,"Non-Study Activity","Office Management",,2016-09-28,8.00,0,19,2016,,0,1,1
-1330,cmarion,V01-123A-201,"Data Management","Database Lock and Data Transfer",2016-09-29,2.00,0,19,2016,,0,1,1
-1331,nsfato,"Non-Study Activity","Office Management",,2016-09-29,8.00,0,19,2016,,0,1,1
-1332,nsfato,"Non-Study Activity","Office Management",,2016-09-30,8.00,0,19,2016,,0,1,1
-1333,cmarion,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-29,2.00,0,19,2016,,0,1,1
-1334,cmarion,CP-PER-2015-01,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-29,3.50,0,19,2016,,0,1,1
-1335,cmarion,"Non-Study Activity",Lunch,,2016-09-30,0.50,0,19,2016,,0,1,1
-1336,cmarion,V01-123A-201,"Data Management","Database Lock and Data Transfer",2016-09-30,2.00,0,19,2016,,0,1,1
-1337,cmarion,CP-PER-2015-01,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-30,5.50,0,19,2016,,0,1,1
-1338,ikryvonos,V01-123A-201,"Study Closure","Site Communications",2016-09-30,2.00,0,19,2016,,0,1,1
-1339,ikryvonos,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-30,4.00,0,19,2016,,0,1,1
-1340,ikryvonos,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-09-30,0.50,0,19,2016,,0,1,1
-1341,ikryvonos,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-09-30,1.50,0,19,2016,,0,1,1
-1342,nkordi,SUN-15-03,"Data Management","Data Entry/Data Validation/Query Generation",2016-09-30,7.50,0,19,2016,,0,1,1
-1343,nkordi,"Non-Study Activity",Lunch,,2016-09-30,0.50,0,19,2016,,0,1,1
-1344,adyuzhykov,"Non-Study Activity",Lunch,,2016-09-30,0.50,0,19,2016,,0,1,1
-1345,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-09-30,7.50,0,19,2016,,0,1,1
-1346,godige,"Non-Study Activity",Lunch,,2016-09-29,0.50,0,19,2016,,0,1,1
-1347,godige,V01-123A-201,"Study Closure","Site Communications",2016-09-29,4.00,0,19,2016,,0,1,1
-1348,godige,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-29,2.00,0,19,2016,,0,1,1
-1349,godige,V01-123A-201,"Study Closure","Team Meeting",2016-09-29,1.00,0,19,2016,,0,1,1
-1350,godige,"Non-Study Activity",Lunch,,2016-09-30,0.50,0,19,2016,,0,1,1
-1351,godige,V01-123A-201,"Study Closure","Site Communications",2016-09-30,3.00,0,19,2016,,0,1,1
-1352,godige,V01-123A-201,"Study Closure","Project Management/Supervision",2016-09-30,3.00,0,19,2016,,0,1,1
-1353,lstephan,"Non-Study Activity",Lunch,,2016-09-30,0.50,0,19,2016,,0,1,1
-1354,lstephan,"Veritas IRB Inc.","Project Management",,2016-09-30,8.50,0,19,2016,,0,1,1
-1355,jparente,Directors,Accounting,,2016-09-30,8.00,0,19,2016,,0,1,1
-1356,jparente,Directors,Accounting,,2016-10-01,2.00,0,20,2016,,0,1,1
-1357,jparente,"Non-Study Activity","Office Management",,2016-10-03,1.00,0,20,2016,"Task Log preparations Neria and Caroline",0,1,1
-1358,jparente,Directors,"Human Resources",,2016-10-03,2.00,0,20,2016,,0,1,1
-1359,cmarion,CP-PER-2015-01,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-10-03,7.50,0,20,2016,,0,1,1
-1360,alebedev,"Non-Study Activity",Training,,2016-09-30,9.00,0,20,2016,,0,1,1
-1361,alebedev,"Non-Study Activity",Training,,2016-10-02,4.00,0,20,2016,,0,1,1
-1362,alebedev,"Non-Study Activity",Training,,2016-10-01,9.00,0,20,2016,,0,1,1
-1363,kemery,"Veritas IRB Inc.","Project Management",,2016-09-30,5.50,0,20,2016,,0,1,1
-1364,kemery,"Veritas IRB Inc.",QC,,2016-09-30,2.25,0,20,2016,,0,1,1
-1365,kemery,"Non-Study Activity",Lunch,,2016-09-30,0.50,0,20,2016,,0,1,1
-1366,snardo,SCY-078-203,"Data Management","Database Lock and Data Transfer",2016-09-29,4.00,0,19,2016,,0,1,1
-1367,snardo,"Non-Study Activity",Lunch,,2016-09-29,0.50,0,19,2016,,0,1,1
-1368,snardo,TEO-RHA-1501,"Data Management",,2016-09-29,7.50,0,19,2016,,0,1,1
-1369,tdelpe,TEO-RHA-1501,Training,,2016-09-30,1.50,0,20,2016,,0,1,1
-1370,tdelpe,V01-123A-201,"Study Closure","Monitoring Report Writing/Review/Analysis",2016-09-30,1.00,0,20,2016,,0,1,1
-1371,tdelpe,V01-123A-201,"Study Closure","Monitoring Report Writing/Review/Analysis",2016-09-30,3.50,0,20,2016,,0,1,1
-1372,aoziegbe,"Veritas IRB Inc.",QC,,2016-10-03,0.00,0,20,2016,,0,1,1
-1373,aoziegbe,"Veritas IRB Inc.",QC,,2016-10-03,8.00,0,20,2016,,0,1,1
-1374,sing,"Veritas IRB Inc.",Marketing/Communications,,2016-09-26,8.00,0,20,2016,,0,1,1
-1375,sing,"Veritas IRB Inc.",Marketing/Communications,,2016-09-27,8.00,0,20,2016,,0,1,1
-1376,sing,"Veritas IRB Inc.",Marketing/Communications,,2016-09-28,8.00,0,20,2016,,0,1,1
-1377,sing,"Veritas IRB Inc.",Marketing/Communications,,2016-09-29,8.00,0,20,2016,,0,1,1
-1378,sing,"Veritas IRB Inc.",Marketing/Communications,,2016-09-30,8.00,0,20,2016,,0,1,1
-1379,sing,"Veritas IRB Inc.",Marketing/Communications,,2016-10-03,8.00,0,20,2016,,0,1,1
-1380,sing,"Veritas IRB Inc.",Marketing/Communications,,2016-10-01,4.00,0,20,2016,SOCRA,0,1,1
-1381,jparente,Directors,Accounting,,2016-10-03,4.00,0,20,2016,SR&ED,0,1,1
-1382,tdelpe,V01-123A-201,"Study Closure","TMF Closure",2016-10-03,0.50,0,20,2016,,0,1,1
-1383,tdelpe,"Non-Study Activity",Lunch,,2016-10-03,0.50,0,20,2016,,0,1,1
-1384,tdelpe,V01-123A-201,"Study Closure","Monitoring Report Writing/Review/Analysis",2016-10-03,7.00,0,20,2016,,0,1,1
-1385,nsfato,"Non-Study Activity","Office Management",,2016-10-03,6.00,0,20,2016,,0,1,1
-1386,alebedev,"Non-Study Activity",Lunch,,2016-10-03,0.50,0,20,2016,,0,1,1
-1387,lstephan,"Veritas IRB Inc.","Staff Meeting",,2016-10-03,0.75,0,20,2016,"2 Meetings ",0,1,1
-1388,alebedev,"Veritas IRB Inc.","Staff Meeting",,2016-10-03,0.75,0,20,2016,,0,1,1
-1389,lstephan,"Non-Study Activity",Lunch,,2016-10-03,0.50,0,20,2016,,0,1,1
-1390,lstephan,"Veritas IRB Inc.","Project Management",,2016-10-03,7.00,0,20,2016,,0,1,1
-1391,adyuzhykov,"Non-Study Activity",Lunch,,2016-10-03,0.50,0,20,2016,,0,1,1
-1392,alebedev,"Veritas IRB Inc.","Project Management",,2016-10-03,6.75,0,20,2016,,0,1,1
-1393,adyuzhykov,"Veritas IRB Inc.","Staff Meeting",,2016-10-03,0.75,0,20,2016,,0,1,1
-1394,ikryvonos,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-10-03,1.00,0,20,2016,,0,1,1
-1395,ikryvonos,V01-123A-201,"Study Closure","Site Communications",2016-10-03,3.00,0,20,2016,,0,1,1
-1396,ikryvonos,V01-123A-201,"Study Closure","Project Management/Supervision",2016-10-03,1.00,0,20,2016,,0,1,1
-1397,ikryvonos,V01-123A-201,"Study Closure","TMF Closure",2016-10-03,2.50,0,20,2016,,0,1,1
-1398,ikryvonos,"Non-Study Activity",Lunch,,2016-10-03,0.50,0,20,2016,,0,1,1
-1399,mdakouo,"Non-Study Activity",Lunch,,2016-10-03,0.50,0,20,2016,,0,1,1
-1400,mdakouo,TEO-RHA-1402,Biostatistics,"Statistical Analysis/Report",2016-10-03,2.50,0,20,2016,"Additional Safety Tables",0,1,1
-1401,mdakouo,TEO-RHA-1302,Biostatistics,"Statistical Analysis/Report",2016-10-03,5.00,0,20,2016,"Additional Safety Tables (RHA-DL and RHA GA)",0,1,1
-1402,mdakouo,"Non-Study Activity","Statutory Holiday",,2016-09-26,8.00,0,20,2016,vacation,0,1,1
-1403,mdakouo,"Non-Study Activity","Statutory Holiday",,2016-09-27,8.00,0,20,2016,vacation,0,1,1
-1404,mdakouo,"Non-Study Activity","Statutory Holiday",,2016-09-28,8.00,0,20,2016,vacation,0,1,1
-1405,mdakouo,"Non-Study Activity","Statutory Holiday",,2016-09-29,8.00,0,20,2016,vacation,0,1,1
-1406,mdakouo,TEO-RHA-1302,Biostatistics,"Statistical Analysis/Report",2016-09-30,8.00,0,20,2016,"Additional Safety Tables (RHA GA)",0,1,1
-1407,mdakouo,TEO-RHA-1302,Biostatistics,"Statistical Analysis/Report",2016-10-01,8.00,0,20,2016,"Additional Safety Tables (RHA DL)",0,1,1
-1408,mdakouo,TEO-RHA-1402,Biostatistics,"Statistical Analysis/Report",2016-10-02,11.00,0,20,2016,"Additional Safety Tables (RHA -UD)",0,1,1
-1409,mdakouo,"Non-Study Activity","Statutory Holiday",,2016-09-23,4.00,0,20,2016,"Personal Times",0,1,1
-1410,kemery,"Non-Study Activity",Lunch,,2016-10-03,0.50,0,20,2016,,0,1,1
-1411,kemery,"Veritas IRB Inc.","Project Management",,2016-10-03,5.50,0,20,2016,,0,1,1
-1412,kemery,"Veritas IRB Inc.","Staff Meeting",,2016-10-03,0.75,0,20,2016,,0,1,1
-1413,kemery,"Veritas IRB Inc.",QC,,2016-10-03,1.25,0,20,2016,,0,1,1
-1414,alebedev,"Non-Study Activity",Lunch,,2016-10-04,0.50,0,20,2016,,0,1,1
-1415,alebedev,"Veritas IRB Inc.","Staff Meeting",,2016-10-04,0.25,0,20,2016,,0,1,1
-1416,snardo,TEO-RHA-1501,"Data Management","Data Entry/Data Validation/Query Generation",2016-10-03,7.50,0,20,2016,,0,1,1
-1417,snardo,"Non-Study Activity",Lunch,,2016-10-03,0.50,0,20,2016,,0,1,1
-1418,snardo,TEO-RHA-1501,"Data Management","Data Entry/Data Validation/Query Generation",2016-10-04,7.50,0,20,2016,,0,1,1
-1419,snardo,"Non-Study Activity",Lunch,,2016-10-04,0.50,0,20,2016,,0,1,1
-1420,godige,V01-123A-201,"Study Closure","Team Meeting",2016-10-03,0.50,0,20,2016,,0,1,1
-1421,godige,"Non-Study Activity",Lunch,,2016-10-03,0.50,0,20,2016,,0,1,1
-1422,godige,V01-123A-201,"Study Closure","Project Management/Supervision",2016-10-03,4.00,0,20,2016,,0,1,1
-1423,godige,V01-123A-201,"Study Closure","Site Communications",2016-10-03,1.00,0,20,2016,,0,1,1
-1424,godige,V01-123A-201,"Study Closure","Project Management/Supervision",2016-10-04,5.00,0,20,2016,,0,1,1
-1425,godige,"Non-Study Activity",Lunch,,2016-10-04,0.50,0,20,2016,,0,1,1
-1426,kantonucci,SUN-15-03,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-10-03,2.00,0,20,2016,,0,1,1
-1427,kantonucci,SUN-15-04,"Study Maintenance","In-house Monitoring (eCRF Review)",2016-10-03,2.00,0,20,2016,,0,1,1
-1428,kantonucci,SUN-15-03,"Study Maintenance","Site Communications",2016-10-03,1.00,0,20,2016,,0,1,1
-1429,kantonucci,SUN-15-04,"Study Maintenance","Site Communications",2016-10-03,1.00,0,20,2016,,0,1,1
-1430,kantonucci,SUN-15-04,"Study Maintenance","Sponsor Communications",2016-10-03,0.50,0,20,2016,,0,1,1
-1431,kantonucci,"Non-Study Activity",Lunch,,2016-10-03,0.50,0,20,2016,,0,1,1
-1432,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-10-03,1.00,0,20,2016,,0,1,1
-1433,kantonucci,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-10-04,1.00,0,20,2016,,0,1,1
-1434,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-10-04,5.00,0,20,2016,,0,1,1
-1435,kantonucci,SUN-15-03,"Study Maintenance","Team Meeting",2016-10-04,0.25,0,20,2016,,0,1,1
-1436,kantonucci,SUN-15-04,"Study Maintenance","Team Meeting",2016-10-04,0.25,0,20,2016,,0,1,1
-1437,kantonucci,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-10-04,0.50,0,20,2016,,0,1,1
-1438,kantonucci,"Non-Study Activity",Lunch,,2016-10-04,0.50,0,20,2016,,0,1,1
-1439,aoziegbe,"Veritas IRB Inc.",QC,,2016-10-04,8.00,0,20,2016,,0,1,1
-1440,alebedev,"Veritas IRB Inc.","Project Management",,2016-10-04,7.25,0,20,2016,,0,1,1
-1441,ikryvonos,V01-123A-201,"Study Closure","Site Communications",2016-10-04,3.00,0,20,2016,,0,1,1
-1442,ikryvonos,V01-123A-201,"Study Closure","Sponsor Communications",2016-10-04,0.50,0,20,2016,,0,1,1
-1443,ikryvonos,V01-123A-201,"Study Closure","TMF Closure",2016-10-04,2.00,0,20,2016,,0,1,1
-1444,ikryvonos,V01-123A-201,"Study Closure","Project Management/Supervision",2016-10-04,2.00,0,20,2016,"Payments reconciliation",0,1,1
-1445,ikryvonos,"Non-Study Activity",Lunch,,2016-10-04,0.50,0,20,2016,,0,1,1
-1446,adyuzhykov,"Veritas IRB Inc.","Staff Meeting",,2016-10-04,0.25,0,20,2016,,0,1,1
-1447,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-10-04,6.25,0,20,2016,,0,1,1
-1448,adyuzhykov,"Non-Study Activity","Office Management",,2016-10-04,1.00,0,20,2016,,0,1,1
-1449,adyuzhykov,"Non-Study Activity",Lunch,,2016-10-04,0.50,0,20,2016,,0,1,1
-1450,tdelpe,"Non-Study Activity",Lunch,,2016-10-04,0.50,0,20,2016,,0,1,1
-1451,tdelpe,"Non-Study Activity","Office Management",,2016-10-04,0.50,0,20,2016,"administration - expense report",0,1,1
-1452,tdelpe,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-10-04,0.25,0,20,2016,,0,1,1
-1453,tdelpe,V01-123A-201,"Study Closure","TMF Closure",2016-10-04,0.50,0,20,2016,,0,1,1
-1454,tdelpe,V01-123A-201,"Study Closure","Monitoring Report Writing/Review/Analysis",2016-10-04,4.25,0,20,2016,,0,1,1
-1455,jparente,"Non-Study Activity","Office Management",,2016-10-04,1.00,0,20,2016,"Task Log preparations Neria and Caroline",0,1,1
-1456,jparente,Directors,Accounting,,2016-10-04,2.50,0,20,2016,Accounting,0,1,1
-1457,jparente,Directors,"Corporate Meeting",,2016-10-04,1.50,0,20,2016,"ML re: legal, discussion Sandra Levy, Chris Mediati",0,1,1
-1458,jparente,Directors,Accounting,,2016-10-05,1.00,0,20,2016,VISAs,0,1,1
-1459,jparente,"Non-Study Activity","Office Management",,2016-10-05,1.00,0,20,2016,"Task Log preparations Neria and Caroline",0,1,1
-1460,tmete,TEO-RHA-1501,"Study Start-up","Regulatory Documents Development/Collection/Submission",2016-10-03,7.50,0,20,2016,,0,1,1
-1461,tmete,"Non-Study Activity",Lunch,,2016-10-03,0.50,0,20,2016,,0,1,1
-1462,tmete,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-10-04,0.50,0,20,2016,,0,1,1
-1463,tmete,"Non-Study Activity",Lunch,,2016-10-04,0.50,0,20,2016,,0,1,1
-1464,tmete,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-10-04,5.00,0,20,2016,,0,1,1
-1465,tmete,TEO-RHA-1501,"Study Start-up","IRB Coordination",2016-10-04,2.00,0,20,2016,,0,1,1
-1466,lstephan,"Non-Study Activity",Lunch,,2016-10-04,0.50,0,20,2016,,0,1,1
-1467,lstephan,"Veritas IRB Inc.","Staff Meeting",,2016-10-04,0.25,0,20,2016,,0,1,1
-1468,lstephan,"Veritas IRB Inc.","Project Management",,2016-10-04,7.25,0,20,2016,,0,1,1
-1469,mdakouo,TEO-RHA-1402,Biostatistics,"Statistical Analysis/Report",2016-10-04,3.00,0,20,2016,"Creating Additional Safety Tables",0,1,1
-1470,mdakouo,TEO-RHA-1302,Biostatistics,"Statistical Analysis Plan",2016-10-04,6.00,0,20,2016,"Creating Additional Safety Tables",0,1,1
-1471,mdakouo,"Non-Study Activity",Lunch,,2016-10-04,0.50,0,20,2016,,0,1,1
-1472,abekri,"Non-Study Activity",Lunch,,2016-09-26,0.50,0,20,2016,,0,1,1
-1473,abekri,SUN-15-03,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-26,2.00,0,20,2016,,0,1,1
-1474,abekri,SUN-15-04,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-26,2.00,0,20,2016,,0,1,1
-1475,abekri,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-26,1.50,0,20,2016,,0,1,1
-1476,abekri,"Non-Study Activity",Lunch,,2016-09-27,0.50,0,20,2016,,0,1,1
-1477,abekri,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-27,4.50,0,20,2016,,0,1,1
-1478,abekri,CP-PER-2015-01,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-27,3.00,0,20,2016,,0,1,1
-1479,abekri,"Non-Study Activity",Lunch,,2016-09-28,0.00,0,20,2016,,0,1,1
-1480,abekri,"Non-Study Activity","Office Management",,2016-09-28,7.50,0,20,2016,"working on IT stuff",0,1,1
-1481,abekri,"Non-Study Activity",Lunch,,2016-09-28,0.50,0,20,2016,,0,1,1
-1482,abekri,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-29,4.50,0,20,2016,,0,1,1
-1483,abekri,"Non-Study Activity",Lunch,,2016-09-29,0.50,0,20,2016,,0,1,1
-1484,abekri,"Non-Study Activity","Office Management",,2016-09-29,3.00,0,20,2016,"working on IT stuff",0,1,1
-1485,abekri,"Non-Study Activity",Lunch,,2016-09-30,0.50,0,20,2016,,0,1,1
-1486,abekri,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-30,3.50,0,20,2016,,0,1,1
-1487,abekri,CP-PER-2015-01,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-09-30,4.00,0,20,2016,,0,1,1
-1488,abekri,"Non-Study Activity",Lunch,,2016-10-03,0.50,0,20,2016,,0,1,1
-1489,abekri,SUN-15-03,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-10-03,2.00,0,20,2016,,0,1,1
-1490,abekri,SUN-15-04,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-10-03,2.00,0,20,2016,,0,1,1
-1491,abekri,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-10-03,3.50,0,20,2016,,0,1,1
-1492,abekri,"Non-Study Activity",Lunch,,2016-10-04,0.50,0,20,2016,,0,1,1
-1493,abekri,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-10-04,7.50,0,20,2016,,0,1,1
-1494,kemery,"Non-Study Activity",Lunch,,2016-10-04,0.50,0,20,2016,,0,1,1
-1495,kemery,"Veritas IRB Inc.","Staff Meeting",,2016-10-04,0.25,0,20,2016,,0,1,1
-1496,kemery,"Veritas IRB Inc.","Project Management",,2016-10-04,5.50,0,20,2016,,0,1,1
-1497,kemery,"Veritas IRB Inc.",QC,,2016-10-04,1.75,0,20,2016,,0,1,1
-1498,nsfato,"Non-Study Activity","Office Management",,2016-10-04,8.00,0,20,2016,,0,1,1
-1499,nsfato,"Non-Study Activity","Office Management",,2016-10-05,6.00,0,20,2016,,0,1,1
-1500,snardo,CP-PER-2015-01,"Data Management",,2016-10-05,6.00,0,20,2016,,0,1,1
-1501,snardo,"Non-Study Activity",Lunch,,2016-10-05,0.50,0,20,2016,,0,1,1
-1502,snardo,TEO-RHA-1501,"Data Management","Data Entry/Data Validation/Query Generation",2016-10-05,1.50,0,20,2016,,0,1,1
-1503,sing,"Veritas IRB Inc.",Marketing/Communications,,2016-10-04,1.00,0,20,2016,"Social Media",0,1,1
-1504,sing,"Veritas IRB Inc.",Marketing/Communications,,2016-10-04,5.50,0,20,2016,"marketing collateral",0,1,1
-1505,sing,"Veritas IRB Inc.",Marketing/Communications,,2016-10-04,1.00,0,20,2016,administration,0,1,1
-1506,sing,"Veritas IRB Inc.",Marketing/Communications,,2016-10-05,2.50,0,20,2016,"social media",0,1,1
-1507,sing,"Veritas IRB Inc.",Marketing/Communications,,2016-10-05,0.50,0,20,2016,"marketing collateral",0,1,1
-1508,sing,"Veritas IRB Inc.",Marketing/Communications,,2016-10-05,2.00,0,20,2016,administration,0,1,1
-1509,sing,"Veritas IRB Inc.",Marketing/Communications,,2016-10-05,1.00,0,20,2016,"meeting preparation",0,1,1
-1510,kantonucci,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-10-05,3.50,0,20,2016,,0,1,1
-1511,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-10-05,2.50,0,20,2016,,0,1,1
-1512,kantonucci,SUN-15-03,"Study Maintenance","Team Meeting",2016-10-05,0.25,0,20,2016,,0,1,1
-1513,kantonucci,SUN-15-04,"Study Maintenance","Team Meeting",2016-10-05,0.25,0,20,2016,,0,1,1
-1514,kantonucci,SUN-15-04,"Study Maintenance","Site Communications",2016-10-05,0.50,0,20,2016,,0,1,1
-1515,kantonucci,"Non-Study Activity",Lunch,,2016-10-05,0.50,0,20,2016,,0,1,1
-1516,alebedev,"Non-Study Activity",Lunch,,2016-10-05,0.50,0,20,2016,,0,1,1
-1517,alebedev,"Veritas IRB Inc.","Project Management",,2016-10-05,7.50,0,20,2016,,0,1,1
-1518,ikryvonos,V01-123A-201,"Study Closure","TMF Closure",2016-10-05,4.00,0,20,2016,,0,1,1
-1519,ikryvonos,V01-123A-201,"Study Closure","Project Management/Supervision",2016-10-05,3.50,0,20,2016,"Payments reconciliation",0,1,1
-1520,ikryvonos,"Non-Study Activity",Lunch,,2016-10-05,0.50,0,20,2016,,0,1,1
-1521,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-10-05,7.50,0,20,2016,,0,1,1
-1522,adyuzhykov,"Non-Study Activity",Lunch,,2016-10-05,0.50,0,20,2016,,0,1,1
-1523,nbenmouffok,"Non-Study Activity",Lunch,,2016-10-03,0.50,0,20,2016,,0,1,1
-1524,nbenmouffok,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-10-03,4.50,0,20,2016,,0,1,1
-1525,godige,"Non-Study Activity",Lunch,,2016-10-05,0.50,0,20,2016,,0,1,1
-1526,godige,V01-123A-201,"Study Closure","Site Communications",2016-10-05,0.50,0,20,2016,,0,1,1
-1527,godige,V01-123A-201,"Study Closure","Team Meeting",2016-10-05,1.00,0,20,2016,,0,1,1
-1528,godige,V01-123A-201,"Study Closure","Monitoring Report Writing/Review/Analysis",2016-10-05,1.00,0,20,2016,,0,1,1
-1529,nbenmouffok,CP-PER-2015-01,"Data Management","Project Management/Supervision",2016-10-03,3.00,0,20,2016,,0,1,1
-1530,nbenmouffok,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-10-04,6.50,0,20,2016,,0,1,1
-1531,godige,V01-123A-201,"Study Closure","Project Management/Supervision",2016-10-05,5.00,0,20,2016,,0,1,1
-1532,nbenmouffok,CP-PER-2015-01,"Data Management","Project Management/Supervision",2016-10-04,2.00,0,20,2016,,0,1,1
-1533,nbenmouffok,"Non-Study Activity",Lunch,,2016-10-04,0.50,0,20,2016,,0,1,1
-1534,nbenmouffok,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-10-05,3.50,0,20,2016,,0,1,1
-1535,nbenmouffok,CP-PER-2015-01,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-10-05,2.50,0,20,2016,,0,1,1
-1536,nbenmouffok,TEO-RHA-1501,"Data Management","Data Entry/Data Validation/Query Generation",2016-10-05,2.00,0,20,2016,,0,1,1
-1537,nbenmouffok,"Non-Study Activity",Lunch,,2016-10-05,0.50,0,20,2016,,0,1,1
-1538,mdakouo,TEO-RHA-1302,Biostatistics,"Statistical Analysis/Report",2016-10-05,8.50,0,20,2016,"Additional Safety Tables for CTR (RHA DL & RHA GA)",0,1,1
-1539,mdakouo,"Non-Study Activity",Lunch,,2016-10-05,0.50,0,20,2016,,0,1,1
-1540,tdelpe,"Non-Study Activity",Lunch,,2016-10-05,0.50,0,20,2016,,0,1,1
-1541,tdelpe,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-10-05,0.75,0,20,2016,,0,1,1
-1542,tdelpe,V01-123A-201,"Study Closure","TMF Closure",2016-10-05,0.25,0,20,2016,,0,1,1
-1543,tdelpe,V01-123A-201,"Study Closure","Monitoring Report Writing/Review/Analysis",2016-10-05,6.50,0,20,2016,"COV preparation",0,1,1
-1544,kemery,"Non-Study Activity",Lunch,,2016-10-05,0.50,0,20,2016,,0,1,1
-1545,kemery,"Non-Study Activity",Training,,2016-10-05,2.75,0,20,2016,,0,1,1
-1546,kemery,"Veritas IRB Inc.","Project Management",,2016-10-05,3.75,0,20,2016,,0,1,1
-1547,kemery,"Veritas IRB Inc.",QC,,2016-10-05,1.25,0,20,2016,,0,1,1
-1548,tmete,TEO-RHA-1402,"Study Closure","Project Management/Supervision",2016-10-05,2.00,0,20,2016,,0,1,1
-1549,tmete,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-10-05,4.00,0,20,2016,,0,1,1
-1550,tmete,"Non-Study Activity",Lunch,,2016-10-05,0.50,0,20,2016,,0,1,1
-1551,tmete,TEO-RHA-1501,"Study Start-up","Regulatory Documents Development/Collection/Submission",2016-10-05,1.50,0,20,2016,,0,1,1
-1552,cmarion,"Non-Study Activity",Lunch,,2016-10-04,0.50,0,20,2016,,0,1,1
-1553,cmarion,CP-PER-2015-01,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-10-04,7.50,0,20,2016,,0,1,1
-1554,cmarion,CP-PER-2015-01,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-10-05,7.50,0,20,2016,,0,1,1
-1555,cmarion,"Non-Study Activity",Lunch,,2016-10-05,0.50,0,20,2016,,0,1,1
-1556,cmarion,"Non-Study Activity",Lunch,,2016-10-06,0.50,0,20,2016,,0,1,1
-1557,cmarion,V01-123A-201,"Data Management","Database Lock and Data Transfer",2016-10-06,2.00,0,20,2016,,0,1,1
-1558,cmarion,CP-PER-2015-01,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-10-06,5.50,0,20,2016,,0,1,1
-1559,aoziegbe,"Veritas IRB Inc.",QC,,2016-10-05,8.00,0,20,2016,,0,1,1
-1560,nkordi,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-10-03,1.00,0,20,2016,Meeting,0,1,1
-1561,nkordi,SUN-15-03,"Data Management","Data Entry/Data Validation/Query Generation",2016-10-03,3.00,0,20,2016,,0,1,1
-1562,nkordi,SUN-15-03,"Data Management","Data Entry/Data Validation/Query Generation",2016-10-05,7.00,0,20,2016,,0,1,1
-1563,nkordi,V01-123A-201,Training,,2016-10-05,0.50,0,20,2016,,0,1,1
-1564,nkordi,"Non-Study Activity",Lunch,,2016-10-05,0.50,0,20,2016,,0,1,1
-1565,snardo,TEO-RHA-1501,"Data Management","Data Entry/Data Validation/Query Generation",2016-10-06,7.50,0,20,2016,,0,1,1
-1566,snardo,"Non-Study Activity",Lunch,,2016-10-06,0.50,0,20,2016,,0,1,1
-1567,lstephan,"Veritas IRB Inc.","Project Management",,2016-10-05,7.25,0,20,2016,,0,1,1
-1568,lstephan,"Non-Study Activity",Lunch,,2016-10-05,0.75,0,20,2016,,0,1,1
-1569,lstephan,"Veritas IRB Inc.","Staff Meeting",,2016-10-05,0.25,0,20,2016,,0,1,1
-1570,tmete,"Non-Study Activity",Lunch,,2016-10-06,0.50,0,20,2016,,0,1,1
-1571,tmete,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-10-06,0.50,0,20,2016,,0,1,1
-1572,tmete,TEO-RHA-1501,"Clinical Trial Materials","Shipment of Study Supplies",2016-10-06,1.00,0,20,2016,,0,1,1
-1573,tmete,TEO-RHA-1501,"Study Start-up","Regulatory Documents Development/Collection/Submission",2016-10-06,6.00,0,20,2016,,0,1,1
-1574,sing,"Veritas IRB Inc.",Marketing/Communications,,2016-10-06,1.50,0,20,2016,"Social Media",0,1,1
-1575,sing,"Veritas IRB Inc.",Marketing/Communications,,2016-10-06,4.00,0,20,2016,Website,0,1,1
-1576,sing,"Veritas IRB Inc.",Marketing/Communications,,2016-10-06,1.00,0,20,2016,meeting,0,1,1
-1577,sing,"Veritas IRB Inc.",Marketing/Communications,,2016-10-06,0.50,0,20,2016,administration,0,1,1
-1578,sing,"Veritas IRB Inc.",Marketing/Communications,,2016-10-06,0.50,0,20,2016,ACRP,0,1,1
-1579,aoziegbe,"Veritas IRB Inc.",QC,,2016-10-06,8.00,0,20,2016,,0,1,1
-1580,kantonucci,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-10-06,4.00,0,20,2016,,0,1,1
-1581,kantonucci,TEO-RHA-1501,"Study Start-up","Team Meeting",2016-10-06,0.50,0,20,2016,,0,1,1
-1582,kantonucci,SUN-15-04,"Study Maintenance","Site Communications",2016-10-06,1.50,0,20,2016,,0,1,1
-1583,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-10-06,1.00,0,20,2016,,0,1,1
-1584,kantonucci,"Non-Study Activity",Lunch,,2016-10-06,0.50,0,20,2016,,0,1,1
-1585,tdelpe,"Non-Study Activity",Lunch,,2016-10-06,0.50,0,20,2016,,0,1,1
-1586,tdelpe,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-10-06,2.50,0,20,2016,,0,1,1
-1587,tdelpe,V01-123A-201,"Study Closure","TMF Closure",2016-10-06,0.50,0,20,2016,,0,1,1
-1588,tdelpe,V01-123A-201,"Study Closure","Monitoring Report Writing/Review/Analysis",2016-10-06,4.00,0,20,2016,"COV preparation",0,1,1
-1589,tdelpe,V01-123A-201,"Study Closure","Monitoring Report Writing/Review/Analysis",2016-10-06,0.50,0,20,2016,,0,1,1
-1590,ikryvonos,V01-123A-201,"Study Closure","Site Communications",2016-10-06,0.50,0,20,2016,,0,1,1
-1591,ikryvonos,V01-123A-201,"Study Closure","TMF Closure",2016-10-06,0.50,0,20,2016,,0,1,1
-1592,ikryvonos,V01-123A-201,"Study Closure","Project Management/Supervision",2016-10-06,1.50,0,20,2016,Payments,0,1,1
-1593,ikryvonos,"Non-Study Activity",Lunch,,2016-10-06,0.50,0,20,2016,,0,1,1
-1594,ikryvonos,TEO-RHA-1501,Training,,2016-10-06,2.00,0,20,2016,,0,1,1
-1595,ikryvonos,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-10-06,3.00,0,20,2016,,0,1,1
-1596,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-10-06,7.50,0,20,2016,,0,1,1
-1597,adyuzhykov,"Non-Study Activity",Lunch,,2016-10-06,0.50,0,20,2016,,0,1,1
-1598,lstephan,"Veritas IRB Inc.","Project Management",,2016-10-06,8.00,0,20,2016,,0,1,1
-1599,lstephan,"Non-Study Activity",Lunch,,2016-10-06,0.50,0,20,2016,,0,1,1
-1600,godige,"Non-Study Activity",Lunch,,2016-10-06,0.50,0,20,2016,,0,1,1
-1601,godige,V01-123A-201,"Study Closure","Project Management/Supervision",2016-10-06,7.00,0,20,2016,,0,1,1
-1602,godige,V01-123A-201,"Study Closure","Site Communications",2016-10-06,0.50,0,20,2016,,0,1,1
-1603,mdakouo,"Non-Study Activity",Lunch,,2016-10-06,0.50,0,20,2016,,0,0,1
-1604,mdakouo,TEO-RHA-1302,Biostatistics,"Statistical Analysis/Report",2016-10-06,5.00,0,20,2016,,0,0,1
-1605,mdakouo,TEO-RHA-1302,Biostatistics,"Statistical Analysis/Report",2016-10-06,4.00,0,20,2016,"QC FACEQ DATA",0,0,1
-1606,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-29,1.25,0,20,2016,"ACRP Meeting Preparation",0,0,1
-1607,mletendre,"Veritas IRB Inc.",Sales,,2016-09-29,1.75,0,20,2016,"Meeting and teleconference with leads/clients",0,0,1
-1608,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-29,0.75,0,20,2016,"Review Scroll poster banner",0,0,1
-1609,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-29,0.25,0,20,2016,"Review water bottle promotional material",0,0,1
-1610,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-29,0.50,0,20,2016,"Geofencing Campaing - Teleconference",0,0,1
-1611,mletendre,Directors,"Corporate Meeting",,2016-09-29,1.25,0,20,2016,,0,0,1
-1612,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-29,1.00,0,20,2016,"Q&A with staff",0,0,1
-1613,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-29,0.50,0,20,2016,"Review of social media calendar",0,0,1
-1614,mletendre,"Veritas IRB Inc.","Project Management",,2016-09-29,0.25,0,20,2016,"Assignment upcoming studies",0,0,1
-1615,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-30,8.00,0,20,2016,,0,0,1
-1616,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-10-01,12.00,0,20,2016,"SoCRA Annual Meeting / Dinner with IntegReview",0,0,1
-1617,mletendre,"Veritas IRB Inc.",Sales,,2016-09-30,0.25,0,20,2016,"Email to lead",0,0,1
-1618,mletendre,"Veritas IRB Inc.",Sales,,2016-09-30,0.25,0,20,2016,"Email to client",0,0,1
-1619,mletendre,Directors,Legal,,2016-09-30,1.00,0,20,2016,"Call Chris Mediati",0,0,1
-1620,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-30,0.50,0,20,2016,"Call - Geofencing Campaign",0,0,1
-1621,mletendre,"Veritas IRB Inc.",Sales,,2016-09-30,0.50,0,20,2016,"Emails to potential leads",0,0,1
-1622,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-09-30,1.25,0,20,2016,"Meetings with Stephanie",0,0,1
-1623,mletendre,Directors,"Corporate Meeting",,2016-09-30,1.00,0,20,2016,,0,0,1
-1624,mletendre,Directors,Legal,,2016-09-30,0.50,0,20,2016,"CDA preparation and signature",0,0,1
-1625,mletendre,"Veritas IRB Inc.","Project Management",,2016-10-03,1.75,0,20,2016,,0,0,1
-1626,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-10-04,1.00,0,20,2016,"Social Media Calendar",0,0,1
-1627,mletendre,"Veritas IRB Inc.",Sales,,2016-10-04,0.50,0,20,2016,"Planning meeting Janssen",0,0,1
-1628,mletendre,Directors,Legal,,2016-10-04,1.25,0,20,2016,"Discussions and emails - Sandra Levy",0,0,1
-1629,mletendre,Directors,Legal,,2016-10-04,0.75,0,20,2016,"Meeting Canderel",0,0,1
-1630,mletendre,"Veritas IRB Inc.",Sales,,2016-10-04,0.25,0,20,2016,"Email lead",0,0,1
-1631,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-10-04,0.75,0,20,2016,"ACRP Meeting Preparation",0,0,1
-1632,mletendre,"Veritas IRB Inc.","Project Management",,2016-10-04,0.75,0,20,2016,"Email AbbVie - Policy on CTA review",0,0,1
-1633,mletendre,"Veritas IRB Inc.","Project Management",,2016-10-04,1.25,0,20,2016,"Q&A with staff",0,0,1
-1634,nkordi,V01-123A-201,"Study Maintenance","TMF Maintenance",2016-10-06,1.50,0,20,2016,,0,0,1
-1635,nkordi,SUN-15-03,"Data Management","Data Entry/Data Validation/Query Generation",2016-10-06,6.00,0,20,2016,,0,0,1
-1636,nkordi,"Non-Study Activity",Lunch,,2016-10-06,0.50,0,20,2016,,0,0,1
-1637,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-10-04,0.75,0,20,2016,"Flyer preparation",0,0,1
-1638,mletendre,"Veritas IRB Inc.",Sales,,2016-10-04,0.50,0,20,2016,"Email to lead",0,0,1
-1639,mletendre,Directors,Legal,,2016-10-05,0.25,0,20,2016,"Phone conversation C. Mediati",0,0,1
-1640,mletendre,Directors,Legal,,2016-10-05,0.50,0,20,2016,"Phone conversation Court House - IZ",0,0,1
-1641,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-10-05,0.50,0,20,2016,"Social Media Calendar",0,0,1
-1642,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-10-05,0.25,0,20,2016,"Review Flyers",0,0,1
-1643,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-10-05,0.25,0,20,2016,"Review Water Bottle promotional material",0,0,1
-1644,mletendre,"Veritas IRB Inc.","Project Management",,2016-10-05,0.50,0,20,2016,"Email and phone with Saskatchewan Privacy Office",0,0,1
-1645,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-10-05,0.75,0,20,2016,"Meeting with Ashley - Concierge and Portals",0,0,1
-1646,mletendre,"Veritas IRB Inc.",Sales,,2016-10-05,2.25,0,20,2016,"Meeting ICON Canada",0,0,1
-1647,mletendre,"Veritas IRB Inc.","Project Management",,2016-10-05,1.00,0,20,2016,"Q&A with staff",0,0,1
-1648,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-10-05,0.75,0,20,2016,"Review ICON presentation",0,0,1
-1649,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-10-06,0.50,0,20,2016,"Teleconference Alex Karabanow",0,0,1
-1650,mletendre,"Veritas IRB Inc.",Sales,,2016-10-06,0.25,0,20,2016,"Teleconference lead",0,0,1
-1651,mletendre,Directors,"Corporate Meeting",,2016-10-06,1.00,0,20,2016,"2 meetings with Janice",0,0,1
-1652,mletendre,"Veritas IRB Inc.",Sales,,2016-10-06,1.00,0,20,2016,"Teleconference IntegReview",0,0,1
-1653,kemery,"Non-Study Activity",Lunch,,2016-10-06,0.50,0,20,2016,,0,0,1
-1654,kemery,"Veritas IRB Inc.","Project Management",,2016-10-06,3.25,0,20,2016,,0,0,1
-1655,kemery,"Veritas IRB Inc.","Staff Meeting",,2016-10-06,0.75,0,20,2016,,0,0,1
-1656,kemery,"Veritas IRB Inc.",QC,,2016-10-06,3.75,0,20,2016,,0,0,1
-1657,mletendre,Directors,Legal,,2016-10-06,0.75,0,20,2016,"Preparation Agreement Integreview",0,0,1
-1658,mletendre,"Veritas IRB Inc.","Project Management",,2016-10-06,1.50,0,20,2016,"Q&A with staff",0,0,1
-1659,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-10-06,0.75,0,20,2016,"Meeting with Stephanie - Website and Facebook",0,0,1
-1660,mletendre,Directors,"Corporate Meeting",,2016-10-06,0.50,0,20,2016,"Office relocation",0,0,1
-1661,alebedev,"Non-Study Activity",Lunch,,2016-10-06,0.50,0,20,2016,,0,0,1
-1662,mletendre,"Veritas IRB Inc.","Project Management",,2016-10-06,1.00,0,20,2016,"IRB Members reaching out",0,0,1
-1663,alebedev,"Veritas IRB Inc.","Project Management",,2016-10-06,8.00,0,20,2016,,0,0,1
-1664,mletendre,"Veritas IRB Inc.",Marketing/Communications,,2016-10-06,1.25,0,20,2016,"ACRP Meeting Preparation",0,0,1
-1665,alebedev,"Non-Study Activity",Lunch,,2016-10-07,0.50,0,20,2016,,0,0,1
-1666,cmarion,"Non-Study Activity",Lunch,,2016-10-07,0.50,0,20,2016,,0,0,1
-1667,cmarion,CP-PER-2015-01,Training,,2016-10-07,1.50,0,20,2016,"Teleconference with eCOS",0,0,1
-1668,cmarion,CP-PER-2015-01,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-10-07,2.00,0,20,2016,"Meeting with SoundBite",0,0,1
-1669,cmarion,CP-PER-2015-01,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-10-07,4.00,0,20,2016,,0,0,1
-1670,snardo,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-10-07,7.50,0,20,2016,,0,0,1
-1671,snardo,"Non-Study Activity",Lunch,,2016-10-07,0.50,0,20,2016,,0,0,1
-1672,alebedev,"Veritas IRB Inc.","Project Management",,2016-10-07,7.50,0,20,2016,,0,0,1
-1673,kantonucci,TEO-RHA-1501,"Study Start-up","Project Management/Supervision",2016-10-07,4.00,0,20,2016,,0,0,1
-1674,kantonucci,SUN-15-03,"Study Maintenance","Project Management/Supervision",2016-10-07,1.50,0,20,2016,,0,0,1
-1675,kantonucci,SUN-15-04,"Study Start-up","Project Management/Supervision",2016-10-07,1.50,0,20,2016,,0,0,1
-1676,aoziegbe,"Veritas IRB Inc.",QC,,2016-10-07,8.00,0,20,2016,,0,0,1
-1677,kantonucci,GIL-1501,"Study Start-up","Project Management/Supervision",2016-10-07,0.50,0,20,2016,,0,0,1
-1678,kantonucci,"Non-Study Activity",Lunch,,2016-10-07,0.50,0,20,2016,,0,0,1
-1679,nkordi,SUN-15-03,"Data Management","Data Entry/Data Validation/Query Generation",2016-10-07,6.50,0,20,2016,,0,0,1
-1680,nkordi,SUN-15-03,"Data Management","Data Entry/Data Validation/Query Generation",2016-10-07,0.50,0,20,2016,"STUDY BINDER",0,0,1
-1681,nkordi,SUN-15-04,"Data Management","Data Entry/Data Validation/Query Generation",2016-10-07,0.50,0,20,2016,,0,0,1
-1682,nkordi,"Non-Study Activity",Lunch,,2016-10-07,0.50,0,20,2016,,0,0,1
-1683,adyuzhykov,"Veritas IRB Inc.","Project Management",,2016-10-07,7.00,0,20,2016,,0,0,1
-1684,ikryvonos,V01-123A-201,"Study Closure","TMF Closure",2016-10-07,1.00,0,20,2016,,0,0,1
-1685,adyuzhykov,"Non-Study Activity",Lunch,,2016-10-07,0.75,0,20,2016,,0,0,1
-1686,ikryvonos,CLR-16-21,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-10-07,0.50,0,20,2016,,0,0,1
-1687,ikryvonos,"Non-Study Activity",Lunch,,2016-10-07,0.50,0,20,2016,,0,0,1
-1688,ikryvonos,TEO-RHA-1501,Training,,2016-10-07,1.00,0,20,2016,,0,0,1
-1689,ikryvonos,"Non-Study Activity",Training,,2016-10-07,1.00,0,20,2016,"SmartSheet Training",0,0,1
-1690,ikryvonos,TEO-RHA-1501,"Study Start-up","Study Management Tools Development (Monitoring Plan, Logs, S",2016-10-07,4.00,0,20,2016,,0,0,1
-1691,abekri,"Non-Study Activity",Lunch,,2016-10-05,0.50,0,20,2016,,0,0,1
-1692,abekri,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-10-05,7.50,0,20,2016,,0,0,1
-1693,abekri,"Non-Study Activity",Lunch,,2016-10-06,0.50,0,20,2016,,0,0,1
-1694,abekri,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-10-06,7.50,0,20,2016,,0,0,1
-1695,abekri,"Non-Study Activity",Lunch,,2016-10-07,0.50,0,20,2016,,0,0,1
-1696,abekri,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-10-07,4.00,0,20,2016,,0,0,1
-1697,abekri,CP-PER-2015-01,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-10-07,3.50,0,20,2016,,0,0,1
-1698,godige,V01-123A-201,"Study Closure","Site Communications",2016-10-07,1.00,0,20,2016,,0,0,1
-1699,godige,"Non-Study Activity",Lunch,,2016-10-07,0.50,0,20,2016,,0,0,1
-1700,godige,V01-123A-201,"Study Closure","Project Management/Supervision",2016-10-07,6.50,0,20,2016,,0,0,1
-1701,mdakouo,"Non-Study Activity",Lunch,,2016-10-07,0.50,0,20,2016,,0,0,1
-1702,mdakouo,TEO-RHA-1501,Biostatistics,"Statistical Analysis/Report",2016-10-07,9.00,0,20,2016,"KAPPA ",0,0,1
-1703,mdakouo,TEO-RHA-1302,Biostatistics,"Statistical Analysis/Report",2016-10-07,1.00,0,20,2016,"QC FACEQ DATA",0,0,1
-1704,jparente,"Non-Study Activity","Office Management",,2016-10-06,1.00,0,20,2016,"Task Log preparations Neria",0,0,1
-1705,jparente,Directors,Accounting,,2016-10-06,6.00,0,20,2016,Accounting,0,0,1
-1706,jparente,Directors,Accounting,,2016-10-07,3.00,0,20,2016,"Payroll and ORA update",0,0,1
-1707,jparente,"Non-Study Activity","Statutory Holiday",,2016-10-10,8.00,0,20,2016,,0,0,1
-1708,jparente,Directors,Accounting,,2016-10-05,4.00,0,20,2016,"Develop new quoting system",0,0,1
-1709,ikryvonos,"Non-Study Activity","Statutory Holiday",,2016-10-10,8.00,0,20,2016,,0,0,1
-1710,tmete,"Non-Study Activity","Statutory Holiday",,2016-10-10,8.00,0,20,2016,,0,0,1
-1711,lstephan,"Veritas IRB Inc.","Project Management",,2016-10-07,8.00,0,20,2016,,0,0,1
-1712,lstephan,"Non-Study Activity",Lunch,,2016-10-07,0.75,0,20,2016,,0,0,1
-1713,lstephan,"Non-Study Activity","Office Management",,2016-10-07,0.25,0,20,2016,,0,0,1
-1714,lstephan,"Non-Study Activity","Statutory Holiday",,2016-10-10,8.00,0,20,2016,,0,0,1
-1715,kemery,"Non-Study Activity",Lunch,,2016-10-07,0.50,0,20,2016,,0,0,1
-1716,kemery,"Veritas IRB Inc.","Staff Meeting",,2016-10-07,1.00,0,20,2016,,0,0,1
-1717,kemery,"Veritas IRB Inc.","Project Management",,2016-10-07,4.00,0,20,2016,,0,0,1
-1718,kemery,"Veritas IRB Inc.",QC,,2016-10-07,3.25,0,20,2016,,0,0,1
-1719,kemery,"Non-Study Activity","Statutory Holiday",,2016-10-10,8.00,0,20,2016,Thanksgiving,0,0,1
-1720,aoziegbe,"Non-Study Activity","Statutory Holiday",,2016-10-10,8.00,0,20,2016,Thanksgiving,0,0,1
-1721,alebedev,"Non-Study Activity","Statutory Holiday",,2016-10-10,0.00,0,20,2016,,0,0,1
-1722,snardo,"Non-Study Activity","Statutory Holiday",,2016-10-10,8.00,0,20,2016,,0,0,1
-1723,snardo,"Non-Study Activity",Lunch,,2016-10-11,0.50,0,20,2016,,0,0,1
-1724,snardo,TEO-RHA-1501,"Data Management","eCRF Build/Database Development/Programming/Testing/Edit Che",2016-10-11,7.50,0,20,2016,,0,0,1
-1725,ikryvonos,V01-123A-201,"Study Closure","TMF Closure",2016-10-11,3.00,0,20,2016,,0,0,1
-1726,ikryvonos,V01-123A-201,"Study Closure","Site Communications",2016-10-11,1.00,0,20,2016,,0,0,1
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
